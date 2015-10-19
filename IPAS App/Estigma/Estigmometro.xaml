@@ -1,0 +1,53 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Estigmometro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <phone:Panorama x:Name="PanoramaView" HorizontalAlignment="Left" Height="800" Title="Estigmometro" VerticalAlignment="Top" Width="480" Background="White" Foreground="#FFF8971D">
+            <phone:PanoramaItem x:Name="Item_Instrucciones" CacheMode="{x:Null}" Header="Instrucciones" Foreground="Black">
+                <phone:PanoramaItem.RenderTransform>
+                    <TranslateTransform/>
+                </phone:PanoramaItem.RenderTransform>
+                <Grid x:Name="Grid_Instrucciones">
+                    <StackPanel>
+                        <TextBlock x:Name="TextBlock_Instrucciones" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black">
+					<Span>
+						<Run Text="A continuación, se presentarán una serie de afirmaciones donde usted debe elegir únicamente una opción.  Es importante responder de manera libre y honesta recordándole que el resultado tiene como propósito principal el autoevaluarse para así, a partir del resultado obtenido,  mejorar su práctica profesional."/>
+					</Span>
+					<LineBreak/>
+					<Run Text=""/>
+                        </TextBlock>
+                    </StackPanel>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem x:Name="Item_Preguntas" CacheMode="{x:Null}" Header="Quiz" Foreground="Black">
+                <phone:PanoramaItem.RenderTransform>
+                    <TranslateTransform/>
+                </phone:PanoramaItem.RenderTransform>
+                <Grid x:Name="Grid_Preguntas">
+                    <StackPanel Margin="0,0,0,59">
+                        <TextBlock x:Name="TextBlock_Preguntas" HorizontalAlignment="Left" TextWrapping="Wrap" Text="1. Las mujeres que quieren tener hijos/as son más felices que las que no quieren tenerlos/as." VerticalAlignment="Top" FontSize="24"/>
+                        <RadioButton Checked="Radio_Checked" x:Name="opcionA" Content="De acuerdo" HorizontalAlignment="Left" VerticalAlignment="Top" Background="#FF88746A" GroupName="question_actual" Foreground="Black"/>
+                        <RadioButton Checked="Radio_Checked" x:Name="opcionB" Content="Ni de Acuerdo, ni en Desacuerdo" HorizontalAlignment="Left" VerticalAlignment="Top" GroupName="question_actual" Foreground="Black" Background="#FF88746A"/>
+                        <RadioButton Checked="Radio_Checked"  x:Name="opcionC" Content="En Desacuerdo" HorizontalAlignment="Left" VerticalAlignment="Top" GroupName="question_actual" Foreground="Black" Background="#FF88746A"/>
+                    </StackPanel>
+                    <Button x:Name="Btn_Siguiente" Content="Siguiente" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFEC098D" Margin="0" Click="Btn_Siguiente_Click"/>
+                    <Button x:Name="Btn_Anterior" Content="Anterior" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#FFEC098D" Margin="0" Click="Btn_Anterior_Click"/>
+                </Grid>
+            </phone:PanoramaItem>
+        </phone:Panorama>
+    </Grid>
+
+</phone:PhoneApplicationPage>
