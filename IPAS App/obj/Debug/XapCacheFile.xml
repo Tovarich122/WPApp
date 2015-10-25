@@ -1,19 +1,19 @@
-﻿<xapCache source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="17/10/2015 08:37:15 p. m.">
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="17/10/2015 08:37:14 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="17/10/2015 08:22:00 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="c:\Users\Omar\Documents\Visual Studio 2012\Projects\IPAS App\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="17/10/2015 01:53:44 p. m." />
+﻿<xapCache source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="25/10/2015 02:57:44 p. m.">
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="25/10/2015 02:57:42 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="18/10/2015 11:54:37 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="18/10/2015 11:54:37 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="18/10/2015 11:54:37 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="18/10/2015 11:54:38 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="18/10/2015 11:54:38 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="18/10/2015 11:54:38 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="25/10/2015 01:05:03 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="18/10/2015 11:54:35 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="18/10/2015 11:54:38 p. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="25/10/2015 01:05:03 p. m." />
 </xapCache>
