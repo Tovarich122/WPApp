@@ -21,6 +21,8 @@ namespace IPAS_App
             InitializeComponent();
             Quiz estigmometro = new Quiz();
 
+            Item_Resultado.Visibility = System.Windows.Visibility.Collapsed;
+
             // La primera vez que entre la página que se cargue el quiz
             TextBlock_Preguntas.Text = estigmometro.myQuiz[0].question;
             opcionA.Tag = estigmometro.myQuiz[0].answer_a;
@@ -39,8 +41,33 @@ namespace IPAS_App
 
         }
 
+        private void Btn_Anterior_Click(object sender, RoutedEventArgs e)
+        {
+
+            if (actual == 0)
+            {
+                // Es la primera pregunta
+            }
+            else
+            {
+                //estigmometro.myQuiz[actual-1].selected = seleccion;
+                //actual--;
+                //seleccion = 0;
+                cambioPregunta(actual-1);
+                actual--;
+            }
+
+            
+        }
+
         private void Btn_Siguiente_Click(object sender, RoutedEventArgs e)
         {
+            if (actual == 10)
+            {
+                Item_Resultado.Visibility = System.Windows.Visibility.Collapsed;
+                reiniciarQuiz();
+            }
+
             if (actual == 8)
             {
                 Btn_Siguiente.Content = "Finalizar";
@@ -49,27 +76,34 @@ namespace IPAS_App
             // Revisar si es la ultima pregunta
             if (actual == 9)
             {
+
+                Item_Resultado.Visibility = System.Windows.Visibility.Visible;
+                PanoramaView.DefaultItem = PanoramaView.Items[2];
+
                 //Agregar panel
                 int score = estigmometro.calcularQuiz();
 
                 if (score >= 27)
                 {
-                    //Rojo
+                    TextBlock_Resultado.Text = "Rojo";
                 }
                 else if (score >= 14 && score <= 26)
                 {
-                    //Amarillo
+                    TextBlock_Resultado.Text = "Amarillo";
                 }
                 else if (score <= 13)
                 {
-                    //Verde
+                    TextBlock_Resultado.Text = "Verde";
                 }
 
-                reiniciarQuiz();
+                Item_Resultado.Visibility = Visibility.Visible;
+
+                Btn_Siguiente.Content = "Reiniciar";
+                actual++;
             }
 
             //Si no es la última pregunta
-            if (actual != 9)
+            if (actual < 9)
             {
                 if (seleccion == 0)
                 {
@@ -93,6 +127,8 @@ namespace IPAS_App
             {
                 question.selected = 0;
             }
+            actual = 0;
+            seleccion = 0;
         }
 
         private void cambioPregunta(int myActual)
@@ -101,14 +137,9 @@ namespace IPAS_App
             opcionA.Tag = estigmometro.myQuiz[myActual].answer_a;
             opcionB.Tag = estigmometro.myQuiz[myActual].answer_b;
             opcionC.Tag = estigmometro.myQuiz[myActual].answer_c;
-        }
-
-        private void Btn_Anterior_Click(object sender, RoutedEventArgs e)
-        {
-            if (actual == 0)
-            {
-                return;
-            }
+            opcionA.IsChecked = false;
+            opcionB.IsChecked = false;
+            opcionC.IsChecked = false;
         }
 
 

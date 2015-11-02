@@ -108,60 +108,70 @@ namespace IPAS_App
 
         public Quiz()
         {
+            myQuiz[0] = new Question();
             myQuiz[0].question = "1. Las mujeres que quieren tener hijos/as son más felices que las que no quieren tenerlos/as.";
             myQuiz[0].answer_a = 3;
             myQuiz[0].answer_b = 2;
             myQuiz[0].answer_c = 1;
             myQuiz[0].special =  "Existe el estereotipo de que las mujeres deben de ser madres, sin embargo elegir no tener hijos es una opción válida y legítima que no impide a las mujeres alcanzar la felicidad. ";
 
+            myQuiz[1] = new Question();
             myQuiz[1].question = "2. Una mujer que decide abortar es irresponsable.";
             myQuiz[1].answer_a = 3;
             myQuiz[1].answer_b = 2;
             myQuiz[1].answer_c = 1;
             myQuiz[1].special = "Una idea frecuente ha sido considerar que las mujeres se embarazan sin planearlo por no haber utilizado anticonceptivos, sin embargo, existen un sinnúmero de razones como la falla del anticonceptivo, haber sido presionadas por la pareja para no usar algún método y por violencia sexual, entre otras. Considerar a las mujeres como irresponsables es una etiqueta ligada a un prejuicio.";
-
+            
+            myQuiz[2] = new Question();
             myQuiz[2].question = "3. Una mujer que ha tenido un aborto es un mal ejemplo ya que podría inducir a otras mujeres a tener abortos";
             myQuiz[2].answer_a = 3;
             myQuiz[2].answer_b = 2;
             myQuiz[2].answer_c = 1;
             myQuiz[2].special = "La decisión de abortar no se contagia porque no se trata de una enfermedad, cada mujer tiene la libertad de decidir lo mejor para ella y como sociedad debemos respetar las decisiones que las mujeres toman sobre sus cuerpos y sus vidas";
 
+            myQuiz[3] = new Question();
             myQuiz[3].question = "4. Si tuviera la opción, preferiría no atender a una mujer que ha tenido un aborto.";
             myQuiz[3].answer_a = 3;
             myQuiz[3].answer_b = 2;
             myQuiz[3].answer_c = 1;
             myQuiz[3].special = "A las mujeres que buscan interrumpir un embarazo se les dificulta llegar a los servicios de salud para pedir ayuda porque piensan que las van a tratar mal por la decisión que han tomado, cuando un prestador de servicios de salud deja de atender o referir a un servicio seguro a una mujer en situación de aborto la está discriminando y quitándole el derecho a contar con opciones seguras de atención. " ;
 
+            myQuiz[4] = new Question();
             myQuiz[4].question = "5. Un prestador de servicios de salud que atiende a una mujer que ha tenido un aborto debe avisar  a su pareja (novio o esposo) y/o a sus padres.";
             myQuiz[4].answer_a = 3;
             myQuiz[4].answer_b = 2;
             myQuiz[4].answer_c = 1;
             myQuiz[4].special = "El prestador de servicio de salud debe proteger la confidencialidad de las mujeres para asegurar que puedan tomar decisiones libres e informadas, por lo que no se debe notificar a ninguna persona a menos que la mujer misma lo solicite o pida apoyo para comunicarlo." ;
 
+            myQuiz[5] = new Question();
             myQuiz[5].question = "6. Si una mujer me preguntara sobre opciones frente a un embarazo no planeado, yo le recomendaría que continuara con el embarazo.";
             myQuiz[5].answer_a = 3;
             myQuiz[5].answer_b = 2;
             myQuiz[5].answer_c = 1;
             myQuiz[5].special = "De acuerdo con los lineamientos para la prestación del servicios de Interrupción Legal del Embarazo la información que le demos a las mujeres debe ser objetiva y mostrándoles todas las opciones posibles para tomar una decisión informada.  Si sólo le damos una opción estaremos interfiriendo en su libertad  de elegir." ;
 
+            myQuiz[6] = new Question();
             myQuiz[6].question = "7. Las mujeres que abortan siempre tienen alguna consecuencia negativa en su salud ";
             myQuiz[6].answer_a = 3;
             myQuiz[6].answer_b = 2;
             myQuiz[6].answer_c = 1;
             myQuiz[6].special = "El aborto es uno de los procedimientos médicos de menor riesgo. El riesgo de muerte asociado al parto es aproximadamente 14 veces mayor que con el aborto . La salud mental tampoco se ve afectada por la decisión de abortar como lo muestra la evidencia científica.";
 
+            myQuiz[7] = new Question();
             myQuiz[7].question = "8. Si una mujer me solicitara apoyo para interrumpir su embarazo, yo trataría de ayudarla para que lo hiciera de manera segura.";
             myQuiz[7].answer_a = 1;
             myQuiz[7].answer_b = 2;
             myQuiz[7].answer_c = 3;
             myQuiz[7].special = "Es importante aprovechar la llegada de estas mujeres a los servicios para asegurar que reciban un servicio de calidad  y no ponerlas en riesgo forzándolas a buscar atención con  prestadores de servicios de salud no calificados y además ofrecerles métodos anticonceptivos para prevenir futuros embarazos no planeados." ;
 
+            myQuiz[8] = new Question();
             myQuiz[8].question = "9. Un prestador de servicios de salud debe denunciar a una mujer si sospecha que tuvo un aborto inducido.";
             myQuiz[8].answer_a = 3;
             myQuiz[8].answer_b = 2;
             myQuiz[8].answer_c = 1;
             myQuiz[8].special = "La prestación de servicios de salud se rige por el principio ético de confidencialidad, amparado por el derecho al Secreto Profesional. La denuncia orilla a las mujeres a recurrir a procedimientos inseguros y retrasa su acercamiento a los servicios de urgencias, comprometiendo su salud o su vida y en algunos casos, criminaliza a la mujer y pone en riesgo su recuperación.";
 
+            myQuiz[9] = new Question();
             myQuiz[9].question = "10. Si conociera a un/a colega que realizara abortos, no me gustaría que me relacionaran con él/ella.";
             myQuiz[9].answer_a = 3;
             myQuiz[9].answer_b = 2;

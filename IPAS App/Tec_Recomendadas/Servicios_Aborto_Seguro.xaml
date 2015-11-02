@@ -1,0 +1,52 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Servicios_Aborto_Seguro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        </Grid>
+        <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
+        	<TextBlock TextWrapping="Wrap" Foreground="Black" Width="387" TextAlignment="Left">
+        		<Run Text="Todas las mujeres deberían tener acceso a servicios de aborto seguro en sus comunidades y deberían poder beneficiarse por igual de nuevas y mejores tecnologías en sus procesos de atención."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="En los paises en desarrollo, a menudo no hay acceso a equipos básicos para los servicios de aborto seguro y atención postaborto, así como para otras intervenciones esenciales en la atención de la urgencia obstétrica. Más aún, incluso cuando hay profesionales de salud calificado, las carencias de insumos básicos y tecnologías apropiadas, hacen difícil de garantizar estándares adecuados en la calidad de las prácticas clínicas relacionadas con la atención a mujeres en situación de aborto."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Ipas junto con otras Organizaciones Internacionales (OMS, FIGO, FLASOG, entre otras) hemos creado una base de conocimientos, herramientas y guías técnicas para la aplición clínica del aborto seguro, para garantizar el acceso, la asequibilidad y garantía de calidad en la provisión de servicios y productos para la tención de mujeres con aborto, postaborto o con requerimietnos de interrupción legal del embarazo (ILE)."/>
+        	</TextBlock>
+
+
+        </ScrollViewer>
+
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+            <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+        </Grid>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>
