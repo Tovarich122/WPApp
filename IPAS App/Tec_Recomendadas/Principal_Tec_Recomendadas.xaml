@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Principal_Tec_Recomendadas"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+        <Grid Grid.Row="0" Margin="0" Background="#FFFF7400" Height="80">
+    		<Image Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+    		<TextBlock TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+    	</Grid>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0" Background="White">
+        	<Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}" />
+        	<Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
+        	<Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
+        	<Button Content="Métodos Recomendados para el aborto seguro:&#xD;&#xA;a) Con Medicamentos&#xD;&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
+        	<TextBlock HorizontalAlignment="Left" Height="138" Margin="28,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" FontSize="18.667" TextAlignment="Center">
+        		<Run Text="&quot;">
+        			<Run.Foreground>
+        				<SolidColorBrush Color="Black">
+        					<SolidColorBrush.RelativeTransform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.RelativeTransform>
+        					<SolidColorBrush.Transform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.Transform>
+        				</SolidColorBrush>
+        			</Run.Foreground>
+        		</Run>
+        		<Run Text="#YoContribuyo a la salud de las mujeres atendiéndolas con tecnologías modernas y/o refiríendolas a servicios seguros de interrupción del embarazo, donde no las juzgan ni las estigmatizan">
+        			<Run.Foreground>
+        				<SolidColorBrush Color="Black">
+        					<SolidColorBrush.RelativeTransform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.RelativeTransform>
+        					<SolidColorBrush.Transform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.Transform>
+        				</SolidColorBrush>
+        			</Run.Foreground>
+        		</Run>
+        		<Run Text=" #YoYaNoEstigmatizo&quot;">
+        			<Run.Foreground>
+        				<SolidColorBrush Color="Black">
+        					<SolidColorBrush.RelativeTransform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.RelativeTransform>
+        					<SolidColorBrush.Transform>
+        						<MatrixTransform Matrix="Identity"/>
+        					</SolidColorBrush.Transform>
+        				</SolidColorBrush>
+        			</Run.Foreground>
+        		</Run>
+        	</TextBlock>
+        </Grid>
+        <Grid Grid.Row="1" Background="#FFFF0080" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+        	<Image Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

@@ -22,7 +22,6 @@
 						<Run Text="A continuación, se presentarán una serie de afirmaciones donde usted debe elegir únicamente una opción.  Es importante responder de manera libre y honesta recordándole que el resultado tiene como propósito principal el autoevaluarse para así, a partir del resultado obtenido,  mejorar su práctica profesional."/>
 					</Span>
 					<LineBreak/>
-					<Run Text=""/>
 				</TextBlock>
 			</Grid>
 		</phone:PanoramaItem>

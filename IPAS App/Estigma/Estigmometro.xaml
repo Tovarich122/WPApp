@@ -17,9 +17,6 @@
     <Grid x:Name="LayoutRoot" Background="Transparent">
         <phone:Panorama x:Name="PanoramaView" HorizontalAlignment="Left" Height="800" Title="Estigmometro" VerticalAlignment="Top" Width="480" Background="White" Foreground="#FFF8971D">
             <phone:PanoramaItem x:Name="Item_Instrucciones" CacheMode="{x:Null}" Header="Instrucciones" Foreground="Black">
-                <phone:PanoramaItem.RenderTransform>
-                    <TranslateTransform/>
-                </phone:PanoramaItem.RenderTransform>
                 <Grid x:Name="Grid_Instrucciones">
                     <StackPanel>
                         <TextBlock x:Name="TextBlock_Instrucciones" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black">
@@ -33,9 +30,6 @@
                 </Grid>
             </phone:PanoramaItem>
             <phone:PanoramaItem x:Name="Item_Preguntas" CacheMode="{x:Null}" Header="Quiz" Foreground="Black">
-                <phone:PanoramaItem.RenderTransform>
-                    <TranslateTransform/>
-                </phone:PanoramaItem.RenderTransform>
                 <Grid x:Name="Grid_Preguntas">
                     <StackPanel Margin="0,0,0,59">
                         <TextBlock x:Name="TextBlock_Preguntas" HorizontalAlignment="Left" TextWrapping="Wrap" Text="1. Las mujeres que quieren tener hijos/as son más felices que las que no quieren tenerlos/as." VerticalAlignment="Top" FontSize="24"/>
@@ -45,6 +39,13 @@
                     </StackPanel>
                     <Button x:Name="Btn_Siguiente" Content="Siguiente" HorizontalAlignment="Right" VerticalAlignment="Bottom" Background="#FFEC098D" Margin="0" Click="Btn_Siguiente_Click"/>
                     <Button x:Name="Btn_Anterior" Content="Anterior" HorizontalAlignment="Left" VerticalAlignment="Bottom" Background="#FFEC098D" Margin="0" Click="Btn_Anterior_Click"/>
+                </Grid>
+            </phone:PanoramaItem>
+            <phone:PanoramaItem x:Name="Item_Resultado" CacheMode="{x:Null}" Header="Resultado" Foreground="Black">
+                <Grid x:Name="Grid_Resultados">
+                    <StackPanel Margin="0,0,0,59">
+                        <TextBlock x:Name="TextBlock_Resultado" HorizontalAlignment="Left" TextWrapping="Wrap" Text="1. Las mujeres que quieren tener hijos/as son más felices que las que no quieren tenerlos/as." VerticalAlignment="Top" FontSize="24"/>
+                    </StackPanel>
                 </Grid>
             </phone:PanoramaItem>
         </phone:Panorama>
