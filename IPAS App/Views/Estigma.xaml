@@ -38,14 +38,35 @@
                         <TextBlock Height="56" Canvas.Left="47" TextWrapping="Wrap" Text="Instrucciones:" Canvas.Top="10" Width="433" FontSize="36" Foreground="#FFF9A53A"/>
                         <TextBlock Height="196" Canvas.Left="47" TextWrapping="Wrap" Text="Lee  las siguientes preguntas y elige una de las multiples opciones de respuesta.                                              Descubre que tanto sabes del marco normativo que regula la Interrupción Legal del Embarazo.                                                                                    ¡Responde y pon a prueba tus conocimientos.!   " Canvas.Top="66" Width="455" Foreground="Black"/>
                     </Canvas>
-                    <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,0,0" d:IsHidden="True">
+                    <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,0,0">
                         <TextBlock HorizontalAlignment="Left" Height="48" Margin="10,0,0,0" TextWrapping="Wrap" Text="Pregunta 2 de 5" x:Name="pregunta_textblock" VerticalAlignment="Top" Width="165" Foreground="#FFF9A53A"/>
                         <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="180" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="385" FontSize="22" Margin="10,48,0,0" Foreground="Black"/>
-                        <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,168,0,0" Width="385" Height="74" FontSize="16"/>
-                        <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="75" Margin="0,247,0,0" VerticalAlignment="Top" Width="385" FontSize="16" FontStretch="Condensed"/>
-                        <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,322,0,0" VerticalAlignment="Top" Width="385" FontSize="16"/>
+                        <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,168,0,0" Width="385" Height="74" FontSize="16" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFEC098D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                        <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="75" Margin="0,247,0,0" VerticalAlignment="Top" Width="385" FontSize="16" FontStretch="Condensed" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFEC098D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                        <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,322,0,0" VerticalAlignment="Top" Width="385" FontSize="16" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFEC098D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
                     </Grid>
-                    <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="10,-16,0,0" VerticalAlignment="Top" Width="469">
+                    <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="10,-16,0,0" VerticalAlignment="Top" Width="469" d:IsHidden="True">
                         <TextBlock x:Name="t_resultado" Height="206" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="256" Width="435" Foreground="Black" Canvas.Left="10"/>
                         <Canvas Height="217" x:Name="img_resultado" Width="266" Canvas.Left="79">
                             <Image x:Name="n_resultado_x1" Height="171" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_green.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
@@ -58,7 +79,7 @@
                 </Grid>
             </phone:PanoramaItem>
         </phone:Panorama>
-        <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" HorizontalAlignment="Center" Width="480" Height="80" Margin="0,720,0,0">
+        <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" HorizontalAlignment="Center" Width="517" Margin="-37,730,0,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="0*"/>
                 <RowDefinition/>
