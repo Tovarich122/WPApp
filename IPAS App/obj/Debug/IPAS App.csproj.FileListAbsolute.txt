@@ -153,12 +153,25 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\Fl
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\IconicTileSmall.png
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Images\medicine.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS App.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS App.pdb
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\AppManifest.xaml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Microsoft.Expression.Interactions.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ar-SA\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\az-Latn-AZ\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\be-BY\Microsoft.Phone.Controls.Toolkit.resources.dll
@@ -209,30 +222,6 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\uz-Latn-UZ\Micr
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\vi-VN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-CN\Microsoft.Phone.Controls.Toolkit.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-TW\Microsoft.Phone.Controls.Toolkit.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\App.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\MainPage.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Mapa\Mapa.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Marco_Normativo\MarcoNormativo_Quiz.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Page1.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.g.resources
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.resources
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csproj.GenerateResource.Cache
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.pdb
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\XapCacheFile.xml
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Microsoft.Expression.Interactions.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\de\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\en\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\es\System.Windows.Interactivity.resources.dll
@@ -243,9 +232,20 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ko\System.Windo
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\App.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\MainPage.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Mapa\Mapa.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Marco_Normativo\MarcoNormativo_Quiz.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Page1.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Contraindicaciones_Precauciones.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Metodos_Recomendados.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Metodos_Recomendados.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Images\img_table_g10.png
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.g.resources
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.resources
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csproj.GenerateResource.Cache
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.pdb
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\XapCacheFile.xml

@@ -11,9 +11,9 @@ using Microsoft.Phone.Tasks;
 
 namespace IPAS_App
 {
-    public partial class Metodos_Recomendados : PhoneApplicationPage
+    public partial class Contraindicaciones_Precauciones : PhoneApplicationPage
     {
-        public Metodos_Recomendados()
+        public Contraindicaciones_Precauciones()
         {
             InitializeComponent();
         }

@@ -120,6 +120,9 @@
     <Compile Include="Tec_Recomendadas\Clinica_Aborto_Seguro.xaml.cs">
       <DependentUpon>Clinica_Aborto_Seguro.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Tec_Recomendadas\Contraindicaciones_Precauciones.xaml.cs">
+      <DependentUpon>Contraindicaciones_Precauciones.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tec_Recomendadas\Metodos_Recomendados.xaml.cs">
       <DependentUpon>Metodos_Recomendados.xaml</DependentUpon>
     </Compile>
@@ -156,6 +159,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Tec_Recomendadas\Clinica_Aborto_Seguro.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tec_Recomendadas\Contraindicaciones_Precauciones.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -201,8 +208,13 @@
     </Content>
     <Content Include="Images\ic_new_technologies.png" />
     <Content Include="Images\im_btn_menu_index1.png" />
+    <Content Include="Images\medicine.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="README_FIRST.txt" />
-    <Content Include="Tec_Recomendadas\CountryFile.html" />
+    <Content Include="Tec_Recomendadas\CountryFile.html">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
@@ -224,10 +236,20 @@
     <Reference Include="System.Windows.Interactivity" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\ic_ipas_orange.png" />
+    <Resource Include="Images\ic_ipas_white.png" />
+    <Resource Include="Images\ic_logo_mujer_orange.png" />
+    <Resource Include="Images\img_line_title.png" />
+    <Resource Include="Images\img_table_abort_m.png" />
+    <Resource Include="Images\img_table_abort_q.png" />
+    <Resource Include="Images\img_table_antibiotic.png" />
+    <Resource Include="Images\img_table_g10_g13.png" />
+    <Resource Include="Images\img_table_g13.png" />
+    <Resource Include="Images\im_header_medicine.png" />
+    <Resource Include="Images\launcher_main.png" />
+    <Resource Include="Images\mouth.png" />
     <Resource Include="Images\pleca.png" />
-    <Content Include="Images\img_table_g10.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Resource Include="Images\img_table_g10.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

@@ -39,10 +39,13 @@
 
         </ScrollViewer>
 
-        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-            <Image x:Name="img_breadcrumb" Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+            <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
         </Grid>
-
 
     </Grid>
 

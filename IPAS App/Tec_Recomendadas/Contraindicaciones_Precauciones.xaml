@@ -1,0 +1,97 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Contraindicaciones_Precauciones"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+		<Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+			<Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+			<TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+		</Grid>
+
+		<ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
+        	<RichTextBox FontSize="21.333">
+        		
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					<Run Text="Contraindicaciones y precauciones" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+					<LineBreak/>
+					<InlineUIContainer >
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+        			</InlineUIContainer>
+					<LineBreak/>
+				</Paragraph>
+        		
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					<Run Text="A. Contraindicación para aborto con medicamentos" FontStyle="Normal" FontWeight="Bold" Foreground="Black" />
+                    <LineBreak/>
+					<LineBreak/>
+					1. Sospecha o confirmación de embarazo ectópico (ni el misoprostol, ni la mifepristona funcionan como tratamiento para un embarazo ectópico)
+					<LineBreak/>
+					2. Insuficiencia suprarrenal
+					<LineBreak/>
+					3. Reacción alérgica previa a alguno de los medicamentos involucrados
+					<LineBreak/>
+					4. Trastornos hemorrágicos severos  (ej: Porfiria hereditaria) o uso de anticoagulantes (ej.: Aspirina, warfarina, heparinas)
+                    <LineBreak/>
+					<LineBreak/>
+                </Paragraph>
+
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					<Run Text="B. Contraindicación para aborto quirúrgico" FontStyle="Normal" FontWeight="Bold" Foreground="Black" />
+                    <LineBreak/>
+					<LineBreak/>
+					1. No se conocen contraindicaciones absolutas
+					<LineBreak/>
+					<LineBreak/>
+                </Paragraph>
+
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					<Run Text="C. Precauciones para aborto con medicamentos" FontStyle="Normal" FontWeight="Bold" Foreground="Black" />
+                    <LineBreak/>
+					<LineBreak/>
+					1. Tratamiento de largo plazo con corticoesteroides (incluyendo aquellos casos con asma severa no controlada)
+					<LineBreak/>
+					2. Trastornos hemorrágicos moderados o  uso de anticoagulantes (ej.: Aspirina, warfarina, heparinas)
+					<LineBreak/>
+					3. Anemia severa
+					<LineBreak/>
+					4. Enfermedades del corazón o factores de riesgo pre-existentes
+                    <LineBreak/>
+					5. DIU en cavidad uterina (retirar antes de comenzar el régimen)
+					<LineBreak/>
+					<LineBreak/>
+                </Paragraph>
+
+
+
+			</RichTextBox>
+
+
+        </ScrollViewer>
+
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+            <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

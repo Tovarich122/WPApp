@@ -15,45 +15,51 @@
     >
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-	<Grid x:Name="LayoutRoot" Background="Transparent">
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="*"/>
-		</Grid.RowDefinitions>
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-		<!--TitlePanel contains the name of the application and page title-->
-
-        <!--ContentPanel - place additional content here-->
-		<Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
-			<Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
-			<TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
-		</Grid>
+        <!--TitlePanel contains the name of the application and page title-->
 
         <!--ContentPanel - place additional content here-->
-		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="0" Background="White">
-			<Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}" >
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
-						<ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Servicios_Aborto_Seguro.xaml"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Button>
-			<Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
-						<ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Clinica_Aborto_Seguro.xaml"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Button>
-			<Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}"/>
-			<Button Content="Métodos Recomendados para el aborto seguro:&#xA;a) Con Medicamentos&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="Click">
-						<ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Metodos_Recomendados.xaml"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Button>
-			<TextBlock HorizontalAlignment="Left" Height="138" Margin="28,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" FontSize="18.667" TextAlignment="Center">
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        </Grid>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0" Background="White">
+            <Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}" >
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Servicios_Aborto_Seguro.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Clinica_Aborto_Seguro.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Contraindicaciones_Precauciones.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <Button Content="Métodos Recomendados para el aborto seguro:&#xA;a) Con Medicamentos&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="Click">
+                        <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Metodos_Recomendados.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Button>
+            <TextBlock HorizontalAlignment="Left" Height="138" Margin="28,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" FontSize="18.667" TextAlignment="Center">
 				<Run Text="&quot;">
 					<Run.Foreground>
 						<SolidColorBrush Color="Black">
@@ -90,11 +96,15 @@
 						</SolidColorBrush>
 					</Run.Foreground>
 				</Run>
-			</TextBlock>
-		</Grid>
-		<Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-			<Image x:Name="img_breadcrumb" Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
-		</Grid>
-	</Grid>
+            </TextBlock>
+        </Grid>
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+        	<HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+        		<HyperlinkButton.Background>
+        			<ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+        		</HyperlinkButton.Background>
+        	</HyperlinkButton>
+        </Grid>
+    </Grid>
 
 </phone:PhoneApplicationPage>
