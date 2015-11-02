@@ -1,0 +1,80 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Clinica_Aborto_Seguro"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+	<Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        </Grid>
+        <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
+        	<TextBlock TextWrapping="Wrap" Foreground="Black" Width="387" TextAlignment="Left">
+        		<Run Text="Los profesionales de la salud deben estar informados del marco internacional, de los derechos humanos y de las leyes locales. Todas las normas, estándares y prácticas clínicas relacionadas con la atención del aborto, deben promover y proteger la salud y los derechos humanos de las mujeres, incluyendo las adolescentes, la autonomía, la confidencialidad, la privacidad y la no discriminación."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="Algunos ejemplos prácticos sobre cómo los profesionales de la salud, pueden aplicar estos principios, incluyen:"/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Tratar a todas las mujeres con equidad, calidad y de manera oportuna, sin importar su edad, origen étnico, estatus socioeconómico o estado civil."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Asegurar que los servicios de aborto se proporcionan respetando a las mujerEs en su toma de decisiones."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Proporcionar información completa basada en evidencia científica y fácil de entender."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Respetar la dignidad de la mujer, garantizándole privacidad y confidencialidad."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Tener sesnibilidad antes las necesidades y perspectivas de la mujer."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Proteger la información clínica que proporcione la mujer de cualquier tipo de divulgación no autorizada."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Estar vigilante sobre situaciones en las que una mujer puede recibir coerción para practicarse un aborto en cotra de su voluntad (por ejemplo, en base a su estado de salud o por vivir con VIH)."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Cuando se trate de una adolescente respetar su autonomía tomando en cuenta su acpacidad evolutiva y el interés superior de la menor."/>
+        		<LineBreak/>
+        		<Run/>
+        		<LineBreak/>
+        		<Run Text="- Cuando ella lo solicite y autorice, motivar a los padres a involucrarse para dar apoyo, información y acompañamiento."/>
+        	</TextBlock>
+
+
+        </ScrollViewer>
+
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+            <Image x:Name="img_breadcrumb" Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
+        </Grid>
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

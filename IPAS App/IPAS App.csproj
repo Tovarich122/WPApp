@@ -117,8 +117,17 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AppResources.resx</DependentUpon>
     </Compile>
+    <Compile Include="Tec_Recomendadas\Clinica_Aborto_Seguro.xaml.cs">
+      <DependentUpon>Clinica_Aborto_Seguro.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tec_Recomendadas\Metodos_Recomendados.xaml.cs">
+      <DependentUpon>Metodos_Recomendados.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Tec_Recomendadas\Principal_Tec_Recomendadas.xaml.cs">
       <DependentUpon>Principal_Tec_Recomendadas.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Tec_Recomendadas\Servicios_Aborto_Seguro.xaml.cs">
+      <DependentUpon>Servicios_Aborto_Seguro.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -146,7 +155,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Tec_Recomendadas\Clinica_Aborto_Seguro.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tec_Recomendadas\Metodos_Recomendados.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="Tec_Recomendadas\Principal_Tec_Recomendadas.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Tec_Recomendadas\Servicios_Aborto_Seguro.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -181,6 +202,7 @@
     <Content Include="Images\ic_new_technologies.png" />
     <Content Include="Images\im_btn_menu_index1.png" />
     <Content Include="README_FIRST.txt" />
+    <Content Include="Tec_Recomendadas\CountryFile.html" />
     <Content Include="Toolkit.Content\ApplicationBar.Add.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
     <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
@@ -203,6 +225,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\pleca.png" />
+    <Content Include="Images\img_table_g10.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
