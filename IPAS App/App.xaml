@@ -32,7 +32,7 @@
         									<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
         										<DiscreteObjectKeyFrame KeyTime="0">
         											<DiscreteObjectKeyFrame.Value>
-        												<SolidColorBrush Color="#FFEA00AA"/>
+        												<SolidColorBrush Color="#FFEC098D"/>
         											</DiscreteObjectKeyFrame.Value>
         										</DiscreteObjectKeyFrame>
         									</ObjectAnimationUsingKeyFrames>

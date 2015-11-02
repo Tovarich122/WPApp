@@ -22,17 +22,17 @@
         <!--TitlePanel contains the name of the application and page title-->
 
         <!--ContentPanel - place additional content here-->
-        <Grid Grid.Row="0" Margin="0" Background="#FFFF7400" Height="80">
-    		<Image Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
-    		<TextBlock TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+    		<Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+    		<TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
     	</Grid>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0" Background="White">
-        	<Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}" />
-        	<Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
-        	<Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
-        	<Button Content="Métodos Recomendados para el aborto seguro:&#xD;&#xA;a) Con Medicamentos&#xD;&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF004863" Foreground="White" Background="#FF004863" Style="{StaticResource ButtonPressedPink}"/>
+        	<Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}" />
+        	<Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}"/>
+        	<Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}"/>
+        	<Button Content="Métodos Recomendados para el aborto seguro:&#xD;&#xA;a) Con Medicamentos&#xD;&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}"/>
         	<TextBlock HorizontalAlignment="Left" Height="138" Margin="28,470,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="425" FontSize="18.667" TextAlignment="Center">
         		<Run Text="&quot;">
         			<Run.Foreground>
@@ -72,8 +72,8 @@
         		</Run>
         	</TextBlock>
         </Grid>
-        <Grid Grid.Row="1" Background="#FFFF0080" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
-        	<Image Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center">
+        	<Image x:Name="img_breadcrumb" Margin="218,19,10,19" Source="/IPAS App;component/Images/pleca.png" Stretch="Fill"/>
         </Grid>
     </Grid>
 
