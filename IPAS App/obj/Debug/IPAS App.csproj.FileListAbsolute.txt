@@ -231,6 +231,7 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ko\System.Windo
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\ru\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\App.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\MainPage.g.cs

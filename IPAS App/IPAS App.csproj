@@ -301,10 +301,14 @@
     <Resource Include="Images\img_table_g10_g13.png" />
     <Resource Include="Images\img_table_g13.png" />
     <Resource Include="Images\im_header_medicine.png" />
+    <Resource Include="Images\im_header_vacuum_aspiration.png" />
     <Resource Include="Images\launcher_main.png" />
     <Resource Include="Images\mouth.png" />
     <Resource Include="Images\pleca.png" />
     <Resource Include="Images\img_table_g10.png" />
+    <Resource Include="Images\surgical_abortion1.png" />
+    <Resource Include="Images\surgical_abortion2.png" />
+    <Resource Include="Images\surgical_abortion3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />

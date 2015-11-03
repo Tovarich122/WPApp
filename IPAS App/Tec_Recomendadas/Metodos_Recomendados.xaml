@@ -58,25 +58,144 @@
 								<Run>Entre 10 y 13 semanas de gestación:</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<InlineUIContainer >
+								<InlineUIContainer>
         							<Image HorizontalAlignment="Left"
         								Margin="0" x:Name="IMG_table_g13"
         								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10_g13.png" Width="357" />
         						</InlineUIContainer>
+								<LineBreak/>
+								<LineBreak/>
+								<InlineUIContainer >
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="medicine"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/medicine.png" Width="357" />
+        						</InlineUIContainer>
+								<LineBreak/>
+								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Misoprostol solo</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>Hasta la semana 13 de gestación:</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<InlineUIContainer>
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="img_table_g13"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g13.png" Width="357" />
+        						</InlineUIContainer>
+								<LineBreak/>
+								<LineBreak/>
+								<LineBreak/>
+								<InlineUIContainer>
+									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
+        								<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Características de las diferentes Vías de administración del misoprostol.
+										</TextBlock>
+									</Grid>
+								</InlineUIContainer>
+								<LineBreak/>
+								<LineBreak/>
+								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Bucal</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<InlineUIContainer >
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="mouth"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/mouth.png" Width="357" />
+        						</InlineUIContainer>
+								<LineBreak/>
+								<LineBreak/>
+							</Paragraph>
+							
+							<Paragraph TextAlignment="Left" Foreground="Black">
+								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>Las pastillas se colocan entre la mejilla y la encía y se tragan después de 30 minutos.</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Notas</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>- Esta vía alcanza concentraciones terapéuticas de medicamento en sangre que se mantienen por un periodo bastante prolongado.</Run>
+								<LineBreak/>
+								<Run>- Causa más fiebre, escalofrío, diarrea y vómito que la ruta vaginal.</Run>
+								<LineBreak/>
+								<LineBreak/>
+							</Paragraph>
+
+							<Paragraph>
+								
 							</Paragraph>
 
 
         				</RichTextBox>
 
-
         			</ScrollViewer>
         		</phone:PivotItem>
-        		<phone:PivotItem CacheMode="{x:Null}" Header="Aspiración" Foreground="Black">
-        			<Grid/>
+        		
+				<phone:PivotItem CacheMode="{x:Null}" Header="Aspiración" Foreground="Black">
+        			<ScrollViewer x:Name="Text_Grid_2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+        				
+						
+						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
+        					<Paragraph TextAlignment="Center" Foreground="Black">
+        						
+								<InlineUIContainer >
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="im_header_vacuum_aspiration"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_header_vacuum_aspiration.png" Width="357" />
+								</InlineUIContainer>
+							</Paragraph>
+
+							<Paragraph TextAlignment="Left" Foreground="Black">
+								<LineBreak/>
+								<LineBreak/>
+								<Run>- La aspiración por vacío (manual o eléctrica)  es la tecnología recomendada por los líderes nacionales e internacionales en temas de salud de las mujeres como el Centro Nacional de Excelencia Tecnológica en Salud (CENETEC), la Organización Mundial de la Salud (OMS) y la Federación Internacional de Ginecología y Obstetricia (FIGO).</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>La tecnología de aspiración por vacío se considera como un servicio esencial en la práctica obstétrica moderna en la atención para aborto del 1er trimestre.</Run>
+								<LineBreak/>
+								<LineBreak/>								
+								</Paragraph>
+
+								<Paragraph TextAlignment="Center" Foreground="Black">
+								<InlineUIContainer>
+									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100" HorizontalAlignment="Center">
+        								<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Descripción
+										</TextBlock>
+									</Grid>
+								</InlineUIContainer>
+								</Paragraph>
+
+								<Paragraph TextAlignment="Left" Foreground="Black">
+								<LineBreak/>
+								<LineBreak/>
+								<Run>La aspiración por vacío es un método por medio del cual se realiza la extracción del contenido del útero a través de una cánula de plástico o metálica conectada a una fuente de vacío.</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>a) Manual:</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>La aspiración manual endouterina (AMEU) utiliza un aspirador manual portátil.</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>b) Eléctrica:</Run>
+								<LineBreak/>
+								<LineBreak/>
+								<Run>La aspiración eléctrica endouterina (AEEU) emplea una aspirador eléctrico.</Run>
+								<LineBreak/>
+								<LineBreak/>
+							</Paragraph>
+
+        				</RichTextBox>
+
+        			</ScrollViewer>
         		</phone:PivotItem>
         	</phone:Pivot>
 
         </Grid>
+        
 
         <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
             <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
