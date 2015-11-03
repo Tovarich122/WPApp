@@ -9,7 +9,7 @@ using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using IPAS_App.Resources;
 
-namespace IPAS_App
+namespace IPAS
 {
     public partial class MainPage : PhoneApplicationPage
     {
@@ -20,11 +20,27 @@ namespace IPAS_App
 
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
+         
+        }
+        protected override void OnNavigatedTo(System.Windows.Navigation.NavigationEventArgs e)
+        {
+            base.OnNavigatedTo(e);
+            while (NavigationService.RemoveBackEntry() != null) ;
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void tile_Tecnologias_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            //NavigationService.Navigate(new Uri("/Estigmometro.xaml", UriKind.Relative));
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Principal_Tec_Recomendadas.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void RadSlideHubTile_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Views/MarcoNormativo.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void RadSlideHubTile_Tap_1(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Views/Estigma.xaml", UriKind.RelativeOrAbsolute));
         }
 
         // Sample code for building a localized ApplicationBar

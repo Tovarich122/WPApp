@@ -1,0 +1,101 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:telerikPrimitives="clr-namespace:Telerik.Windows.Controls;assembly=Telerik.Windows.Controls.Primitives"
+    x:Class="IPAS.Views.MarcoNormativo"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="#FF813030">
+        <phone:Pivot x:Name="titulo" Title="MARCO NORMATIVO" SelectionChanged="titulo_SelectionChanged" Background="White" Foreground="#FFF8971D">
+            <!--Pivot item one-->
+            <phone:PivotItem x:Name="marco_1" Header="Marco Normativo">
+                <Grid>
+                    <TextBlock HorizontalAlignment="Left" Height="155" Margin="10,10,0,0" TextWrapping="Wrap" Text="La OMS en su Constitución de 1946, definió a la Salud como el estado de completo bienestar  físico, mental y social, y no solamente la ausencia de afecciones o enfermedad." VerticalAlignment="Top" Width="436" Foreground="#FFEC098D" FontSize="22"/>
+                    <TextBlock HorizontalAlignment="Left" Height="133" Margin="10,392,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="#FFEC098D" FontSize="22"/>
+                    <TextBlock HorizontalAlignment="Left" Height="236" Margin="10,185,0,0" TextWrapping="Wrap" Text="Diversas instancias de protección de los derechos humanos han reconocido que para alcanzar este completo estado de bienestar, es necesario contar con los más altos estándares que protejan la salud y la vida de las mujeres, evitando con ello que se sometan a procedimientos que pongan en peligro su integridad." VerticalAlignment="Top" Width="436" Foreground="Black" FontSize="20"/>
+                </Grid>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="marco_2" Header="Consideraciones por Entidad">
+                <Grid/>
+            </phone:PivotItem>
+
+            <phone:PivotItem x:Name="marco_3" Header="Test de Conocimiento" Margin="14,0,10,0">
+                <Grid HorizontalAlignment="Left" Height="587" Margin="-42,0,-34,0" VerticalAlignment="Top" Width="532">
+                    <Canvas x:Name="img_holder_MarcoNtest" HorizontalAlignment="Left" Height="577" Margin="10,10,0,0" VerticalAlignment="Top" Width="512" d:IsHidden="True">
+                        <TextBlock Height="61" Canvas.Left="131" TextWrapping="Wrap" Text="Comenzar Test" Canvas.Top="478" Width="242" FontSize="36" Foreground="#FFEC098D"/>
+                        <Image Height="241" Canvas.Left="131" Canvas.Top="237" Width="242" Source="/Assets/Images/test.png" Tap="Image_Tap"/>
+                        <TextBlock Height="56" Canvas.Left="47" TextWrapping="Wrap" Text="Instrucciones:" Canvas.Top="10" Width="433" FontSize="36" Foreground="#FFEC098D"/>
+                        <TextBlock Height="196" Canvas.Left="47" TextWrapping="Wrap" Text="Lee  las siguientes preguntas y elige una de las multiples opciones de respuesta.                                              Descubre que tanto sabes del marco normativo que regula la Interrupción Legal del Embarazo.                                                                                    ¡Responde y pon a prueba tus conocimientos.!   " Canvas.Top="66" Width="421" Foreground="Black"/>
+                    </Canvas>
+                    <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,0,0" d:IsHidden="True">
+                        <TextBlock HorizontalAlignment="Left" Height="58" Margin="30,0,0,0" TextWrapping="Wrap" Text="Pregunta 2 de 5" Name="pregunta_textblock" VerticalAlignment="Top" Width="177" Foreground="#FFEC098D"/>
+                        <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="110" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="458" FontSize="22" Margin="30,42,0,0" Foreground="#FFF8971D"/>
+                        <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,120,0,0" Width="458" Height="100" FontSize="16" Foreground="Black" Content="Hola Mundo">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFED1894" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                        <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="105" Margin="30,220,0,0" VerticalAlignment="Top" Width="458" FontSize="16" FontStretch="Condensed" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFED1894" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                        <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="100" Margin="30,325,0,0" VerticalAlignment="Top" Width="458" FontSize="16" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White"/>
+                                    <GradientStop Color="#FFEC098D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                        <RadioButton x:Name="r4" Content="RadioButton" HorizontalAlignment="Left" Height="100" Margin="30,431,0,0" VerticalAlignment="Top" Width="458" FontSize="16" Foreground="Black">
+                            <RadioButton.Background>
+                                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFEC098D" Offset="1"/>
+                                </LinearGradientBrush>
+                            </RadioButton.Background>
+                        </RadioButton>
+                    </Grid>
+                    <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="36,10,0,0" VerticalAlignment="Top" Width="470">
+                        <TextBlock x:Name="t_resultado" Height="203" Canvas.Left="24" TextWrapping="Wrap" Text="TextBlock" Canvas.Top="318" Width="421" Foreground="#FFEC098D"/>
+                        <Canvas Height="284" x:Name="img_resultado" Canvas.Top="29" Width="470" Background="White">
+                            <Image x:Name="n_resultado_1" Height="284" Canvas.Left="66" Width="312" Source="/Assets/Images/im_question_result_good.png" Stretch="UniformToFill"/>
+                            <Image x:Name="n_resultado_2" Height="284" Canvas.Left="66" Width="312" Source="/Assets/Images/im_question_result_bad.png" Stretch="UniformToFill"/>
+                            <Image x:Name="n_resultado_3" Height="284" Canvas.Left="66" Width="312" Source="/Assets/Images/im_question_result_moreorless.png" Stretch="UniformToFill"/>
+                        </Canvas>
+                    </Canvas>
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" HorizontalAlignment="Center" Width="480" Margin="0,696,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0*"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}" Grid.RowSpan="2">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
