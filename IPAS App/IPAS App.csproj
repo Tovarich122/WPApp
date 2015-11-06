@@ -300,6 +300,7 @@
     <Resource Include="Images\img_table_antibiotic.png" />
     <Resource Include="Images\img_table_g10_g13.png" />
     <Resource Include="Images\img_table_g13.png" />
+    <Resource Include="Images\im_header_main.png" />
     <Resource Include="Images\im_header_medicine.png" />
     <Resource Include="Images\im_header_vacuum_aspiration.png" />
     <Resource Include="Images\launcher_main.png" />
