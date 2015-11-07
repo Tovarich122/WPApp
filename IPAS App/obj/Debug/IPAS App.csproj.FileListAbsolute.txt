@@ -354,3 +354,8 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.W
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoNormativo.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\TecnologiasRecomendadas.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Disco_Criterios.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs

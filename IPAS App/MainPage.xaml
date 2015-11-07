@@ -74,7 +74,7 @@
                     <Image Source="/Assets/Images/ic_trafficlight.png" Width="197" Margin="0,22,-26,-20"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
             </telerikPrimitives:RadSlideHubTile>
-            <telerikPrimitives:RadSlideHubTile Title="Metodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Metodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_anti.png" Height="132" Width="192"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>

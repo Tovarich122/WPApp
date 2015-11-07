@@ -43,6 +43,12 @@ namespace IPAS
             this.NavigationService.Navigate(new Uri("/Views/Estigma.xaml", UriKind.RelativeOrAbsolute));
         }
 
+        private void RadSlideHubTile_Tap_3(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Metodos_Anticonceptivos/Main_Metodos_Anticonceptivos.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+
         // Sample code for building a localized ApplicationBar
         //private void BuildLocalizedApplicationBar()
         //{

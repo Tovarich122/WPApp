@@ -31,28 +31,28 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0" Background="White">
-            <Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}" >
+            <Button Content="Acceso a los servicios de Aborto Seguro" HorizontalAlignment="Left" Margin="10,15,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}" >
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Servicios_Aborto_Seguro.xaml"/>
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
-            <Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+            <Button Content="La práctica clínica del Aborto Seguro" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Clinica_Aborto_Seguro.xaml"/>
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
-            <Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+            <Button Content="Contraindicaciones y precauciones" HorizontalAlignment="Left" Margin="10,337,0,0" VerticalAlignment="Top" Height="94" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Contraindicaciones_Precauciones.xaml"/>
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
-            <Button Content="Métodos Recomendados para el aborto seguro:&#xA;a) Con Medicamentos&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF0069AA" Foreground="White" Background="#FF0069AA" Style="{StaticResource ButtonPressedPink}">
+            <Button Content="Métodos Recomendados para el aborto seguro:&#xA;a) Con Medicamentos&#xA;b) Aspiración por Vacío" HorizontalAlignment="Left" Margin="10,205,0,0" VerticalAlignment="Top" Height="132" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <ec:NavigateToPageAction TargetPage="/Tec_Recomendadas/Metodos_Recomendados.xaml"/>

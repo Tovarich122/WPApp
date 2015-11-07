@@ -11,7 +11,7 @@
         <local:LocalizedStrings xmlns:local="clr-namespace:IPAS_App" x:Key="LocalizedStrings"/>
 		
 		<DataTemplate x:Key="myHeader">
-			<TextBlock Text="{Binding}" FontSize="20"/>
+			<TextBlock Text="{Binding}" FontSize="20" Foreground="#FF00728F"/>
 		</DataTemplate>
 
 		<Style x:Key="PivotHeaderStyle" TargetType="phone:Pivot">
@@ -43,7 +43,7 @@
         									<ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="ButtonBackground">
         										<DiscreteObjectKeyFrame KeyTime="0">
         											<DiscreteObjectKeyFrame.Value>
-        												<SolidColorBrush Color="#FFEC098D"/>
+        												<SolidColorBrush Color="#FF00AFDB"/>
         											</DiscreteObjectKeyFrame.Value>
         										</DiscreteObjectKeyFrame>
         									</ObjectAnimationUsingKeyFrames>
