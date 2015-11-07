@@ -1,0 +1,42 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Disco_Criterios"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+		 <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Métodos Anticonceptivos" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        </Grid>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,0,0,80">
+        	<phone:WebBrowser x:Name="WebBrowserControl" HorizontalAlignment="Left" VerticalAlignment="Top" Height="640" Width="480" Margin="0"/>
+        </Grid> 
+		
+		<Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+        	<HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+        		<HyperlinkButton.Background>
+        			<ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+        		</HyperlinkButton.Background>
+        	</HyperlinkButton>
+        </Grid>	
+	</Grid>
+
+</phone:PhoneApplicationPage>

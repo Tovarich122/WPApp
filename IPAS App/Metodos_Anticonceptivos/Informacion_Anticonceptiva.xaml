@@ -1,0 +1,79 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Informacion_Anticonceptiva"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Métodos Anticonceptivos" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+        </Grid>
+
+        <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
+        	<RichTextBox FontSize="21.333">
+        		
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					<Run Text="Información Anticonceptiva en el post-aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+					<LineBreak/>
+					<InlineUIContainer >
+        							<Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+        			</InlineUIContainer>
+					<LineBreak/>
+				</Paragraph>
+        		
+				<Paragraph TextAlignment="Left" Foreground="Black">
+					Informe a la mujer de la posibilidad del regreso inmediato de la ovulación (aproximadamente dos semanas después del aborto) y por ende de la fertilidad (en una relación sin protección 7-10 días después del aborto).
+					<LineBreak/>
+					<LineBreak/>
+					- Investigue si hubo fallas anticonceptivas del método anterior.
+					<LineBreak/>
+					<LineBreak/>
+					- Proporciones idealmente el método elegido antes del egreso de la mujer del centro de salud u hospital.
+					<LineBreak/>
+					<LineBreak/>
+					- Si la mujer no acepta un método antes del egreso, o el método elegido no está disponible en el servicio, ofrezca alguna opción inmediata temporal (condones, una dosis de inyectables, ciclos de hormonales orales) y refiera para la provisión posterior del método de elección.
+					<LineBreak/>
+					<LineBreak/>
+					- La aceptación de un método anticonceptivo NO debe de ser una precondición para atender a la mujer en situación de aborto.
+					<LineBreak/>
+					- Recuerde a la mujer que sólo los métodos de barrera protegen de las infecciones de transmisión sexual (ITS).					
+					<LineBreak/>
+					<LineBreak/>
+					- Proporcione a la mujer información sistemática sobre los métodos post-coitales o de emergencia, en caso de falla anticonceptiva, relación sexual no protegida o forzada.
+					<LineBreak/>
+					<LineBreak/>
+                </Paragraph>
+
+
+			</RichTextBox>
+
+
+        </ScrollViewer>
+
+		<Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+        	<HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+        		<HyperlinkButton.Background>
+        			<ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+        		</HyperlinkButton.Background>
+        	</HyperlinkButton>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
