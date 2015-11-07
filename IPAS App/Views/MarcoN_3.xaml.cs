@@ -7,64 +7,33 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Telerik.Windows.Controls.Primitives;
-using Telerik.Windows.Controls;
-using IPAS_App.Model;
 using Microsoft.Phone.Tasks;
+using IPAS_App.Model;
 
-namespace IPAS.Views
+namespace IPAS_App.Views
 {
-    public partial class MarcoNormativo : PhoneApplicationPage
+    public partial class MarcoN_3 : PhoneApplicationPage
     {
         string[] preguntas_text = new string[5];
         string[] rads = new string[] { "rad1", "rad2", "rad3", "rad4" };
         RadioButton[] r = new RadioButton[4];
         List<Pregunta> preguntas = new List<Pregunta>();
-        Pregunta p,p1,p2,p3,p4,p5;
+        Pregunta p, p1, p2, p3, p4, p5;
         int i = 0;
-        ApplicationBarIconButton bSiguiente, bPrevio, bCancelar, bTerminar;
-        public MarcoNormativo()
+        public MarcoN_3()
         {
+            
             InitializeComponent();
             c_resultado.Visibility = Visibility.Collapsed;
             n_resultado_1.Visibility = Visibility.Collapsed;
             n_resultado_2.Visibility = Visibility.Collapsed;
             n_resultado_3.Visibility = Visibility.Collapsed;
-            RadPlaneProjectionAnimation obj_Animation = new RadPlaneProjectionAnimation();
-            obj_Animation.AutoReverse = false;
-            obj_Animation.Axes = PerspectiveAnimationAxis.XY;
-            obj_Animation.StartAngleY = -450.22;
-            obj_Animation.EndAngleY = 0;
-            obj_Animation.Direction = PerspectiveAnimationDirection.Clockwise;
-            obj_Animation.Duration = TimeSpan.FromSeconds(.7);
-            obj_Animation.Ended += this.obj_Animation_Ended;
-
             test_window.Visibility = Visibility.Collapsed;
-            ApplicationBar = new ApplicationBar();
-            this.bSiguiente = new ApplicationBarIconButton();
-            this.bPrevio = new ApplicationBarIconButton();
-            this.bCancelar = new ApplicationBarIconButton();
-            this.bTerminar = new ApplicationBarIconButton();
-            ApplicationBar.Mode = ApplicationBarMode.Default;
-            ApplicationBar.IsMenuEnabled = false;
-            bSiguiente.IconUri = new Uri("/Assets/iconos/appbar.arrow.right.png", UriKind.Relative);
-            bSiguiente.Text = "Siguiente";
-            bPrevio.IconUri = new Uri("/Assets/iconos/appbar.arrow.left.png", UriKind.Relative);
-            bPrevio.Text = "Anterior";
-            bCancelar.IconUri = new Uri("/Assets/iconos/appbar.close.png", UriKind.Relative);
-            bCancelar.Text = "Cancelar";
-            bTerminar.IconUri = new Uri("/Assets/iconos/appbar.check.png", UriKind.Relative);
-            bTerminar.Text = "Terminar";
+            bPrevio.Visibility = Visibility.Collapsed;
+            bCancelar.Visibility = Visibility.Collapsed;
+            bSiguiente.Visibility = Visibility.Collapsed;
+            bTerminar.Visibility = Visibility.Collapsed;
 
-            ApplicationBar.Buttons.Add(bCancelar);
-            ApplicationBar.Buttons.Add(bSiguiente);
-
-
-            bCancelar.Click += new EventHandler(cancel_test);
-            bPrevio.Click += new EventHandler(GoToPrev);
-            bSiguiente.Click += new EventHandler(GoToNext);
-            bTerminar.Click += new EventHandler(GoToEnd);
-            ApplicationBar.IsVisible = false;
             r[0] = r1; r[1] = r2; r[2] = r3; r[3] = r4;
             preguntas_text[0] = "Por cuál de las siguientes razones una mujer puede abortar de forma legal en cualquier estado de la República Mexicana?";
             preguntas_text[1] = "¿En qué estados de la República Mexicana el aborto es legal por razones económicas?";
@@ -90,10 +59,6 @@ namespace IPAS.Views
             this.i = 0;
             preguntas.Add(p1); preguntas.Add(p2); preguntas.Add(p3); preguntas.Add(p4); preguntas.Add(p5);
             pregunta_textblock.Text = (this.i + 1).ToString();
-
-            RadAnimationManager.Play(LayoutRoot, obj_Animation);
-
-            
         }
         private void HyperlinkButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
@@ -101,70 +66,42 @@ namespace IPAS.Views
             webBrowserTask.Uri = new Uri("http://ipasmexico.org", UriKind.Absolute);
             webBrowserTask.Show();
         }
-        private void GoToEnd(object sender, EventArgs e)
+        private void GoToNextEstigma(object sender, EventArgs e)
         {
-            c_resultado.Visibility = Visibility.Collapsed;
-            n_resultado_1.Visibility = Visibility.Collapsed;
-            n_resultado_2.Visibility = Visibility.Collapsed;
-            n_resultado_3.Visibility = Visibility.Collapsed;
-            ApplicationBar.Buttons.RemoveAt(0);
-            ApplicationBar.Buttons.Insert(0, bCancelar);
-            ApplicationBar.Buttons.Insert(1, bSiguiente);
-            ApplicationBar.IsVisible = false;
-            img_holder_MarcoNtest.Visibility = Visibility.Visible;
-            test_window.Visibility = Visibility.Collapsed;
-            this.i = 0;
-            foreach (var item in preguntas)
+
+            if (this.i >= 5) // Resultado Final.
             {
-                item.rad_checked = 0;
+                //Regresar a la normalidad
+                cancel_test(sender, e);
             }
-            foreach (var item in r)
+            else //Cualquiera
             {
-                item.IsChecked = false;
-            }
-        }
-        private void titulo_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-            switch (((Pivot)sender).SelectedIndex)
-            {
-                case 0:
-                    ApplicationBar.IsVisible = false;
-                    break;
-
-                case 1:
-                    ApplicationBar.IsVisible = false;
-                    break;
-
-                case 2:
-                    if (img_holder_MarcoNtest.Visibility == Visibility.Collapsed)
-                    {
-                        ApplicationBar.IsVisible = true;
-                    }
-                    else
-                    {
-                        ApplicationBar.IsVisible = false;
-                    }
-                    
-                    break;
-
+                c_resultado.Visibility = Visibility.Collapsed;
+                //Modificar Appbar
+                bPrevio.Visibility = Visibility.Visible;
+                bCancelar.Visibility = Visibility.Collapsed;
+                bSiguiente.Visibility = Visibility.Visible;
+                bTerminar.Visibility = Visibility.Collapsed;
+                //Mostrar testWindow.
+                instrucciones.Visibility = Visibility.Collapsed;
+                test_window.Visibility = Visibility.Visible;
             }
         }
-        
-        private void GoToNext(object sender, EventArgs e)
+
+
+        private void GoToIntermedio(object sender, EventArgs e)
         {
-            
-            //Show before Next text in a radmessagebox.
-            showMessageBox(this.i);
+
+            //Show before Next
+                showMessageBox(this.i);
 
             if (this.i >= 4) //fin del cuestionario.
             {
-                //ApplicationBar.IsVisible = false;
-                //img_holder_MarcoNtest.Visibility = Visibility.Visible;
                 test_window.Visibility = Visibility.Collapsed;
-                i = 0;
+                this.i++;
                 int c = 1;
                 //calcular Score.
-               
+
                 foreach (var item in preguntas)
                 {
                     if (item.its_correct == true)
@@ -182,71 +119,63 @@ namespace IPAS.Views
                 else
                 {
                     if (c == 5) { t_resultado.Text = ("Felicidades!!!  Conoces aspectos generales de la normatividad del aborto legal en México y facilitas el acceso a las mujeres."); n_resultado_1.Visibility = Visibility.Visible; } //Perfecto
-                    else { t_resultado.Text =  ("Sigue actualizando tus conocimientos sobre la normatividad y en esa medida podrás ampliar el acceso a las mujeres."); n_resultado_3.Visibility = Visibility.Visible; } //Regular
+                    else { t_resultado.Text = ("Sigue actualizando tus conocimientos sobre la normatividad y en esa medida podrás ampliar el acceso a las mujeres."); n_resultado_3.Visibility = Visibility.Visible; } //Regular
                 }
-                ApplicationBar.Buttons.RemoveAt(0);
-                ApplicationBar.Buttons.RemoveAt(0);
+                c = 1;
+                bPrevio.Visibility = Visibility.Collapsed;
+                bCancelar.Visibility = Visibility.Collapsed;
+                bSiguiente.Visibility = Visibility.Collapsed;
+                bTerminar.Visibility = Visibility.Visible;
 
-                ApplicationBar.Buttons.Insert(0, bTerminar);
+
                 c_resultado.Visibility = Visibility.Visible;
             }
             else
             {
                 //save user answer.
-                saveAnswer(this.i) ;
+                saveAnswer(this.i);
                 this.i++;
-                    if (this.i == 1) //segunda pregunta
-                    {
-                        modifyAppbar(bPrevio);
-                        ActualizarRads(this.i);
-                    }
-                    else
-                    {
-                        ActualizarRads(this.i);
-                    }
-             }
-            
-        }
-
-        private void GoToPrev(object sender, EventArgs e)
-        {
-
-                if (this.i == 1) //regresa al principio.
+                if (this.i == 1) //segunda pregunta
                 {
-                    saveAnswer(this.i);
-                    this.i--;
-                    modifyAppbar(bCancelar);
+                    bPrevio.Visibility = Visibility.Visible;
+                    bCancelar.Visibility = Visibility.Collapsed;
                     ActualizarRads(this.i);
                 }
                 else
-                { saveAnswer(this.i); this.i--; ActualizarRads(this.i); }
+                {
+                    ActualizarRads(this.i);
+                }
+            }
+
+
         }
+
 
         private void cancel_test(object sender, EventArgs e)
         {
-            ApplicationBar.IsVisible = false;
-            img_holder_MarcoNtest.Visibility = Visibility.Visible;
+
+            //ResetAppBar.
+            bPrevio.Visibility = Visibility.Collapsed;
+            bCancelar.Visibility = Visibility.Collapsed;
+            bSiguiente.Visibility = Visibility.Collapsed;
+            bTerminar.Visibility = Visibility.Collapsed;
+
+            instrucciones.Visibility = Visibility.Visible;
             test_window.Visibility = Visibility.Collapsed;
+            c_resultado.Visibility = Visibility.Collapsed;
+            n_resultado_3.Visibility = Visibility.Collapsed;
+            n_resultado_2.Visibility = Visibility.Collapsed;
+            n_resultado_1.Visibility = Visibility.Collapsed;
             this.i = 0;
             foreach (var item in preguntas)
             {
-                item.rad_checked = 0;
+                item.rad_checked = -1;
             }
             foreach (var item in r)
             {
                 item.IsChecked = false;
             }
-            
-        }
 
-        private void Image_Tap(object sender, System.Windows.Input.GestureEventArgs e)
-        {
-            img_holder_MarcoNtest.Visibility = Visibility.Collapsed;
-            test_window.Visibility = Visibility.Visible;
-            ApplicationBar.IsVisible = true;
-            ActualizarRads(this.i);
-            //this.i++;
-           
         }
 
         private void ActualizarRads(int o)
@@ -256,21 +185,18 @@ namespace IPAS.Views
             r1.Content = p.res1;
             r2.Content = p.res2;
             r3.Content = p.res3;
-            if (p.res4 != "")
-            { r4.Content = p.res4; r4.Visibility = Visibility.Visible; }
-            else
-            { r4.Visibility = Visibility.Collapsed; }
+
             if (p.rad_checked != -1)
             {
                 r[p.rad_checked].IsChecked = true;
             }
-            pregunta_textblock.Text = "Pregunta "+(this.i + 1).ToString() + " de 5";
+            pregunta_textblock.Text = "Pregunta " + (this.i + 1).ToString() + " de 5";
         }
 
         private void saveAnswer(int o)
         {
             p = preguntas.Find(k => k.id == o);
-            for (int y = 0; y <= 3; y++)
+            for (int y = 0; y <= 2; y++)
             {
                 if (r[y].IsChecked == true)
                 {
@@ -287,21 +213,80 @@ namespace IPAS.Views
         }
         private void showMessageBox(int o)
         {
+            //ocultar TestWindow
+            test_window.Visibility = Visibility.Collapsed;
+            //Modificar Appbar
+            bTerminar.Visibility = Visibility.Visible;
+            bSiguiente.Visibility = Visibility.Collapsed;
+            bPrevio.Visibility = Visibility.Collapsed;
+            bCancelar.Visibility = Visibility.Collapsed;
+            //Mostrar c_resultado
+            c_resultado.Visibility = Visibility.Visible;
+            //Actualizar Valores
+            saveAnswer(o);
             p = preguntas.Find(k => k.id == o);
-            RadMessageBox.ShowAsync(p.before_next,MessageBoxButtons.OK,vibrate:false);
+            t_resultado.Text = p.before_next;
+
         }
-        private void showResults(string a)
+
+
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RadMessageBox.ShowAsync(a,MessageBoxButtons.OK,vibrate:true);
+            instrucciones.Visibility = Visibility.Collapsed;
+            test_window.Visibility = Visibility.Visible;
+            bCancelar.Visibility = Visibility.Visible;
+            bSiguiente.Visibility = Visibility.Visible;
+            ActualizarRads(this.i);
         }
-        private void modifyAppbar(ApplicationBarIconButton a)
+
+
+        private void bPrevio_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            ApplicationBar.Buttons.RemoveAt(0);
-            ApplicationBar.Buttons.Insert(0, a);
+            if (this.i == 1) //regresa al principio.
+            {
+                saveAnswer(this.i);
+                this.i--;
+                bPrevio.Visibility = Visibility.Collapsed;
+                bCancelar.Visibility = Visibility.Visible;
+                ActualizarRads(this.i);
+            }
+            else
+            { saveAnswer(this.i); this.i--; ActualizarRads(this.i); }
         }
-        private void obj_Animation_Ended(object sender, AnimationEndedEventArgs e)
-        {        
+
+        private void bSiguiente_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            GoToIntermedio(sender, e);
         }
+
+        private void bCancelar_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            cancel_test(sender, e);
+        }
+
+        private void Image_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/Views/MarcoN_main.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void bTerminar_Tap(object sender, RoutedEventArgs e)
+        {
+            GoToNextEstigma(sender, e);
+        }
+
+        private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            while (NavigationService.CanGoBack)
+            {
+                NavigationService.RemoveBackEntry();
+            }
+        }
+
 
     }
 }
