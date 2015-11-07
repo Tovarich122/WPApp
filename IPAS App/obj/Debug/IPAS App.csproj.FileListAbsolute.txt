@@ -253,9 +253,6 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Contr
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Metodos_Recomendados.g.cs
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\Estigma.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\MarcoNormativo.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\TecnologiasRecomendadas.g.cs
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Images\medicine.png
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Microsoft.Expression.Interactions.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\System.Windows.Interactivity.dll
@@ -354,8 +351,19 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.W
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoNormativo.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\TecnologiasRecomendadas.g.cs
+<<<<<<< HEAD
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Disco_Criterios.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs
+=======
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\Estigma_1.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\Estigma_2.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\Estigma_3.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\Estigma_main.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\MarcoN_1.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\MarcoN_2.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\MarcoN_3.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Views\MarcoN_main.g.cs
+>>>>>>> refs/heads/pr/7

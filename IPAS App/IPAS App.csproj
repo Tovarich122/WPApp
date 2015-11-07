@@ -146,9 +146,14 @@
     <Compile Include="Tec_Recomendadas\Servicios_Aborto_Seguro.xaml.cs">
       <DependentUpon>Servicios_Aborto_Seguro.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Estigma.xaml.cs" />
-    <Compile Include="Views\MarcoNormativo.xaml.cs" />
-    <Compile Include="Views\TecnologiasRecomendadas.xaml.cs" />
+    <Compile Include="Views\Estigma_1.xaml.cs" />
+    <Compile Include="Views\Estigma_2.xaml.cs" />
+    <Compile Include="Views\Estigma_3.xaml.cs" />
+    <Compile Include="Views\Estigma_main.xaml.cs" />
+    <Compile Include="Views\MarcoN_1.xaml.cs" />
+    <Compile Include="Views\MarcoN_2.xaml.cs" />
+    <Compile Include="Views\MarcoN_3.xaml.cs" />
+    <Compile Include="Views\MarcoN_main.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -214,13 +219,28 @@
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\Estigma.xaml">
+    <Page Include="Views\Estigma_1.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\MarcoNormativo.xaml">
+    <Page Include="Views\Estigma_2.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Views\TecnologiasRecomendadas.xaml">
+    <Page Include="Views\Estigma_3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\Estigma_main.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MarcoN_1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MarcoN_2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MarcoN_3.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\MarcoN_main.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
@@ -236,6 +256,7 @@
     <Content Include="Assets\ApplicationIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\CountryFile.html" />
     <Content Include="Assets\iconos\appbar.add.png" />
     <Content Include="Assets\iconos\appbar.arrow.left.png" />
     <Content Include="Assets\iconos\appbar.arrow.right.png" />
@@ -258,6 +279,7 @@
     <Content Include="Assets\iconos\appbar.skydrive.png" />
     <Content Include="Assets\iconos\appbar.skydrive.upload.png" />
     <Content Include="Assets\Images\ic_anti.png" />
+    <Content Include="Assets\Images\ic_arrow_left.png" />
     <Content Include="Assets\Images\ic_legislative.png" />
     <Content Include="Assets\Images\ic_new.png" />
     <Content Include="Assets\Images\ic_trafficlight.png" />
@@ -271,6 +293,7 @@
     <Content Include="Assets\Images\im_question_result_bad.png" />
     <Content Include="Assets\Images\im_question_result_good.png" />
     <Content Include="Assets\Images\im_question_result_moreorless.png" />
+    <Content Include="Assets\Images\im_test_introduction.png" />
     <Content Include="Assets\Images\test.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
