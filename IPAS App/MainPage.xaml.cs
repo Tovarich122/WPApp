@@ -35,12 +35,12 @@ namespace IPAS
 
         private void RadSlideHubTile_Tap(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Views/MarcoNormativo.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Views/MarcoN_main.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void RadSlideHubTile_Tap_1(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Views/Estigma.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Views/Estigma_main.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void RadSlideHubTile_Tap_3(object sender, System.Windows.Input.GestureEventArgs e)
