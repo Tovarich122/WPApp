@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
     x:Class="IPAS_App.Mapa.Mapa"
     FontFamily="{StaticResource PhoneFontFamilyNormal}"
     FontSize="{StaticResource PhoneFontSizeNormal}"
@@ -33,8 +34,8 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-
-            <maps:Map HorizontalAlignment="Left" VerticalAlignment="Top" Height="355" Width="446"/>
+            
+            <toolkit:Pushpin x:Name="myPushpin" Content="Pushpin" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource MyPushpin}" Margin="34,27,0,0"/>
 
         </Grid>
     </Grid>

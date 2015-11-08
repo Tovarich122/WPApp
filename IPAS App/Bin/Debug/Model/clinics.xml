@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<clinics>
+    <clinic>
+        <number>1</number>
+        <name>C.S.T III Beatriz Velasco de Alemán</name>
+        <address>Av. Ing. Eduardo Molina, Col. Michoacana, 15300.</address>
+        <contact>T. 5789-0432</contact>
+        <references>Metro más cercano: San Lázaro</references>
+        <lat>19.445264</lat>
+        <lng>-99.112212</lng>
+    </clinic>
+    <clinic>
+        <number>2</number>
+        <name>Clínica Comunitaria Santa Catarina</name>
+        <address>Calle Nuevo León Mz.38 Lt.9, Col. Miguel de la Madrid, 09698</address>
+        <contact>T. 1551-4904 / 4905 / 4898</contact>
+        <references>Metro más cercano: Constitución o Santa María</references>
+        <lat>19.342303</lat>
+        <lng>-99.002554</lng>
+    </clinic>
+    <clinic>
+        <number>3</number>
+        <name>Hospital Pediátrico Inguarán</name>
+        <address>Av. Estaño 307, Col. Felipe Ángeles, 15310</address>
+        <contact>T. 5795 6764 / 4281</contact>
+        <references>Metro más cercano: Consulado o Canal del Norte</references>
+        <lat>19.451999</lat>
+        <lng>-99.112994</lng>
+    </clinic>
+    <clinic>
+        <number>4</number>
+        <name>Hospital General Ticomán</name>
+        <address>Plan de San Luis s/n entre Miguel Bernard y Bandera, Col. Ticomán, 07330</address>
+        <contact>T. 5754-3939 / 3979 / 3344</contact>
+        <references>Metro más cercano: Indios Verdes o Basílica (Tomar transporte público al hospital)</references>
+        <lat>19.5140794</lat>
+        <lng>-99.1395164</lng>
+    </clinic>
+    <clinic>
+        <number>5</number>
+        <name>Hospital Materno Infantil Dr. Nicolás M. Cedillo</name>
+        <address>Gustavo J. s/n Esq. Víctor Hernández Covarrubias, Col. Unidad Francisco Villa 02400</address>
+        <contact>T. 5394-0565 / 0536 / 5382</contact>
+        <references>Metro más cercano: Rosario</references>
+        <lat>19.4980131</lat>
+        <lng>-99.2033859</lng>
+    </clinic>
+    <clinic>
+        <number>6</number>
+        <name>Hospital General Enrique Cabrera</name>
+        <address>Av. Centenario, esquina prolongación 5 de mayo, Col. Exhacienda de Tarango</address>
+        <contact>T. 1285-2954 ext. 5038</contact>
+        <references>Metro más cercano: Barranca del Muerto (Tomar transporte público a Puerta Grande)</references>
+        <lat>19.361524</lat>
+        <lng>-99.224294</lng>
+    </clinic>
+    <clinic>
+        <number>7</number>
+        <name>Centro de Salud México España Clínica de Salud Reproductiva</name>
+        <address>Mariano Escobedo 148, Col. Anáhuac</address>
+        <contact>T. 5531-6285 / 5203-6483</contact>
+        <references>Metro más cercano: Cuitláhuac (Tomar transporte público a Chapultepec)</references>
+        <lat>19.445933</lat>
+        <lng>-99.182511</lng>
+    </clinic>
+    <clinic>
+        <number>8</number>
+        <name>Hospital Materno Infantil Cuajimapla</name>
+        <address>Av. 16 de septiembre s/n, Col. El Contadero, 05500</address>
+        <contact>T. 5812-3269 / 0570 / 3134</contact>
+        <references>Metro más cercano: Observatorio o Tacubaya (Tomar transporte público a Cuajimalpa)</references>
+        <lat>19.347692</lat>
+        <lng>-99.30086</lng>
+    </clinic>
+    <clinic>
+        <number>9</number>
+        <name>Hospital General Milpa Alta</name>
+        <address>Blvd. Prolongación Nuevo León 386, Col. Villa Milpa Alta, 12000</address>
+        <contact>T. 5844-1550 / 0649 2211-5837 / 5839</contact>
+        <references>Metro más cercano: Tláhuac</references>
+        <lat>19.200165</lat>
+        <lng>-99.011215</lng>
+    </clinic>
+    <clinic>
+        <number>10</number>
+        <name>Hospital General Ajusco Medio. Dra. Obdula Rodríguez</name>
+        <address>Encinos 42, Col. Ampliación Miguel Hidalgo 4 sección</address>
+        <contact>T. 5446-7966 / 7895</contact>
+        <references>Metro más cercano: CU</references>
+        <lat>19.272077</lat>
+        <lng>-99.207845</lng>
+    </clinic>
+    <clinic>
+        <number>11</number>
+        <name>Hospital Materno Pediátrico Xochimilco</name>
+        <address>Calzada Nativitas, esq. Prolongación 16 de septiembre s/n, Col. Xaltocan, 16090</address>
+        <contact>-</contact>
+        <references>Metro más cercano: Taxqueña (Tomar tren ligero hasta Xochimilco)</references>
+        <lat>19.254717</lat>
+        <lng>-99.1046555</lng>
+    </clinic>
+    <clinic>
+        <number>12</number>
+        <name>Centro de Salud. Dr. Juan Duque de Estrada</name>
+        <address>Oriente 170, Núm. 154, Col. Moctezuma 2da Sección, 15500</address>
+        <contact>T. 5571-0524</contact>
+        <references>Metro más cercano: Blvd. Puerto Aéreo</references>
+        <lat>19.42849</lat>
+        <lng>-99.097175</lng>
+    </clinic>
+</clinics>
+</root>

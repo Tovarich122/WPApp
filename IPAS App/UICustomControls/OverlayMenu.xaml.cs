@@ -7,15 +7,16 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Telerik.Windows.Controls;
+using System.Windows.Media;
 
 namespace IPAS_App
 {
-    public partial class Page1 : PhoneApplicationPage
+    public partial class OverlayMenu : UserControl
     {
-        public Page1()
+        public OverlayMenu()
         {
             InitializeComponent();
-
         }
     }
 }

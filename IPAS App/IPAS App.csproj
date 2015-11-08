@@ -121,8 +121,8 @@
     <Compile Include="Marco_Normativo\MarcoNormativo_Quiz.xaml.cs">
       <DependentUpon>MarcoNormativo_Quiz.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
+    <Compile Include="UICustomControls\OverlayMenu.xaml.cs">
+      <DependentUpon>OverlayMenu.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Model\Quiz.cs" />
@@ -195,7 +195,7 @@
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Page1.xaml">
+    <Page Include="UICustomControls\OverlayMenu.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -310,12 +310,16 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\ic_clinics.png" />
     <Content Include="Images\ic_new_technologies.png" />
     <Content Include="Images\im_btn_menu_index1.png" />
     <Content Include="Images\medicine.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="README_FIRST.txt" />
+    <Resource Include="Images\sublingual.png" />
+    <Content Include="Model\clinics.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Tec_Recomendadas\CountryFile.html">
       <SubType>Designer</SubType>
     </Content>
