@@ -109,6 +109,7 @@
     <Compile Include="Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.xaml.cs">
       <DependentUpon>Quiz_Metodos_Anticonceptivos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Estado.cs" />
     <Compile Include="Model\Pregunta.cs" />
     <Compile Include="Estigma\Estigmometro.xaml.cs">
       <DependentUpon>Estigmometro.xaml</DependentUpon>
