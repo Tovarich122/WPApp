@@ -31,10 +31,7 @@ namespace IPAS_App.Views
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
-            while (NavigationService.CanGoBack)
-            {
-                NavigationService.RemoveBackEntry();
-            }
+
         }
 
     }
