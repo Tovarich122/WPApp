@@ -7,21 +7,14 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
-using Telerik.Windows.Controls;
-using System.Windows.Media;
 
-namespace IPAS_App
+namespace IPAS_App.UICustomControls
 {
-    public partial class OverlayMenu : UserControl
+    public partial class MapFlyOut : UserControl
     {
-        public OverlayMenu()
+        public MapFlyOut()
         {
             InitializeComponent();
-        }
-
-        private void btnCancel_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

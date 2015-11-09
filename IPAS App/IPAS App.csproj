@@ -121,6 +121,9 @@
     <Compile Include="Marco_Normativo\MarcoNormativo_Quiz.xaml.cs">
       <DependentUpon>MarcoNormativo_Quiz.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UICustomControls\MapFlyOut.xaml.cs">
+      <DependentUpon>MapFlyOut.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UICustomControls\OverlayMenu.xaml.cs">
       <DependentUpon>OverlayMenu.xaml</DependentUpon>
     </Compile>
@@ -194,6 +197,10 @@
     <Page Include="Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UICustomControls\MapFlyOut.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="UICustomControls\OverlayMenu.xaml">
       <SubType>Designer</SubType>
@@ -310,8 +317,23 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Images\ic_18marzo.png" />
+    <Content Include="Images\ic_balderas.png" />
+    <Content Include="Images\ic_barrancadelmuerto.png" />
+    <Content Include="Images\ic_blvdptaereo.png" />
+    <Content Include="Images\ic_canaldelnorte.png" />
     <Content Include="Images\ic_clinics.png" />
+    <Content Include="Images\ic_cuitlahuac.png" />
+    <Content Include="Images\ic_indiosverdes.png" />
     <Content Include="Images\ic_new_technologies.png" />
+    <Content Include="Images\ic_observatorio.png" />
+    <Content Include="Images\ic_rioconsulado.png" />
+    <Content Include="Images\ic_rosario.png" />
+    <Content Include="Images\ic_sanlazaro.png" />
+    <Content Include="Images\ic_tacubaya.png" />
+    <Content Include="Images\ic_tasquena.png" />
+    <Content Include="Images\ic_tlahuac.png" />
+    <Content Include="Images\ic_universidad.png" />
     <Content Include="Images\im_btn_menu_index1.png" />
     <Content Include="Images\medicine.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -320,6 +342,7 @@
     <Content Include="Model\clinics.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Model\stations.xml" />
     <Content Include="Tec_Recomendadas\CountryFile.html">
       <SubType>Designer</SubType>
     </Content>

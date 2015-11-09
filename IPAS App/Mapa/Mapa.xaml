@@ -12,32 +12,22 @@
     FontSize="{StaticResource PhoneFontSizeNormal}"
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
-    mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True">
+    mc:Ignorable="d">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="White">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <!--TitlePanel contains the name of the application and page title-->
-        <StackPanel Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock Style="{StaticResource PhoneTextNormalStyle}">
-            	<Run Text="Mapa por entidad federativa"/>
-            	<LineBreak/>
-            	<Run/>
-            </TextBlock>
-            <TextBlock Text="México" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+		<Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Clínicas ILE" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+            <Image Margin="29,6,387,10" Source="/Images/ic_clinics.png" Stretch="Fill"/>
+        </Grid>
 
         <!--ContentPanel - place additional content here-->
-        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            
-            <toolkit:Pushpin x:Name="myPushpin" Content="Pushpin" HorizontalAlignment="Left" VerticalAlignment="Top" Style="{StaticResource MyPushpin}" Margin="34,27,0,0"/>
-
-        </Grid>
+        <Grid x:Name="ContentPanel" Grid.Row="1"/>
     </Grid>
 
 </phone:PhoneApplicationPage>

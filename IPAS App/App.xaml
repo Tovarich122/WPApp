@@ -4,6 +4,7 @@
     xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
     xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone" xmlns:Primitives="clr-namespace:Microsoft.Phone.Controls.Primitives;assembly=Microsoft.Phone"
     xmlns:Toolkit="clr-namespace:Microsoft.Phone.Maps.Toolkit;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d"
     x:Class="IPAS_App.App"
     >
 
@@ -141,26 +142,32 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
-    	<Style x:Key="MyPushpin" TargetType="Toolkit:Pushpin">
-    		<Setter Property="Template">
-    			<Setter.Value>
-    				<ControlTemplate TargetType="Toolkit:Pushpin">
-    					<Grid x:Name="ContentGrid" FlowDirection="LeftToRight" Margin="0,0,15,0">
-    						<StackPanel Orientation="Vertical">
-    							<Grid HorizontalAlignment="Left" MinWidth="29" MinHeight="31" Background="Black" Width="57" Height="26">
-    								<Image HorizontalAlignment="Left" VerticalAlignment="Top" Margin="24,5,0,0" Source="Images/ic_logo_mujer_orange.png" Height="21" Width="10"/>
-    							</Grid>
-    							<Polygon HorizontalAlignment="Left" Height="29" Points="0,0 29,0 0,29" Width="29" Fill="Black"/>
-    						</StackPanel>
-    					</Grid>
-    				</ControlTemplate>
-    			</Setter.Value>
-    		</Setter>
-    		<Setter Property="PositionOrigin" Value="0,1"/>
-    		<Setter Property="Background" Value="Black"/>
-    		<Setter Property="Foreground" Value="White"/>
-    		<Setter Property="FontSize" Value="18"/>
-    	</Style>
+		
+		<Style x:Key="OrangePushpin" TargetType="Toolkit:Pushpin">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Toolkit:Pushpin">
+						<Grid x:Name="ContentGrid" FlowDirection="LeftToRight">
+							<StackPanel Orientation="Vertical">
+								<Grid x:Name="grid" HorizontalAlignment="Left" MinWidth="29" MinHeight="31" Background="#FFF47420">
+									<ContentPresenter x:Name="Presenter" Content="{Binding Content, RelativeSource={RelativeSource TemplatedParent}}" FlowDirection="{Binding FlowDirection, RelativeSource={RelativeSource TemplatedParent}}" Margin="4"/>
+									<StackPanel x:Name="Detail" Grid.Row="1" Grid.Column="0" Orientation="Horizontal" Visibility="Collapsed">
+										<TextBlock Text="1" Margin="5,0,5,5" />
+										<TextBlock Text="2" Margin="5,0,5,5" />
+										<TextBlock Text="3" Margin="5,0,5,5" />
+									</StackPanel>
+								</Grid>
+								<Polygon x:Name="polygon" HorizontalAlignment="Left" Height="29" Points="0,0 29,0 0,29" Width="29" Fill="#FFF47420" Stroke="#FFF47420"/>
+							</StackPanel>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+			<Setter Property="PositionOrigin" Value="0,1"/>
+			<Setter Property="Background" Value="Black"/>
+			<Setter Property="Foreground" Value="White"/>
+			<Setter Property="FontSize" Value="18"/>
+		</Style>
     </Application.Resources>
 
     <Application.ApplicationLifetimeObjects>

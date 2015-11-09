@@ -30,10 +30,10 @@ namespace IPAS_App
             popup.Child = control;
             popup.IsOpen = true;
 
-            control.btnOK.Click += (s, args) =>
-            {
-                popup.IsOpen = false;
-            };
+            //control.btnOK.Click += (s, args) =>
+            //{
+            //    popup.IsOpen = false;
+            //};
 
             control.btnCancel.Click += (s, args) =>
             {
