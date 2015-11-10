@@ -79,11 +79,20 @@ namespace IPAS_App.Mapa
 
     public partial class Mapa : PhoneApplicationPage
     {
-        Map MyMap = new Map();
+        Map MyMap;
+
+        private void onMapLoaded(object sender, RoutedEventArgs e)
+        {
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.ApplicationId = "0b0c3b9a-6c18-4d60-9ad4-91289b5a1197";
+            Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "1pOOPeH3OK4vDUybldNrBw";
+        }
+
         public Mapa()
         {
             InitializeComponent();
+            MyMap = new Map();
             MapLayer mapLayer = new MapLayer();
+            MyMap.Loaded += onMapLoaded;
 
             ClinicsRoot clinicsXML = null;
             string path = "Model/clinics.xml";

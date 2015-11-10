@@ -305,3 +305,7 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.pdb
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\XapCacheFile.xml
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Model\states.xml
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Model\states_1.xml
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\es-MX\IPAS App.resources.dll
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.es-MX.resources
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\es-MX\IPAS App.resources.dll

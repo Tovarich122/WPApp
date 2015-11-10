@@ -15,8 +15,7 @@
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>
-    </SupportedCultures>
+    <SupportedCultures>es-MX</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>IPAS_App_$(Configuration)_$(Platform).xap</XapFilename>
@@ -265,6 +264,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\CountryFile.html" />
+    <Content Include="Assets\FlipCycleTileMedium.png" />
+    <Content Include="Assets\FlipCycleTileSmall.png" />
     <Content Include="Assets\iconos\appbar.add.png" />
     <Content Include="Assets\iconos\appbar.arrow.left.png" />
     <Content Include="Assets\iconos\appbar.arrow.right.png" />
@@ -320,6 +321,8 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="FlipCycleTileMedium.png" />
+    <Content Include="FlipCycleTileSmall.png" />
     <Content Include="Images\ic_18marzo.png" />
     <Content Include="Images\ic_balderas.png" />
     <Content Include="Images\ic_barrancadelmuerto.png" />
@@ -362,6 +365,7 @@
     <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.es-MX.resx" />
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
