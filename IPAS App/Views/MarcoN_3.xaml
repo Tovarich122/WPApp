@@ -11,7 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+   shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="White">
@@ -24,7 +24,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="Header_Footer" HorizontalAlignment="Left" Height="768" Grid.RowSpan="2" VerticalAlignment="Top" Width="480">
-            <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,-9,0" Width="489">
+            <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="84" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,-9,-37" Width="489">
                 <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
                     <HyperlinkButton.Background>
                         <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
@@ -48,18 +48,18 @@
                     <Button Content="Comenzar" HorizontalAlignment="Left" Height="72" Margin="58,454,0,0" VerticalAlignment="Top" Width="330" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Tap="Image_Tap" Click="Button_Click"/>
                 </Grid>
                 <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="466">
-                    <Canvas HorizontalAlignment="Left" Height="77" Margin="143,519,0,-19" VerticalAlignment="Top" Width="173" Background="#FFF47420"/>
-                    <TextBlock HorizontalAlignment="Left" Height="72" Margin="151,539,0,-34" TextWrapping="Wrap" Text="Pregunta 2 de 5" x:Name="pregunta_textblock" VerticalAlignment="Top" Width="165" Foreground="White" FontSize="22" RenderTransformOrigin="0.529,0.485"/>
-                    <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="150" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="385" FontSize="22" Margin="10,10,0,0" Foreground="Black"/>
-                    <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,184,0,0" Width="456" Height="74" FontSize="14" BorderBrush="#FF838383" Foreground="Black" Background="#FFFDD8AF"/>
-                    <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="75" Margin="0,258,0,0" VerticalAlignment="Top" Width="456" FontSize="14" FontStretch="Condensed" Foreground="Black" BorderBrush="#FF838383" Background="#FFFDD8AF"/>
-                    <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,333,0,0" VerticalAlignment="Top" Width="456" FontSize="14" Foreground="Black" BorderBrush="#FF959595" Background="#FFFDD8AF"/>
-                    <RadioButton x:Name="r4" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,407,0,0" VerticalAlignment="Top" Width="456" FontSize="14" Foreground="Black" BorderBrush="#FF959595" Background="#FFFDD8AF"/>
-                    <Grid x:Name="bPrevio" HorizontalAlignment="Left" Height="84" Margin="25,509,0,-16" VerticalAlignment="Top" Width="58" Tap="bPrevio_Tap">
+                    <Canvas HorizontalAlignment="Left" Height="77" Margin="122,553,0,-53" VerticalAlignment="Top" Width="217" Background="#FFF47420"/>
+                    <TextBlock HorizontalAlignment="Left" Height="38" Margin="122,573,0,-34" TextWrapping="Wrap" Text="Pregunta 2 de 5" x:Name="pregunta_textblock" VerticalAlignment="Center" Width="204" Foreground="White" FontSize="22" RenderTransformOrigin="0.529,0.485" TextAlignment="Center"/>
+                    <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="174" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="446" FontSize="24" Margin="10,10,0,0" Foreground="Black"/>
+                    <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,193,0,0" Width="456" Height="74" FontSize="14" BorderBrush="#FF838383" Foreground="Black" Background="#FFFDD8AF"/>
+                    <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="75" Margin="0,267,0,0" VerticalAlignment="Top" Width="456" FontSize="14" FontStretch="Condensed" Foreground="Black" BorderBrush="#FF838383" Background="#FFFDD8AF"/>
+                    <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,342,0,0" VerticalAlignment="Top" Width="456" FontSize="14" Foreground="Black" BorderBrush="#FF959595" Background="#FFFDD8AF"/>
+                    <RadioButton x:Name="r4" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,416,0,0" VerticalAlignment="Top" Width="456" FontSize="14" Foreground="Black" BorderBrush="#FF959595" Background="#FFFDD8AF"/>
+                    <Grid x:Name="bPrevio" HorizontalAlignment="Left" Height="84" Margin="26,543,0,-50" VerticalAlignment="Top" Width="58" Tap="bPrevio_Tap">
                         <Canvas HorizontalAlignment="Left" Height="77" VerticalAlignment="Top" Width="58" Background="#FFF47420" Margin="0,10,0,-3"/>
                         <Image HorizontalAlignment="Left" Height="60" Margin="10,17,0,0" VerticalAlignment="Top" Width="45" Source="/Assets/Images/ic_arrow_left.png"/>
                     </Grid>
-                    <Grid x:Name="bSiguiente" HorizontalAlignment="Left" Height="84" Margin="375,509,0,-16" VerticalAlignment="Top" Width="58" Tap="bSiguiente_Tap">
+                    <Grid x:Name="bSiguiente" HorizontalAlignment="Left" Height="84" Margin="376,543,0,-50" VerticalAlignment="Top" Width="58" Tap="bSiguiente_Tap">
                         <Canvas HorizontalAlignment="Right" Height="77" VerticalAlignment="Top" Width="55" Background="#FFF47420" Margin="0,10,3,-3"/>
                         <Image HorizontalAlignment="Left" Height="60" Margin="10,17,0,0" VerticalAlignment="Top" Width="45" Source="/Assets/Images/ic_arrow_left.png">
                             <Image.Projection>
@@ -67,7 +67,7 @@
                             </Image.Projection>
                         </Image>
                     </Grid>
-                    <Grid x:Name="bCancelar" HorizontalAlignment="Left" Height="84" Margin="25,509,0,-16" VerticalAlignment="Top" Width="58" Tap="bCancelar_Tap">
+                    <Grid x:Name="bCancelar" HorizontalAlignment="Left" Height="84" Margin="26,543,0,-50" VerticalAlignment="Top" Width="58" Tap="bCancelar_Tap">
                         <Canvas HorizontalAlignment="Left" Width="58" Height="77" Background="#FFF47420" Margin="0,10,0,-3"/>
                         <Image HorizontalAlignment="Left" Height="86" Margin="-19,0,-18,-2" VerticalAlignment="Top" Width="95" Source="/Assets/iconos/appbar.close.png" Stretch="UniformToFill"/>
                     </Grid>
