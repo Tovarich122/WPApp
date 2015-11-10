@@ -23,6 +23,8 @@ namespace IPAS_App.Views
         public Estigma_3()
         {
             InitializeComponent();
+            
+
             c_resultado.Visibility = Visibility.Collapsed;
             n_resultado_1.Visibility = Visibility.Collapsed;
             n_resultado_2.Visibility = Visibility.Collapsed;
@@ -331,10 +333,6 @@ namespace IPAS_App.Views
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
-            while (NavigationService.CanGoBack)
-            {
-                NavigationService.RemoveBackEntry();
-            }
         }
 
 

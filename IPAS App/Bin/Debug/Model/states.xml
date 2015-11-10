@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<states>
+    <state>
+        <name>Aguascalientes</name>
+        <abstracto>Aguascalientes</abstracto>
+        <content>
+                    - Por violación          
+                    - Por peligro de muerte          
+        </content>
+		<n_boton>e_aguascalientes</n_boton>
+    </state>
+    <state>
+        <name>Baja California</name>
+        <abstracto>Baja California</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_bcn</n_boton>
+    </state>
+    <state>
+        <name>Baja California Sur</name>
+        <abstracto>Baja California Sur</abstracto>
+        <content>
+                    -Por violación:           
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Grave daño a la salud           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_bcs</n_boton>
+    </state>
+    <state>
+        <name>Campeche</name>
+        <abstracto>Campeche</abstracto>
+        <content>         
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Imprudencial o culpodso           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_campeche</n_boton>
+    </state>
+    <state>
+        <name>Chiapas</name>
+        <abstracto>Chiapas</abstracto>
+        <content>         
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto          
+        </content>
+		<n_boton>e_chiapas</n_boton>
+    </state>
+    <state>
+        <name>Chihuahua</name>
+        <abstracto>Chihuahua</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                    - Imprudencial o culposo           
+                    - Grave daño a la salud           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_chihuahua</n_boton>
+    </state>
+    <state>
+        <name>Coahuila</name>
+        <abstracto>Coahuila</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+        </content>
+		<n_boton>e_coahuila</n_boton>
+    </state>
+    <state>
+        <name>Colima</name>
+        <abstracto>Colima</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Grave daño a la salud           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_colima</n_boton>
+    </state>
+    <state>
+        <name>Distrito Federal</name>
+        <abstracto>Distrito Federal</abstracto>
+        <content>
+                    - Por violación:           
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Grave daño a la salud           
+                    - Inseminación artificial no consentida.          
+                    - Por voluntad de la mujer hasta las doce primeras semanas de gestación.          
+        </content>
+		<n_boton>e_df</n_boton>
+    </state>
+    <state>
+        <name>Durango</name>
+        <abstracto>Durango</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+        </content>
+		<n_boton>e_durango</n_boton>
+    </state>
+    <state>
+        <name>Guanajuato</name>
+        <abstracto>Guanajuato</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+        </content>
+		<n_boton>e_guanajuato</n_boton>
+    </state>
+    <state>
+        <name>Guerrero</name>
+        <abstracto>Guerrero</abstracto>
+        <content>
+                    - Por violación:           
+                    * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                    - Imprudencial o culposo           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_guerrero</n_boton>
+    </state>
+    <state>
+        <name>Hidalgo</name>
+        <abstracto>Hidalgo</abstracto>
+        <content>
+                    - Por violación           
+                       * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Imprudencial o culposo           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Grave daño a la salud           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_hidalgo</n_boton>
+    </state>
+    <state>
+        <name>Jalisco</name>
+        <abstracto>Jalisco</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_jalisco</n_boton>
+    </state>
+    <state>
+        <name>Estado de México</name>
+        <abstracto>MX-MEX</abstracto>
+        <content>
+                    - Por violación:           
+						* * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+        </content>
+		<n_boton>e_mexico</n_boton>
+    </state>
+    <state>
+        <name>Michoacán</name>
+        <abstracto>MX-MIC</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_michoacan</n_boton>
+    </state>
+    <state>
+        <name>Morelos</name>
+        <abstracto>Morelos</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto          
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_morelos</n_boton>
+    </state>
+    <state>
+        <name>Nayarit</name>
+        <abstracto>Nayarit</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_nayarit</n_boton>
+    </state>
+    <state>
+        <name>Nuevo León</name>
+        <abstracto>MX-NLE</abstracto>
+        <content>
+                    - Por violación           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_nuevoLeon</n_boton>
+    </state>
+    <state>
+        <name>Oaxaca</name>
+        <abstracto>Oaxaca</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+        </content>
+		<n_boton>e_Oaxaca</n_boton>
+    </state>
+    <state>
+        <name>Puebla</name>
+        <abstracto>Puebla</abstracto>
+        <content>
+                    - Por violación:           
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+        </content>
+		<n_boton>e_puebla</n_boton>
+    </state>
+    <state>
+        <name>Querétaro</name>
+        <abstracto>MX-QUE</abstracto>
+        <content>          
+                    - Por violación           
+                    - Imprudencial o culposo           
+
+        </content>
+		<n_boton>e_queretaro</n_boton>
+    </state>
+    <state>
+        <name>Quintana Roo</name>
+        <abstracto>Quintana Roo</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+        </content>
+		<n_boton>e_quintanaRoo</n_boton>
+    </state>
+    <state>
+        <name>San Luis Potosí</name>
+        <abstracto>MX-SLP</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_sanLuis</n_boton>
+    </state>
+    <state>
+        <name>Sinaloa</name>
+        <abstracto>Sinaloa</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+        </content>
+		<n_boton>e_sinaloa</n_boton>
+    </state>
+    <state>
+        <name>Sonora</name>
+        <abstracto>Sonora</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+        </content>
+		<n_boton>e_sonora</n_boton>
+    </state>
+    <state>
+        <name>Tabasco</name>
+        <abstracto>Tabasco</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_tabasco</n_boton>
+    </state>
+    <state>
+        <name>Tamaulipas</name>
+        <abstracto>Tamaulipas</abstracto>
+        <content>
+
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_tamaulipas</n_boton>
+    </state>
+    <state>
+        <name>Tlaxcala</name>
+        <abstracto>Tlaxcala</abstracto>
+        <content>
+
+                    - Por violación:           
+                         * * Existe normatividad relacionada con la prestación de servicios para la interrupción legal del embarazo (incluye, entre otros, Acuerdos, Lineamientos y Disposiciones en Ley de Salud)          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_tlaxcala</n_boton>
+    </state>
+    <state>
+        <name>Veracruz</name>
+        <abstracto>Veracruz</abstracto>
+        <content>
+                    - Por violación:           
+                         * * En esta entidad, la ley contempla plazos para la interrupción del embarazo entre 75 días y tres meses a partir de la violación o del embarazo.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Inseminación artificial no consentida.          
+        </content>
+		<n_boton>e_veracruz</n_boton>
+    </state>
+    <state>
+        <name>Yucatán</name>
+        <abstracto>MX-YUC</abstracto>
+        <content>
+                    - Por violación           
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Por alteraciones genéticas o congénitas graves del producto           
+                    - Causas económicas graves y justificadas siempre que la mujer embarazada tenga ya cuando menos tres hijos.          
+        </content>
+		<n_boton>e_yucatan</n_boton>
+    </state>
+    <state>
+        <name>Zacatecas</name>
+        <abstracto>Zacatecas</abstracto>
+        <content>
+                    - Por violación:           
+                         * * Existe procedimiento para el aborto en casos de violación, en el Código de Procedimientos Penales.          
+                    - Imprudencial o culposo           
+                    - Por peligro de muerte           
+                    - Grave daño a la salud           
+        </content>
+		<n_boton>e_zacatecas</n_boton>
+    </state>
+</states>

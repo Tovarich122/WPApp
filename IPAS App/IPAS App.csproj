@@ -15,8 +15,7 @@
     <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
     <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
     <SilverlightApplication>true</SilverlightApplication>
-    <SupportedCultures>
-    </SupportedCultures>
+    <SupportedCultures>es-MX</SupportedCultures>
     <XapOutputs>true</XapOutputs>
     <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
     <XapFilename>IPAS_App_$(Configuration)_$(Platform).xap</XapFilename>
@@ -109,6 +108,7 @@
     <Compile Include="Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.xaml.cs">
       <DependentUpon>Quiz_Metodos_Anticonceptivos.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Model\Estado.cs" />
     <Compile Include="Model\Pregunta.cs" />
     <Compile Include="Estigma\Estigmometro.xaml.cs">
       <DependentUpon>Estigmometro.xaml</DependentUpon>
@@ -264,6 +264,8 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\CountryFile.html" />
+    <Content Include="Assets\FlipCycleTileMedium.png" />
+    <Content Include="Assets\FlipCycleTileSmall.png" />
     <Content Include="Assets\iconos\appbar.add.png" />
     <Content Include="Assets\iconos\appbar.arrow.left.png" />
     <Content Include="Assets\iconos\appbar.arrow.right.png" />
@@ -290,6 +292,7 @@
     <Content Include="Assets\Images\ic_legislative.png" />
     <Content Include="Assets\Images\ic_new.png" />
     <Content Include="Assets\Images\ic_trafficlight.png" />
+    <Content Include="Assets\Images\img_diagram_estigma.png" />
     <Content Include="Assets\Images\img_light_green.png" />
     <Content Include="Assets\Images\img_light_green_answer.png" />
     <Content Include="Assets\Images\img_light_red.png" />
@@ -300,6 +303,7 @@
     <Content Include="Assets\Images\im_question_result_bad.png" />
     <Content Include="Assets\Images\im_question_result_good.png" />
     <Content Include="Assets\Images\im_question_result_moreorless.png" />
+    <Content Include="Assets\Images\im_splash_center.png" />
     <Content Include="Assets\Images\im_test_introduction.png" />
     <Content Include="Assets\Images\test.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
@@ -317,6 +321,8 @@
     <Content Include="Assets\Tiles\IconicTileSmall.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="FlipCycleTileMedium.png" />
+    <Content Include="FlipCycleTileSmall.png" />
     <Content Include="Images\ic_18marzo.png" />
     <Content Include="Images\ic_balderas.png" />
     <Content Include="Images\ic_barrancadelmuerto.png" />
@@ -342,6 +348,12 @@
     <Content Include="Model\clinics.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Model\states.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Model\states_1.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Model\stations.xml" />
     <Content Include="Tec_Recomendadas\CountryFile.html">
       <SubType>Designer</SubType>
@@ -353,6 +365,7 @@
     <Content Include="Toolkit.Content\ApplicationBar.Select.png" />
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Resources\AppResources.es-MX.resx" />
     <EmbeddedResource Include="Resources\AppResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>AppResources.Designer.cs</LastGenOutput>

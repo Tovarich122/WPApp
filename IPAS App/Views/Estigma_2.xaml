@@ -11,7 +11,7 @@
     Foreground="{StaticResource PhoneForegroundBrush}"
     SupportedOrientations="Portrait" Orientation="Portrait"
     mc:Ignorable="d"
-    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded">
+    shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="White">
@@ -24,7 +24,7 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="Header_Footer" HorizontalAlignment="Left" Height="768" Grid.RowSpan="2" VerticalAlignment="Top" Width="480">
-            <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,-9,0" Width="489">
+            <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,-9,-33" Width="489">
                 <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
                     <HyperlinkButton.Background>
                         <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
@@ -40,11 +40,11 @@
         </Grid>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Height="88" Margin="0,83,0,0" TextWrapping="Wrap" Text="Impacto en la salud de las mujeres" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D"  FontSize="27"/>
-            <Image HorizontalAlignment="Left" Height="27" Margin="0,149,0,0" VerticalAlignment="Top" Width="456" Source="/Assets/Images/img_line_title.png"/>
+            <TextBlock Height="61" Margin="0,99,0,0" TextWrapping="Wrap" Text="Impacto en la salud de las mujeres" VerticalAlignment="Top" Foreground="#FFEC098D"  FontSize="27"/>
+            <Image HorizontalAlignment="Left" Height="27" Margin="0,149,0,0" VerticalAlignment="Top" Width="456" Source="/IPAS App;component/Images/img_line_title.png"/>
             <Grid HorizontalAlignment="Left" Height="521" Margin="0,165,0,0" VerticalAlignment="Top" Width="456">
-                <Image HorizontalAlignment="Left" Height="258" Margin="10,169,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Images/img_women_impact.png"/>
-                <TextBlock HorizontalAlignment="Left" Height="69" Margin="44,43,0,0" TextWrapping="Wrap" Text="El Estigma pone en riesgo la salud de las mujeres llevando a situaciones de.." VerticalAlignment="Top" Width="379" Foreground="Black"/>
+                <Image HorizontalAlignment="Left" Height="274" Margin="0,187,0,0" VerticalAlignment="Top" Width="456" Source="/Assets/Images/img_women_impact.png"/>
+                <TextBlock HorizontalAlignment="Left" Height="105" Margin="10,52,0,0" TextWrapping="Wrap" Text="El Estigma pone en riesgo la salud de las mujeres llevando a situaciones de.." VerticalAlignment="Top" Width="436" Foreground="Black" FontSize="24"/>
             </Grid>
         </Grid>
     </Grid>
