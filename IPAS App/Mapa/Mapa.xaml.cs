@@ -199,7 +199,7 @@ namespace IPAS_App.Mapa
                 //SetCenter
                 TextBlock latTB = hiddenCoordinates.Children[0] as TextBlock;
                 TextBlock lngTB = hiddenCoordinates.Children[1] as TextBlock;
-                MyMap.SetView(new GeoCoordinate(Double.Parse(latTB.Text), Double.Parse(lngTB.Text)),18,MapAnimationKind.Parabolic);
+                MyMap.SetView(new GeoCoordinate(Double.Parse(latTB.Text), Double.Parse(lngTB.Text)),20,MapAnimationKind.Parabolic);
 
                 if (hiddenChildren.Visibility == Visibility.Collapsed)
                 {

@@ -151,3 +151,4 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.pdb
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\XapCacheFile.xml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\UICustomControls\MapFlyOut.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
