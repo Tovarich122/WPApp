@@ -185,7 +185,7 @@ namespace IPAS_App.Views
             r1.Content = p.res1;
             r2.Content = p.res2;
             r3.Content = p.res3;
-
+            r4.Content = p.res4;
             if (p.rad_checked != -1)
             {
                 r[p.rad_checked].IsChecked = true;

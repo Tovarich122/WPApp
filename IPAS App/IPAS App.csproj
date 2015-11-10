@@ -291,6 +291,7 @@
     <Content Include="Assets\Images\ic_legislative.png" />
     <Content Include="Assets\Images\ic_new.png" />
     <Content Include="Assets\Images\ic_trafficlight.png" />
+    <Content Include="Assets\Images\img_diagram_estigma.png" />
     <Content Include="Assets\Images\img_light_green.png" />
     <Content Include="Assets\Images\img_light_green_answer.png" />
     <Content Include="Assets\Images\img_light_red.png" />
@@ -301,6 +302,7 @@
     <Content Include="Assets\Images\im_question_result_bad.png" />
     <Content Include="Assets\Images\im_question_result_good.png" />
     <Content Include="Assets\Images\im_question_result_moreorless.png" />
+    <Content Include="Assets\Images\im_splash_center.png" />
     <Content Include="Assets\Images\im_test_introduction.png" />
     <Content Include="Assets\Images\test.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
@@ -341,6 +343,12 @@
     </Content>
     <Resource Include="Images\sublingual.png" />
     <Content Include="Model\clinics.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Model\states.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Model\states_1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Model\stations.xml" />

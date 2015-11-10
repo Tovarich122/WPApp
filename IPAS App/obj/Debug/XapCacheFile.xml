@@ -1,5 +1,5 @@
-﻿<xapCache source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="09/11/2015 01:46:19 a. m.">
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="09/11/2015 01:46:13 a. m." />
+﻿<xapCache source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="10/11/2015 01:02:44 a. m.">
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="10/11/2015 01:02:39 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\CountryFile.html" archivePath="Assets\CountryFile.html" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\iconos\appbar.add.png" archivePath="Assets\iconos\appbar.add.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
@@ -28,6 +28,7 @@
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\ic_legislative.png" archivePath="Assets\Images\ic_legislative.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\ic_new.png" archivePath="Assets\Images\ic_new.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\ic_trafficlight.png" archivePath="Assets\Images\ic_trafficlight.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\img_diagram_estigma.png" archivePath="Assets\Images\img_diagram_estigma.png" lastWriteTime="09/11/2015 10:19:48 p. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\img_light_green.png" archivePath="Assets\Images\img_light_green.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\img_light_green_answer.png" archivePath="Assets\Images\img_light_green_answer.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\img_light_red.png" archivePath="Assets\Images\img_light_red.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
@@ -38,6 +39,7 @@
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\im_question_result_bad.png" archivePath="Assets\Images\im_question_result_bad.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\im_question_result_good.png" archivePath="Assets\Images\im_question_result_good.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\im_question_result_moreorless.png" archivePath="Assets\Images\im_question_result_moreorless.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\im_splash_center.png" archivePath="Assets\Images\im_splash_center.png" lastWriteTime="10/11/2015 12:57:48 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\im_test_introduction.png" archivePath="Assets\Images\im_test_introduction.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Images\test.png" archivePath="Assets\Images\test.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
@@ -64,6 +66,8 @@
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Images\im_btn_menu_index1.png" archivePath="Images\im_btn_menu_index1.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Images\medicine.png" archivePath="Images\medicine.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Model\clinics.xml" archivePath="Model\clinics.xml" lastWriteTime="09/11/2015 01:38:52 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="10/11/2015 12:54:45 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Model\states_1.xml" archivePath="Model\states_1.xml" lastWriteTime="10/11/2015 12:04:16 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Model\stations.xml" archivePath="Model\stations.xml" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Tec_Recomendadas\CountryFile.html" archivePath="Tec_Recomendadas\CountryFile.html" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
@@ -71,13 +75,9 @@
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="09/11/2015 01:38:52 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="09/11/2015 01:46:17 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/11/2015 12:23:47 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 02:41:02 a. m." />
   <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="09/11/2015 01:38:54 a. m." />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25/09/2012 02:41:02 a. m." />
@@ -99,7 +99,5 @@
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.xml" archivePath="Telerik.Windows.Controls.Primitives.xml" lastWriteTime="26/02/2014 11:13:46 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.xml" archivePath="Telerik.Windows.Core.xml" lastWriteTime="26/02/2014 11:13:42 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.xml" archivePath="Telerik.Windows.Data.xml" lastWriteTime="26/02/2014 11:14:06 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="09/11/2015 01:38:50 a. m." />
-  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="09/11/2015 01:38:51 a. m." />
+  <file source="D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="10/11/2015 12:23:47 a. m." />
 </xapCache>

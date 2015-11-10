@@ -272,7 +272,6 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.Windows.
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\de-DE\Telerik.Windows.Controls.Primitives.resources.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\fr-FR\Telerik.Windows.Controls.Primitives.resources.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.Windows.Controls.Primitives.resources.dll
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\App.g.cs
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\MainPage.g.cs
@@ -304,3 +303,5 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.csproj.Genera
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\IPAS App.pdb
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Debug\XapCacheFile.xml
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Model\states.xml
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Debug\Model\states_1.xml
