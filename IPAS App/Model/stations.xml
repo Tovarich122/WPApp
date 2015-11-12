@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+<stations>
+    <station>
+        <name>San Lazaro</name>
+        <icon>ic_sanlazaro</icon>
+        <lat>19.430213</lat>
+        <lng>-99.114833</lng>
+    </station>
+    <station>
+        <name>Consulado</name>
+        <icon>ic_rioconsulado</icon>
+        <lat>19.457893</lat>
+        <lng>-99.113932</lng>
+    </station>
+    <station>
+        <name>Canal del Norte</name>
+        <icon>ic_canaldelnorte</icon>
+        <lat>19.449112</lat>
+        <lng>-99.116507</lng>
+    </station>
+    <station>
+        <name>Indios Verdes</name>
+        <icon>ic_indiosverdes</icon>
+        <lat>19.495358</lat>
+        <lng>-99.119468</lng>
+    </station>
+    <station>
+        <name>Deportivo 18 de Marzo</name>
+        <icon>ic_18marzo</icon>
+        <lat>19.483747</lat>
+        <lng>-99.126549</lng>
+    </station>
+    <station>
+        <name>El Rosario</name>
+        <icon>ic_rosario</icon>
+        <lat>19.504541</lat>
+        <lng>-99.20002</lng>
+    </station>
+    <station>
+        <name>Barranca del Muerto</name>
+        <icon>ic_barrancadelmuerto</icon>
+        <lat>19.360648</lat>
+        <lng>-99.190149</lng>
+    </station>
+    <station>
+        <name>Cuitlahuac</name>
+        <icon>ic_cuitlahuac</icon>
+        <lat>19.457448</lat>
+        <lng>-99.182038</lng>
+    </station>
+    <station>
+        <name>Observatorio</name>
+        <icon>ic_observatorio</icon>
+        <lat>19.398237</lat>
+        <lng>-99.200363</lng>
+    </station>
+    <station>
+        <name>Tacubaya</name>
+        <icon>ic_tacubaya</icon>
+        <lat>19.403439</lat>
+        <lng>-99.187102</lng>
+    </station>
+    <station>
+        <name>Tlahuac</name>
+        <icon>ic_tlahuac</icon>
+        <lat>19.286007</lat>
+        <lng>-99.014082</lng>
+    </station>
+    <station>
+        <name>Universidad</name>
+        <icon>ic_universidad</icon>
+        <lat>19.324427</lat>
+        <lng>-99.17397</lng>
+    </station>
+    <station>
+        <name>Tasqueña</name>
+        <icon>ic_tasquena</icon>
+        <lat>19.344168</lat>
+        <lng>-99.142685</lng>
+    </station>
+    <station>
+        <name>Blvd Puerto Aereo</name>
+        <icon>ic_blvdptaereo</icon>
+        <lat>19.41967</lat>
+        <lng>-99.09595</lng>
+    </station>
+</stations>
+</root>

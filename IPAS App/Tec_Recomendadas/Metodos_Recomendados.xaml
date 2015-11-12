@@ -27,13 +27,14 @@
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-        	<phone:Pivot HorizontalAlignment="Left" Height="640" Title="Métodos Recomendados para el Aborto Seguro" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
+        	<phone:Pivot HorizontalAlignment="Left" Height="Auto" Title="Métodos Recomendados para el Aborto Seguro" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
         					
 				<phone:PivotItem CacheMode="{x:Null}" Header="Aborto con Medicamentos" Foreground="Black" FontSize="16"  >
-        			<ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
-        				
-						
-						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
+        			<ScrollViewer x:Name="Text_Grid" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="543" Width="432">
+
+                        <StackPanel>
+                            <RichTextBox Height="Auto" FontSize="16" Margin="0,0,0
+                                     ,0" Width="432">
         					<Paragraph TextAlignment="Center" Foreground="Black">
         						<InlineUIContainer >
         							<Image HorizontalAlignment="Left"
@@ -123,14 +124,127 @@
 								<LineBreak/>
 							</Paragraph>
 
-							<Paragraph>
-								
-							</Paragraph>
+							<Paragraph TextAlignment="Center">
+                                <Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Sublingual</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="sublingual"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/sublingual.png" Width="357" />
+                                </InlineUIContainer>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Las pastillas se colocan debajo de la lengua y se tragan después de 30 minutos.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Notas</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- Esta vía alcanza rápidamente altas concentraciones terapéuticas de medicamento en sangre; pero estas se mantienen por un periodo  más corto.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- Causa más fiebre, escalofrío, diarrea y vómito que la ruta vaginal.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+            
+
+                        </RichTextBox >
+
+                            <RichTextBox  Height="Auto" FontSize="16" Margin="0,0,0
+                                     ,0" Width="432">
+                                <Paragraph TextAlignment="Center">
+                                    <Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Vaginal</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
+
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Las pastillas se colocan en el fondo del saco vaginal (la porción más profunda de la vagina) y se le pide a la mujer recostarse por 30 minutos.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Notas</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Esta vía alcanza más lentamente las concentraciones terapéuticas del medicamento en sangre y éstas se mantienen por un periodo más largo.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Tiene la tasa más baja de efectos colaterales (fiebre, escalofrío, diarrea y vómito).</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Los fragmentos de pastillas pueden ser visibles horas después de su aplicación.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- La aplicación vaginal puede incrementar ligeramente el riesgo de infección.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
+
+                                <Paragraph TextAlignment="Center">
+                                    <InlineUIContainer>
+                                        <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
+                                            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Seguimiento
+                                            </TextBlock>
+                                        </Grid>
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
+
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run>Aun cuando en una mujer que ha usado medicamentos para abortar no es obligatoria una visita de seguimiento, el procedimiento permite:</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>a) Verificar que el aborto concluyó con éxito.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>b) Asegurar que no hay complicaciones (ej.: infección).</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>c) Descartar la posibilidad de embrazo ectópico (ya que no es posible analizar los restos ovulares, a diferencia del  AMEU).</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>d) Reforzar la consejería para iniciar o continuar con el uso de un método anticonceptivo.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Misoprostol solol</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Este régimen combinado es muy eficaz (más del 95% de efectividad), por lo tanto no existe necesidad de un seguimiento obligatorio de rutina.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>-  Las mujeres pueden tener una visita de seguimiento si así lo desean, entre los 7 a 14 días siguientes a la ingesta de los medicamentos.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Mifepristona y misoprostol</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Este régimen es menos eficaz que el régimen combinado  (75-85% de efectividad), por lo que se recomienda el seguimiento para asegurar que el aborto se ha completado.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- En caso de dudas, los signos y síntomas referidos por la mujer, junto con el examen ginecológico, la prueba de embarazo (concentración de gonadotropina) o el ultrasonido (si está disponible), ayudan a confirmar que el aborto haya sido completo y que no hayan complicaciones.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
 
-        				</RichTextBox>
 
-        			</ScrollViewer>
+                            </RichTextBox>
+
+                        </StackPanel>
+
+                    </ScrollViewer>
         		</phone:PivotItem>
         		
 				<phone:PivotItem CacheMode="{x:Null}" Header="Aspiración" Foreground="Black">
@@ -139,7 +253,6 @@
 						
 						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
         					<Paragraph TextAlignment="Center" Foreground="Black">
-        						
 								<InlineUIContainer >
         							<Image HorizontalAlignment="Left"
         								Margin="0" x:Name="im_header_vacuum_aspiration"
@@ -168,27 +281,86 @@
 								</InlineUIContainer>
 								</Paragraph>
 
-								<Paragraph TextAlignment="Left" Foreground="Black">
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración por vacío es un método por medio del cual se realiza la extracción del contenido del útero a través de una cánula de plástico o metálica conectada a una fuente de vacío.</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>a) Manual:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración manual endouterina (AMEU) utiliza un aspirador manual portátil.</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>b) Eléctrica:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración eléctrica endouterina (AEEU) emplea una aspirador eléctrico.</Run>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>La aspiración por vacío es un método por medio del cual se realiza la extracción del contenido del útero a través de una cánula de plástico o metálica conectada a una fuente de vacío.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>a) Manual:</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>La aspiración manual endouterina (AMEU) utiliza un aspirador manual portátil.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>b) Eléctrica:</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>La aspiración eléctrica endouterina (AEEU) emplea una aspirador eléctrico.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
 
-        				</RichTextBox>
+                            <Paragraph TextAlignment="Center">
+                                <InlineUIContainer>
+                                    <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
+                                        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Procedimiento
+                                        </TextBlock>
+                                    </Grid>
+                                </InlineUIContainer>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run>El procedimiento consiste en dilatar el cuello, introducir una cánula en la cavidad uterina a través del cuello, conectar la cánula a la fuente de vacío y aspirar  el contenido de la cavidad uterina y /o los restos ovulares.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- El procedimiento dura de tres a díez minutos según el tamaño uterino y la cantidad de restos ovulares.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>El procedimiento de evacuación  se realiza de manera similar, independientemente  del tipo de vacío utilizado.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- El nivel de vacío proporcionado por el aspirador de AMEU disminuye a medida que el cilindro se llena con sangre y restos ovulares.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- La bomba eléctrica proporciona un nivel de succión constante.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+
+                            <Paragraph TextAlignment="Center" Foreground="Black">
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="surgical_abortion1"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/surgical_abortion1.png" Width="357" />
+                                </InlineUIContainer>
+                            </Paragraph>
+
+                            <Paragraph TextAlignment="Center" Foreground="Black">
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="surgical_abortion2"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/surgical_abortion2.png" Width="357" />
+                                </InlineUIContainer>
+                            </Paragraph>
+
+                            <Paragraph TextAlignment="Center">
+                                <InlineUIContainer>
+                                    <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
+                                        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Tasas de eficacia y complicaciones en el 1er trimestre
+                                        </TextBlock>
+                                    </Grid>
+                                </InlineUIContainer>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+
+
+                        </RichTextBox>
 
         			</ScrollViewer>
         		</phone:PivotItem>

@@ -1,0 +1,90 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IPAS_App.Views.Estigma_3"
+   xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="False" Loaded="PhoneApplicationPage_Loaded">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="Header_Footer" HorizontalAlignment="Left" Height="768" Grid.RowSpan="2" VerticalAlignment="Top" Width="480">
+            <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,-9,-33" Width="489">
+                <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Click="HyperlinkButton_Click" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+                    <HyperlinkButton.Background>
+                        <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                    </HyperlinkButton.Background>
+                </HyperlinkButton>
+            </Grid>
+            <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0,0,0,688" Background="#FFF47420" Height="80">
+                <Image x:Name="img_Menu" Margin="34,0,324,0" Source="/Assets/Images/ic_trafficlight.png" Stretch="Fill"/>
+                <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Estigma" Margin="156,0,231,10" HorizontalAlignment="Center" FontSize="26.667" Height="49" VerticalAlignment="Bottom" Foreground="White"/>
+                <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
+                <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" ClickMode="Press" Click="Button_Click_1"/>
+            </Grid>
+        </Grid>
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
+            <Grid HorizontalAlignment="Left" Height="591" Margin="0,92,-24,0" VerticalAlignment="Top" Width="480">
+                <Grid x:Name="instrucciones" HorizontalAlignment="Left" Height="606" Margin="10,10,0,-25" VerticalAlignment="Top" Width="456">
+                    <Image HorizontalAlignment="Left" Height="137" Margin="52,10,0,0" VerticalAlignment="Top" Width="365" Source="/Assets/Images/header_instructions_estigmometer.png"/>
+                    <TextBlock HorizontalAlignment="Left" Height="39" Margin="5,178,0,0" TextWrapping="Wrap" Text="Instrucciones" VerticalAlignment="Top" Width="139" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="204" Margin="5,217,0,0" TextWrapping="Wrap" Text="A continuación, se presentarán una serie de afirmaciones donde usted debe elegir únicamente una opción. Es importante responder de manera libre y honesta recordándole que el resultado tiene como propósito principal el autoevaluarse para así, a partir del resultado obtenido, mejorar su práctica profesional." VerticalAlignment="Top" Width="441" Foreground="Black" />
+                    <Button Content="Comenzar" HorizontalAlignment="Left" Height="72" Margin="52,461,0,0" VerticalAlignment="Top" Width="330" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Tap="Image_Tap" Click="Button_Click"/>
+                </Grid>
+                <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,-52,0">
+                    <TextBlock HorizontalAlignment="Left" Height="60" Margin="116,507,0,0" TextWrapping="Wrap" Text="Pregunta 2 de 5" x:Name="pregunta_textblock" VerticalAlignment="Top" Width="214" Foreground="#FFF9A53A" FontSize="22" RenderTransformOrigin="0.529,0.485"/>
+                    <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="180" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="385" FontSize="22" Margin="10,10,0,0" Foreground="Black"/>
+                    <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,208,0,0" Width="385" Height="74" FontSize="16" BorderBrush="#FF838383" Foreground="Black" Background="#FFFDD8AF"/>
+                    <RadioButton x:Name="r2" Content="Negarte a hacer el aborto y decirle a la mujer que busque otro proveedor" HorizontalAlignment="Left" Height="75" Margin="0,287,0,0" VerticalAlignment="Top" Width="385" FontSize="16" FontStretch="Condensed" Foreground="Black" BorderBrush="#FF838383" Background="#FFFDD8AF"/>
+                    <RadioButton x:Name="r3" Content="RadioButton" HorizontalAlignment="Left" Height="74" Margin="0,362,0,0" VerticalAlignment="Top" Width="385" FontSize="16" Foreground="Black" BorderBrush="#FF959595" Background="#FFFDD8AF"/>
+                    <Grid x:Name="bPrevio" HorizontalAlignment="Left" Height="84" Margin="10,483,0,0" VerticalAlignment="Top" Width="58" Tap="bPrevio_Tap">
+                        <Canvas HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Background="#FFF47420" Margin="0,10,0,-9"/>
+                        <Image HorizontalAlignment="Left" Height="60" Margin="10,17,0,0" VerticalAlignment="Top" Width="45" Source="/Assets/Images/ic_arrow_left.png"/>
+                    </Grid>
+                    <Grid x:Name="bSiguiente" HorizontalAlignment="Left" Height="84" Margin="374,483,0,0" VerticalAlignment="Top" Width="58" Tap="bSiguiente_Tap">
+                        <Canvas HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Background="#FFF47420" Margin="0,10,0,-9"/>
+                        <Image HorizontalAlignment="Left" Height="60" Margin="10,17,0,0" VerticalAlignment="Top" Width="45" Source="/Assets/Images/ic_arrow_left.png">
+                            <Image.Projection>
+                                <PlaneProjection RotationZ="180"/>
+                            </Image.Projection>
+                        </Image>
+                    </Grid>
+                    <Grid x:Name="bCancelar" HorizontalAlignment="Left" Height="84" Margin="10,483,0,0" VerticalAlignment="Top" Width="58" Tap="bCancelar_Tap">
+                        <Canvas HorizontalAlignment="Left" Height="76" VerticalAlignment="Top" Width="55" Background="#FFF47420" Margin="0,10,0,-9"/>
+                        <Image HorizontalAlignment="Left" Height="86" Margin="-19,0,-18,-2" VerticalAlignment="Top" Width="95" Source="/Assets/iconos/appbar.close.png" Stretch="UniformToFill"/>
+                    </Grid>
+                </Grid>
+                <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="10,-16,0,0" VerticalAlignment="Top" Width="469" d:IsHidden="True">
+                    <Canvas Height="217" x:Name="img_resultado" Width="266" Canvas.Left="79">
+                        <Image x:Name="n_resultado_x1" Height="171" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_green.png" Stretch="UniformToFill" Canvas.Top="17"/>
+                        <Image x:Name="n_resultado_x2" Height="171" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_red.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
+                        <Image x:Name="n_resultado_1" Height="236" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_green_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
+                        <Image x:Name="n_resultado_2" Height="200" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_red_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
+                        <Image x:Name="n_resultado_3" Height="200" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_yellow_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
+                    </Canvas>
+                    <ScrollViewer Height="226" Canvas.Top="256" Width="445">
+                        <TextBlock x:Name="t_resultado" Height="392" TextWrapping="Wrap" Text="TextBlock" Width="435" Foreground="Black"/>
+                    </ScrollViewer>
+                    <Button x:Name="bTerminar" Content="OK" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="146" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="142" Canvas.Top="487"/>
+                </Canvas>
+            </Grid>
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>
