@@ -185,6 +185,14 @@ namespace IPAS_App.Views
             r1.Content = p.res1;
             r2.Content = p.res2;
             r3.Content = p.res3;
+            if (p.res4 == "")
+            {
+                r4.Visibility = Visibility.Collapsed;
+            }
+            else
+            {
+                r4.Visibility = Visibility.Visible;
+            }
             r4.Content = p.res4;
             if (p.rad_checked != -1)
             {

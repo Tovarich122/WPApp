@@ -1,3 +1,32 @@
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\App.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Estigma\Estigmometro.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\MainPage.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Mapa\Mapa.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Marco_Normativo\MarcoNormativo_Quiz.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Disco_Criterios.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\UICustomControls\MapFlyOut.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\UICustomControls\OverlayMenu.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Contraindicaciones_Precauciones.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Metodos_Recomendados.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_1.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_2.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_3.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_main.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_1.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_2.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_3.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_main.g.cs
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.g.resources
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS_App.Resources.AppResources.resources
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS_App.Resources.AppResources.es-MX.resources
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.csproj.GenerateResource.Cache
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Assets\ApplicationIcon.png
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
@@ -122,35 +151,6 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\it-IT\Telerik.Window
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\de-DE\Telerik.Windows.Controls.Primitives.resources.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\fr-FR\Telerik.Windows.Controls.Primitives.resources.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\it-IT\Telerik.Windows.Controls.Primitives.resources.dll
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\App.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Estigma\Estigmometro.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\MainPage.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Mapa\Mapa.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Marco_Normativo\MarcoNormativo_Quiz.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Disco_Criterios.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\UICustomControls\MapFlyOut.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\UICustomControls\OverlayMenu.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Contraindicaciones_Precauciones.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Metodos_Recomendados.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_1.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_2.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_3.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\Estigma_main.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_1.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_2.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_3.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\Views\MarcoN_main.g.cs
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.g.resources
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS_App.Resources.AppResources.resources
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS_App.Resources.AppResources.es-MX.resources
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.csproj.GenerateResource.Cache
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\es-MX\IPAS App.resources.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\obj\Release\IPAS App.pdb

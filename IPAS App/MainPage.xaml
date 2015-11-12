@@ -97,7 +97,7 @@
             <Image Margin="17,6,17,-164" Source="Images/im_header_main.png" Stretch="Fill"/>
 
         </Grid>
-        <Canvas x:Name="shield" HorizontalAlignment="Left" Height="800" Margin="-32,0,-5,0" VerticalAlignment="Top" Width="517" Background="#59000000" Grid.RowSpan="2"/>
+        <Canvas x:Name="shield" HorizontalAlignment="Left" Height="800" Margin="-32,0,-5,0" VerticalAlignment="Top" Width="517" Background="#59000000" Grid.RowSpan="2" Tap="shield_Tap"/>
         <ContentControl x:Name="CControl" IsTabStop="True" HorizontalAlignment="Left" Height="720" Margin="-234,0,0,0" VerticalAlignment="Top" Width="229" Grid.Row="1" LostFocus="CControl_LostFocus">
             <Canvas x:Name="sliding_menu" HorizontalAlignment="Left" Height="723" VerticalAlignment="Top" Width="230" Background="#FF46FF00" >
                 <Button x:Name="bBarra_MarcoN" Content="Marco Normativo" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Click="bBarra_MarcoN_Click"/>
@@ -106,6 +106,7 @@
                     <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="Consideraciones por Entidad" VerticalAlignment="Top" Width="230" Margin="0,39,0,0"/>
                     <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="230" Margin="0,106,0,0"/>
                 </Grid>
+                <Button x:Name="bBarra_TecnologiasR" Content="Tecnologias Recomendadas" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Canvas.Top="75"/>
             </Canvas>
         </ContentControl>
 

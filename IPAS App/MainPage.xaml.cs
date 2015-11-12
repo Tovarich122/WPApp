@@ -18,6 +18,7 @@ namespace IPAS
         int a = 0;
         int wmarcon = 0;
         bool LosingFocus = true;
+        
         // Constructor
         public MainPage()
         {
@@ -113,6 +114,16 @@ namespace IPAS
                 Size size = new Size(230, 170);
                 resizeAnimation.EndSize = size;
                 resizeAnimation.Easing = ease;
+                //Canvas.SetTop(bBarra_TecnologiasR, 245);
+                RadMoveAnimation animation = new RadMoveAnimation();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                endPoint.X = 0;
+                endPoint.Y = 170;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                RadAnimationManager.Play(bBarra_TecnologiasR, animation);
+    
                 wmarcon = 1;
             }
             else
@@ -122,9 +133,24 @@ namespace IPAS
                 resizeAnimation.EndSize = size;
                 resizeAnimation.Easing = ease;
                 wmarcon = 0;
+                Canvas.SetTop(bBarra_TecnologiasR, 75);
+               // RadMoveAnimation animation = new RadMoveAnimation();
+                RadMoveAnimation animation = new RadMoveAnimation();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                endPoint.X = 0;
+                endPoint.Y = 0;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                RadAnimationManager.Play(bBarra_TecnologiasR, animation);
             }
             
             RadAnimationManager.Play(grid_marcoN, resizeAnimation);
+        }
+
+        private void shield_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            LosingFocus = true;
         }
 
 
