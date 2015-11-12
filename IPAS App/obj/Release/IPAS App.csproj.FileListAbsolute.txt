@@ -6,8 +6,8 @@ D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Assets\Tiles\IconicT
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Assets\Tiles\IconicTileSmall.png
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Images\medicine.png
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Model\clinics.xml
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Model\states.xml
-D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Model\states_1.xml
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Model\states1.xml
+D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\Model\states_2.xml
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\IPAS App.dll
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\IPAS App.pdb
 D:\Usuario\Mis Documentos\GitHub\WPApp\IPAS App\Bin\Release\es-MX\IPAS App.resources.dll

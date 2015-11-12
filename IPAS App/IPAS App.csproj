@@ -348,10 +348,11 @@
     <Content Include="Model\clinics.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Model\states.xml">
+    <Content Include="Model\states.xml" />
+    <Content Include="Model\states1.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Model\states_1.xml">
+    <Content Include="Model\states_2.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="Model\stations.xml" />
