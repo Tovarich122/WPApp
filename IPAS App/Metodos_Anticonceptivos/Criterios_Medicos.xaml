@@ -33,75 +33,13 @@
         				
 						
 						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-        					<Paragraph TextAlignment="Center" Foreground="Black">
-        						<InlineUIContainer >
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="IMG_Aborto_Medicamentos"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_header_medicine.png" Width="357" />
-        						</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D"> Mifepristona y misoprostol</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>Hasta la semana 10 de gestación</Run>
-								<LineBreak/>
+							<Paragraph TextAlignment="Left" Foreground="Black">
+								<Run Text="Post aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
 								<LineBreak/>
 								<InlineUIContainer >
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="IMG_Table_G10"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10.png" Width="357" />
+        										<Image HorizontalAlignment="Left"
+        											Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
         						</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>Entre 10 y 13 semanas de gestación:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="IMG_table_g13"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10_g13.png" Width="357" />
-        						</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="medicine"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/medicine.png" Width="357" />
-        						</InlineUIContainer>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Misoprostol solo</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>Hasta la semana 13 de gestación:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="img_table_g13"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g13.png" Width="357" />
-        						</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
-        								<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-										Características de las diferentes Vías de administración del misoprostol.
-										</TextBlock>
-									</Grid>
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D">Bucal</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="mouth"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/mouth.png" Width="357" />
-        						</InlineUIContainer>
-								<LineBreak/>
 								<LineBreak/>
 							</Paragraph>
 							
@@ -109,23 +47,16 @@
 								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<Run>Las pastillas se colocan entre la mejilla y la encía y se tragan después de 30 minutos.</Run>
+								<Run>1. Si la mujer tiene relaciones sexuales sin usar un método anticonceptivo moderno, puede quedar embarazada tan pronto como una semana después de interrumpir el embarazo.</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Notas</Run>
+								<Run>2. En comparación con los métodos de corta duración, como las píldoras, los métodos de acción prolongada, como implantes y DIU, tienen tasas más altas de continuación y tasas más bajas de embarazos repetidos que otros métodos..</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<Run>- Esta vía alcanza concentraciones terapéuticas de medicamento en sangre que se mantienen por un periodo bastante prolongado.</Run>
-								<LineBreak/>
-								<Run>- Causa más fiebre, escalofrío, diarrea y vómito que la ruta vaginal.</Run>
+								<Run>3. Se considera seguro el inicio inmediato de anticonceptivos hormonales y no hormonales después del aborto con medicamentos y quirúrgico, en el primer y segundo trimestre.</Run>
 								<LineBreak/>
 								<LineBreak/>
 							</Paragraph>
-
-							<Paragraph>
-								
-							</Paragraph>
-
 
         				</RichTextBox>
 
@@ -137,261 +68,151 @@
         				
 						
 						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-        					<Paragraph TextAlignment="Center" Foreground="Black">
-        						
-								<InlineUIContainer >
-        							<Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="im_header_vacuum_aspiration"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_header_vacuum_aspiration.png" Width="357" />
-								</InlineUIContainer>
-							</Paragraph>
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run Text="Post aborto en el 1er trimestre" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                <LineBreak/>
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        											Margin="0" x:Name="top_bar" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+                                </InlineUIContainer>
+                                <LineBreak/>
+                            </Paragraph>
 
-							<Paragraph TextAlignment="Left" Foreground="Black">
+                            <Paragraph TextAlignment="Left" Foreground="Black">
 								<LineBreak/>
 								<LineBreak/>
-								<Run>- La aspiración por vacío (manual o eléctrica)  es la tecnología recomendada por los líderes nacionales e internacionales en temas de salud de las mujeres como el Centro Nacional de Excelencia Tecnológica en Salud (CENETEC), la Organización Mundial de la Salud (OMS) y la Federación Internacional de Ginecología y Obstetricia (FIGO).</Run>
+                                <Run>- Inicio del uso de anticonceptivos</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<Run>La tecnología de aspiración por vacío se considera como un servicio esencial en la práctica obstétrica moderna en la atención para aborto del 1er trimestre.</Run>
+                                <Run>El DIU puede insertarse inmediatamente después de la Aspiración Endouterina.</Run>
 								<LineBreak/>
-								<LineBreak/>								
-								</Paragraph>
-
-								<Paragraph TextAlignment="Center" Foreground="Black">
-								<InlineUIContainer>
-									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100" HorizontalAlignment="Center">
-        								<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-										Descripción
-										</TextBlock>
-									</Grid>
-								</InlineUIContainer>
-								</Paragraph>
-
-								<Paragraph TextAlignment="Left" Foreground="Black">
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración por vacío es un método por medio del cual se realiza la extracción del contenido del útero a través de una cánula de plástico o metálica conectada a una fuente de vacío.</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>a) Manual:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración manual endouterina (AMEU) utiliza un aspirador manual portátil.</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>b) Eléctrica:</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>La aspiración eléctrica endouterina (AEEU) emplea una aspirador eléctrico.</Run>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
+                                <LineBreak/>
+                                <Run>La mayoría de los métodos anticonceptivos  (tales como pastillas, inyecciones e implantes) pueden iniciarse el mismo día que se administra la primera tableta (mifepristona) del régimen combinado o que se realiza la aspiración endouterina.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Para condiciones médicas concomitantes (ej.: diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar: </Run>
+                                <Run>http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf y href="http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>1. Métodos anticonceptivos después de la aspiración endouterina</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Inmediatamente después de realizarse un aborto por aspiración endouterina en el 1er trimestre, sin complicaciones, es seguro y se puede:</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>a) Insertar un DIU de cobre o medicado.</Run>
+                                <LineBreak/>
+                                <Run>b) Insertar implante subdermico.</Run>
+                                <LineBreak/>
+                                <Run>c) Iniciar  inyectables (mensuales, bimensuales o trimestrales).</Run>
+                                <LineBreak/>
+                                <Run>d) Iniciar las pastillas, parches o el anillo vaginal.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>2. Métodos anticonceptivos después de un aborto con medicamentos</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Inmediatamente después  de tomar la primera tableta (mifepristona)  del  régimen combinado  de aborto con medicamentos es seguro y se puede:</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>a) Insertar implante subdermico.</Run>
+                                <LineBreak/>
+                                <Run>b) Iniciar  inyectables (mensuales, bimensuales, trimestrales).</Run>
+                                <LineBreak/>
+                                <Run>c) Iniciar las pastillas, parches, o el anillo vaginal.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>La inserción del DIU de cobre o medicado puede hacerse cuando se tenga la certeza razonable de que no hay embarazo, tan pronto como 7 días después de la ultima  toma de tabletas del régimen combinado.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>La OCLUSIÓN TUBÁRICA puede realizarse tan pronto como la mujer lo desee, cuando se tenga la certeza razonable de que no hay … tan pronto como 7 días después.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
 
         				</RichTextBox>
 
         			</ScrollViewer>
         		</phone:PivotItem>
-				<phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto en 2do trimestre" Foreground="Black" FontSize="16"  >
+			
+                <phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto en 2do trimestre" Foreground="Black" FontSize="16"  >
 					<ScrollViewer x:Name="Text_Grid1" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
-        				
-						
-						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-							<Paragraph TextAlignment="Center" Foreground="Black">
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_Aborto_Medicamentos1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_header_medicine.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Mifepristona y misoprostol"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Hasta la semana 10 de gestación"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_Table_G1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Entre 10 y 13 semanas de gestación:"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_table_g1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10_g13.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="medicine1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/Images/medicine.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Misoprostol solo"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Hasta la semana 13 de gestación:"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="img_table_g1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g13.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
-										<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-											<Run Text="Características de las diferentes Vías de administración del misoprostol."/>
-										</TextBlock>
-									</Grid>
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Bucal"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="mouth1"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/mouth.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
-							
-							<Paragraph TextAlignment="Left" Foreground="Black">
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D" Text="Instrucciones de uso"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Las pastillas se colocan entre la mejilla y la encía y se tragan después de 30 minutos."/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D" Text="Notas"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="- Esta vía alcanza concentraciones terapéuticas de medicamento en sangre que se mantienen por un periodo bastante prolongado."/>
-								<LineBreak/>
-								<Run Text="- Causa más fiebre, escalofrío, diarrea y vómito que la ruta vaginal."/>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
-
-							<Paragraph/>
 
 
-						</RichTextBox>
+                        <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run Text="Post aborto en el 2do trimestre" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                <LineBreak/>
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        											Margin="0" x:Name="top_bar_3" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+                                </InlineUIContainer>
+                                <LineBreak/>
+                            </Paragraph>
 
-					</ScrollViewer>
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Después de un aborto del 2do trimestre por dilatación y evacuación (D&amp;E) o de aborto con medicamentos, se recomienda y considera seguro el inicio inmediato de anticonceptivos hormonales ( pastillas, parche, anillo vaginal, inyecciones, implante subdpérmico).</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>El DIU (de cobre o medicado) puede insertarse inmediatamente después de un procedimiento de D&amp;E.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>En caso de aborto con medicamentos, la inserción de DIU de cobre o medicado, se puede realizar cuando exista la certeza razonable de que la mujer ya no esta embarazada.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
+
+                        </RichTextBox>
+
+                    </ScrollViewer>
 				</phone:PivotItem>
 				<phone:PivotItem CacheMode="{x:Null}" Header="Situaciones Especiales" Foreground="Black" FontSize="16"  >
 					<ScrollViewer x:Name="Text_Grid2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
-        				
-						
-						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-							<Paragraph TextAlignment="Center" Foreground="Black">
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_Aborto_Medicamentos2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_header_medicine.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Mifepristona y misoprostol"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Hasta la semana 10 de gestación"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_Table_G2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Entre 10 y 13 semanas de gestación:"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="IMG_table_g2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g10_g13.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="medicine2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/Images/medicine.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Misoprostol solo"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Hasta la semana 13 de gestación:"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="img_table_g2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_g13.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer>
-									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
-										<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-											<Run Text="Características de las diferentes Vías de administración del misoprostol."/>
-										</TextBlock>
-									</Grid>
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="20" FontWeight="Bold" Foreground="#FFEC098D" Text="Bucal"/>
-								<LineBreak/>
-								<LineBreak/>
-								<InlineUIContainer >
-									<Image HorizontalAlignment="Left"
-										Margin="0" x:Name="mouth2"
-										Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/mouth.png" Width="357" />
-								</InlineUIContainer>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
-							
-							<Paragraph TextAlignment="Left" Foreground="Black">
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D" Text="Instrucciones de uso"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="Las pastillas se colocan entre la mejilla y la encía y se tragan después de 30 minutos."/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D" Text="Notas"/>
-								<LineBreak/>
-								<LineBreak/>
-								<Run Text="- Esta vía alcanza concentraciones terapéuticas de medicamento en sangre que se mantienen por un periodo bastante prolongado."/>
-								<LineBreak/>
-								<Run Text="- Causa más fiebre, escalofrío, diarrea y vómito que la ruta vaginal."/>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
-
-							<Paragraph/>
 
 
-						</RichTextBox>
+                        <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run Text="Situaciones Especiales" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                <LineBreak/>
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
+        											Margin="0" x:Name="top_bar_4" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+                                </InlineUIContainer>
+                                <LineBreak/>
+                            </Paragraph>
 
-					</ScrollViewer>
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>a) En caso de paridad satisfecha, privilegiar los métodos definitivos.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>b) En caso de un aborto séptico: existe contraindicación absoluta para la inserción del DIU y se recomienda esperar al menos 3 meses post tratamiento.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>c) En caso de un embarazo ectópico: se recomienda privilegiar los métodos hormonales; el uso de DIU ( de cobre o medicado), sin embargo, no aumenta el riesgo absoluto de un embarazo ectópico.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>d) En caso de enfermedad trofoblástica gestacional (mola): el dispositivo de cobre y medicado son Categoría 3, por el riesgo relativo de perforación uterina. El  dispositivo de cobre y medicado son categoría 4 cuando la hormona del embarazo (𝛽hCG) está persistentemente elevada o existe sospecha de coriocarcinoma.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- OMS 2009</Run>
+                                <Hyperlink >http://www.who.int/reproductivehealth/publications/family_planning/9789241563888/es/</Hyperlink>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- OMS 2015, resumen ejecutivo:</Run>
+                                <Hyperlink TargetName="_anything" NavigateUri="http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/"/>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>- Actualizaciones clínicas en salud reproductiva, Ipas. Enero 2015</Run>
+                                <Hyperlink>http://ipasmexico.org/act-clinicas.html</Hyperlink>
+                            </Paragraph>
+
+                        </RichTextBox>
+
+                    </ScrollViewer>
 				</phone:PivotItem>
         	</phone:Pivot>
 

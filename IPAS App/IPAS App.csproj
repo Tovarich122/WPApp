@@ -323,6 +323,8 @@
     </Content>
     <Content Include="FlipCycleTileMedium.png" />
     <Content Include="FlipCycleTileSmall.png" />
+    <Content Include="Images\anesthesia_paracervical1.png" />
+    <Content Include="Images\anesthesia_paracervical2.png" />
     <Content Include="Images\ic_18marzo.png" />
     <Content Include="Images\ic_balderas.png" />
     <Content Include="Images\ic_barrancadelmuerto.png" />
