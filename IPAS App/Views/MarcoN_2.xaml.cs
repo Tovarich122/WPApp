@@ -53,6 +53,14 @@ namespace IPAS_App.Views
             System.Windows.Shapes.Path a = (System.Windows.Shapes.Path)sender;
 
             p = listaEstados.Find(k => k.n_boton == a.Name);
+            if (p.n_boton == "n_df")
+            {
+                texto_descripcion.Text = "Causas Consideradas en el Codigo Penal de la Entidad Federativa:";
+            }
+            else
+            {
+                texto_descripcion.Text = "Causas Consideradas en el Codigo Penal del Estado:";
+            }
             popup.Visibility = Visibility.Visible;
             mapa_completo.Visibility = Visibility.Collapsed;
             n_estado.Text = p.name;
