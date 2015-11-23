@@ -20,8 +20,10 @@
         </Grid.RowDefinitions>
 
         <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
-            <Image x:Name="img_Menu" Margin="0,0,358,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
+            <Image x:Name="img_Menu" Margin="20,0,338,0" Source="/Images/ic_new_technologies.png" Stretch="Fill"/>
             <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Tecnologías Recomendadas" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
+            <Image HorizontalAlignment="Left" Height="49" Margin="5,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
+            <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-15,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press"/>
         </Grid>
         <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
         	<TextBlock TextWrapping="Wrap" Foreground="Black" Width="387" TextAlignment="Left">

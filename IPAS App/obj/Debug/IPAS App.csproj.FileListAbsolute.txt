@@ -156,3 +156,4 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.pdb
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\XapCacheFile.xml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states1.xml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states_2.xml
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
