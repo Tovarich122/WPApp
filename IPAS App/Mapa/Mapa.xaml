@@ -25,7 +25,7 @@
             <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Clínicas ILE" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
             <Image Margin="40,6,376,10" Source="/Images/ic_clinics.png" Stretch="Fill"/>
             <Image HorizontalAlignment="Left" Height="49" Margin="5,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
-            <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press"/>
+            <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
 
         <!--ContentPanel - place additional content here-->

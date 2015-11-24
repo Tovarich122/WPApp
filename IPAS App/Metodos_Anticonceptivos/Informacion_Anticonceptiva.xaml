@@ -24,7 +24,7 @@
             <Image x:Name="img_Menu" Margin="30,0,328,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
             <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Métodos Anticonceptivos" Margin="137,21,19,10" HorizontalAlignment="Center" FontSize="26.667"/>
             <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
-            <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press"/>
+            <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
 
         <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">

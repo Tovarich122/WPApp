@@ -87,6 +87,12 @@ namespace IPAS_App.Mapa
             Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "1pOOPeH3OK4vDUybldNrBw";
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Principal_Tec_Recomendadas.xaml", UriKind.RelativeOrAbsolute));
+        }
+
         public Mapa()
         {
             InitializeComponent();
