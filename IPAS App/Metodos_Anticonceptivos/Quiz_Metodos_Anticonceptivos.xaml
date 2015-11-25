@@ -68,9 +68,9 @@
 
         				</RichTextBox>
                             <StackPanel>
-                            	<Button Content="Pastillas (anticonceptivo &#xA;&#x9;&#x9;oral combinado)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="108" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Anillo Vaginal combinado" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Dispositivo intrauterino de cobre" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                            	<Button x:Name="caso1Button1" Content="Pastillas (anticonceptivo &#xA;&#x9;&#x9;oral combinado)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="108" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
+                            	<Button x:Name="caso1Button2" Content="Anillo Vaginal combinado" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
+                            	<Button x:Name="caso1Button3" Content="Dispositivo intrauterino de cobre" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
                             </StackPanel>
 
                         </StackPanel>
@@ -111,9 +111,9 @@
 
                         </RichTextBox>
                             <StackPanel>
-                            	<Button Content="Entantato de Norestisterona (EN-NET, &#xD;&#xA;&#x9;        Inyectable bimensual)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="110" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Dispositivo intrauterino" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                            	<Button x:Name="caso2Button1" Content="Entantato de Norestisterona (EN-NET, &#xD;&#xA;&#x9;        Inyectable bimensual)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="110" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
+                            	<Button x:Name="caso2Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
+                            	<Button x:Name="caso2Button3" Content="Dispositivo intrauterino" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
                             </StackPanel>
 
                         
@@ -162,9 +162,9 @@
 
                         </RichTextBox>
                             <StackPanel>
-                            	<Button Content="Dispositivo intrauterino medicado" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Content="Pastillas orales de progestina sola" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                            	<Button Click="caso3Buttons" x:Name="caso3Button1" Content="Dispositivo intrauterino medicado" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                            	<Button Click="caso3Buttons" x:Name="caso3Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                            	<Button Click="caso3Buttons" x:Name="caso3Button3" Content="Pastillas orales de progestina sola" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
                             </StackPanel>
                             
                             
@@ -184,6 +184,57 @@
         			<ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
         		</HyperlinkButton.Background>
         	</HyperlinkButton>
+        </Grid>
+		<Grid x:Name="blackGrid" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Background="Black" Grid.RowSpan="2" Opacity="0.445" Margin="0,-39,0,0"/>
+		<Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="694" VerticalAlignment="Center" Width="456" Background="White" Margin="12,49,12,57" Grid.RowSpan="2">
+			<Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
+			<Grid Margin="35,80,35,33">
+				<RichTextBox x:Name="PopIntro" FontSize="18.667" TextWrapping="Wrap" d:IsHidden="True">
+				
+					<Paragraph TextAlignment="Center" Foreground="Black">
+						<InlineUIContainer>
+							<Image Width="300" HorizontalAlignment="Left"
+								Margin="0" x:Name="im_banner_test" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_banner_test.png" />
+						</InlineUIContainer>
+						<LineBreak/>
+					</Paragraph>
+
+					<Paragraph TextAlignment="Left" Foreground="Black">
+						<Run Text="Instrucciones:"/>
+						<LineBreak/>
+						<LineBreak/>
+						<Run Text="A continuación encontrarás tres casos, basados en descripciones reales de mujeres con distintas características."/>
+						<LineBreak/>
+						<LineBreak/>
+						<Run Text="Te invitamos a analizarlos y a elegir una de las tres opciones de respuesta que te ofrecemos."/>
+						<LineBreak/>
+						<LineBreak/>
+						<Run Text="Debes buscar la respuesta más acertada referente al método anticonceptivo indicado para la mujer antes descrita."/>
+						<LineBreak/>
+						<LineBreak/>
+						<Run Text="¡Responde y pon a prueba tus conocimientos!"/>
+						<LineBreak/>
+						<LineBreak/>
+					</Paragraph>
+
+
+				</RichTextBox>
+				<Grid x:Name="PopAnswersGrid" Margin="-1,8,-1,0">
+					<ScrollViewer Margin="1,118,1,0" Width="386">
+						<TextBlock x:Name="AnswersContent" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" FontSize="18.667">
+						</TextBlock>
+
+           
+					</ScrollViewer>
+					<Image Margin="0,0,0,480" Source="/IPAS App;component/Images/im_header_clarification.png" Stretch="Fill"/>
+
+           
+				</Grid>
+
+           
+			</Grid>
+
+           
         </Grid>	
     </Grid>
 

@@ -221,11 +221,42 @@
 
         </Grid>
         <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
-            <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="402,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-            <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-            <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-            <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="165,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
+            <Button x:Name="button4" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="402,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}" Click="button4_Click"/>
+            <Button x:Name="button3" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}" Click="button3_Click"/>
+            <Button x:Name="button2" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}" Click="button2_Click"/>
+            <Button x:Name="button1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="165,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}" Click="button1_Click"/>
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Categorias:" VerticalAlignment="Top" Margin="61,25,0,0"/>
+        </Grid>
+        <Grid x:Name="blackGrid" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Background="Black" Grid.RowSpan="2" Opacity="0.445"/>
+        <Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="400" VerticalAlignment="Center" Width="400" Background="White" Margin="0,0,0,258" Grid.Row="1">
+        	<Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="330,0,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
+        	<TextBlock x:Name="PopTitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFEC098D" Margin="35,58,0,0" FontSize="24"/>
+        	<TextBlock x:Name="PopSubtitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Margin="35,116,0,0" FontSize="24" Height="267" Width="346"/>
+        	<ScrollViewer x:Name="PopScrollIntro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,95,0,0" Height="267" Width="346" >
+        	 <RichTextBox x:Name="PopIntro" FontSize="18.667" Width="336" TextWrapping="Wrap">
+
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run>Los criterios médicos de elegibilidad brindan recomendaciones que sirvand e base para la racionalización del suminsitro de diversos anticonceptivos, teniendo en cuenta la información más actualizada disponible sobre la seguridad de los métodos para las personas con ciertas condiciones médicas.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>Categorías: </Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>1. Una condición para la que no hay restricción para el uso del método.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>2. Una condición donde las ventajas del uso del método generalmente superan los riesgos teóricos o probados.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>3. Una condición donde los riesgos teóricos o provados generalmente superan las ventajas del uso del método.</Run>
+								<LineBreak/>
+                                <LineBreak/>
+                                <Run>4. Una condición que representa un reisgo de salud inadmisible si se utiliza el método anticonceptivo.</Run>
+                                
+                            </Paragraph>
+
+                        </RichTextBox>
+			</ScrollViewer>
         </Grid>
 
     </Grid>

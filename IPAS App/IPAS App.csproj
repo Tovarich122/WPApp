@@ -342,10 +342,12 @@
     <Content Include="Images\ic_tasquena.png" />
     <Content Include="Images\ic_tlahuac.png" />
     <Content Include="Images\ic_universidad.png" />
+    <Resource Include="Images\im_banner_test.png" />
     <Content Include="Images\im_btn_menu_index1.png" />
     <Resource Include="Images\im_woman15.png" />
     <Resource Include="Images\im_woman17.png" />
     <Resource Include="Images\im_woman42.png" />
+    <Resource Include="Images\im_header_clarification.png" />
     <Content Include="Images\medicine.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
