@@ -19,57 +19,56 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-		 <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
             <Image x:Name="img_Menu" Margin="25,0,333,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
             <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Criterios Médicos de Elegibilidad" Margin="127,21,-51,10" HorizontalAlignment="Center" FontSize="26.667" Width="404"/>
             <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
             <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
-
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-        	<phone:Pivot HorizontalAlignment="Left" Height="640" Title="Métodos Recomendados para el Aborto Seguro" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
-        					
-				<phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto" Foreground="Black" FontSize="16"  >
-        			<ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
-        				
-						
-						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-							<Paragraph TextAlignment="Left" Foreground="Black">
-								<Run Text="Post aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
-								<LineBreak/>
-								<InlineUIContainer >
-        										<Image HorizontalAlignment="Left"
+            <phone:Pivot HorizontalAlignment="Left" Height="640" Title="Métodos Recomendados para el Aborto Seguro" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto" Foreground="Black" FontSize="16"  >
+                    <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="544" Width="432">
+
+
+                        <RichTextBox FontSize="16" Width="432" Height="541">
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run Text="Post aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                <LineBreak/>
+                                <InlineUIContainer >
+                                    <Image HorizontalAlignment="Left"
         											Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
-        						</InlineUIContainer>
-								<LineBreak/>
-							</Paragraph>
-							
-							<Paragraph TextAlignment="Left" Foreground="Black">
-								<Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>1. Si la mujer tiene relaciones sexuales sin usar un método anticonceptivo moderno, puede quedar embarazada tan pronto como una semana después de interrumpir el embarazo.</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>2. En comparación con los métodos de corta duración, como las píldoras, los métodos de acción prolongada, como implantes y DIU, tienen tasas más altas de continuación y tasas más bajas de embarazos repetidos que otros métodos..</Run>
-								<LineBreak/>
-								<LineBreak/>
-								<Run>3. Se considera seguro el inicio inmediato de anticonceptivos hormonales y no hormonales después del aborto con medicamentos y quirúrgico, en el primer y segundo trimestre.</Run>
-								<LineBreak/>
-								<LineBreak/>
-							</Paragraph>
+                                </InlineUIContainer>
+                                <LineBreak/>
+                            </Paragraph>
 
-        				</RichTextBox>
+                            <Paragraph TextAlignment="Left" Foreground="Black">
+                                <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Instrucciones de uso</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>1. Si la mujer tiene relaciones sexuales sin usar un método anticonceptivo moderno, puede quedar embarazada tan pronto como una semana después de interrumpir el embarazo.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>2. En comparación con los métodos de corta duración, como las píldoras, los métodos de acción prolongada, como implantes y DIU, tienen tasas más altas de continuación y tasas más bajas de embarazos repetidos que otros métodos..</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                                <Run>3. Se considera seguro el inicio inmediato de anticonceptivos hormonales y no hormonales después del aborto con medicamentos y quirúrgico, en el primer y segundo trimestre.</Run>
+                                <LineBreak/>
+                                <LineBreak/>
+                            </Paragraph>
 
-        			</ScrollViewer>
-        		</phone:PivotItem>
-        		
-				<phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto en 1er trimestre" Foreground="Black">
-        			<ScrollViewer x:Name="Text_Grid_2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
-        				
-						
-						<RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
+                        </RichTextBox>
+
+                    </ScrollViewer>
+                </phone:PivotItem>
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto en 1er trimestre" Foreground="Black">
+                    <ScrollViewer x:Name="Text_Grid_2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+
+
+                        <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
                             <Paragraph TextAlignment="Left" Foreground="Black">
                                 <Run Text="Post aborto en el 1er trimestre" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
                                 <LineBreak/>
@@ -81,18 +80,18 @@
                             </Paragraph>
 
                             <Paragraph TextAlignment="Left" Foreground="Black">
-								<LineBreak/>
-								<LineBreak/>
+                                <LineBreak/>
+                                <LineBreak/>
                                 <Run>- Inicio del uso de anticonceptivos</Run>
-								<LineBreak/>
-								<LineBreak/>
+                                <LineBreak/>
+                                <LineBreak/>
                                 <Run>El DIU puede insertarse inmediatamente después de la Aspiración Endouterina.</Run>
-								<LineBreak/>
+                                <LineBreak/>
                                 <LineBreak/>
                                 <Run>La mayoría de los métodos anticonceptivos  (tales como pastillas, inyecciones e implantes) pueden iniciarse el mismo día que se administra la primera tableta (mifepristona) del régimen combinado o que se realiza la aspiración endouterina.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>Para condiciones médicas concomitantes (ej.: diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar: </Run>
+                                <Run>Para condiciones médicas concomitantes (ej.: diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar:</Run>
                                 <Run>http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf y href="http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/</Run>
                                 <LineBreak/>
                                 <LineBreak/>
@@ -132,13 +131,13 @@
                                 <LineBreak/>
                             </Paragraph>
 
-        				</RichTextBox>
+                        </RichTextBox>
 
-        			</ScrollViewer>
-        		</phone:PivotItem>
-			
+                    </ScrollViewer>
+                </phone:PivotItem>
+
                 <phone:PivotItem CacheMode="{x:Null}" Header="Post Aborto en 2do trimestre" Foreground="Black" FontSize="16"  >
-					<ScrollViewer x:Name="Text_Grid1" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+                    <ScrollViewer x:Name="Text_Grid1" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
 
 
                         <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
@@ -169,9 +168,9 @@
                         </RichTextBox>
 
                     </ScrollViewer>
-				</phone:PivotItem>
-				<phone:PivotItem CacheMode="{x:Null}" Header="Situaciones Especiales" Foreground="Black" FontSize="16"  >
-					<ScrollViewer x:Name="Text_Grid2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+                </phone:PivotItem>
+                <phone:PivotItem CacheMode="{x:Null}" Header="Situaciones Especiales" Foreground="Black" FontSize="16"  >
+                    <ScrollViewer x:Name="Text_Grid2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
 
 
                         <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
@@ -215,20 +214,20 @@
                         </RichTextBox>
 
                     </ScrollViewer>
-				</phone:PivotItem>
-        	</phone:Pivot>
+                </phone:PivotItem>
+            </phone:Pivot>
 
-			
+
 
         </Grid>
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+            <Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="402,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
+            <Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
+            <Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
+            <Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="165,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
+            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Categorias:" VerticalAlignment="Top" Margin="61,25,0,0"/>
+        </Grid>
 
-		<Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
-			<Button Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="402,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-			<Button Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="323,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-			<Button Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="244,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-			<Button Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="165,0,0,0" BorderThickness="3" Height="80" Width="77" Style="{StaticResource ButtonPressedPink}"/>
-			<TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Categorias:" VerticalAlignment="Top" Margin="61,25,0,0"/>
-		</Grid>	
     </Grid>
 
 </phone:PhoneApplicationPage>

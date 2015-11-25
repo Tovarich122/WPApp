@@ -21,6 +21,7 @@ namespace IPAS_App
         {
 
             this.NavigationService.Navigate(new Uri("/Metodos_Anticonceptivos/Main_Metodos_Anticonceptivos.xaml", UriKind.RelativeOrAbsolute));
+            
         }
     }
 }
