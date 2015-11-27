@@ -58,7 +58,11 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Image>
-            <Button x:Name="boton_menu" Content="Button" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" Click="Button_Click"/>
+            <Button x:Name="boton_menu" Content="" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" Click="Button_Click" BorderBrush="#FFF47420">
+                <Button.Background>
+                    <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/iconos/appbar.home.png"/>
+                </Button.Background>
+            </Button>
         </Grid>
 
         <!--ContentPanel - place additional content here-->
@@ -67,8 +71,6 @@
                 <ColumnDefinition Width="97*"/>
                 <ColumnDefinition Width="55*"/>
             </Grid.ColumnDefinitions>
-
-
 
             <telerikPrimitives:RadSlideHubTile Title="Nuevas Tecnologias" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
@@ -97,16 +99,40 @@
             <Image Margin="17,6,17,-164" Source="Images/im_header_main.png" Stretch="Fill"/>
 
         </Grid>
-        <Canvas x:Name="shield" HorizontalAlignment="Left" Height="800" Margin="-32,0,-5,0" VerticalAlignment="Top" Width="517" Background="#59000000" Grid.RowSpan="2" Tap="shield_Tap"/>
-        <ContentControl x:Name="CControl" IsTabStop="True" HorizontalAlignment="Left" Height="720" Margin="-234,0,0,0" VerticalAlignment="Top" Width="229" Grid.Row="1" LostFocus="CControl_LostFocus">
-            <Canvas x:Name="sliding_menu" HorizontalAlignment="Left" Height="723" VerticalAlignment="Top" Width="230" Background="#FF46FF00" >
-                <Button x:Name="bBarra_MarcoN" Content="Marco Normativo" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Click="bBarra_MarcoN_Click"/>
-                <Grid x:Name="grid_marcoN" Height="167" Canvas.Top="70" Width="230" Background="#FF6C6C6C">
-                    <TextBlock HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="Marco Normativo" VerticalAlignment="Top" Width="230"/>
-                    <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="Consideraciones por Entidad" VerticalAlignment="Top" Width="230" Margin="0,39,0,0"/>
-                    <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="230" Margin="0,106,0,0"/>
-                </Grid>
-                <Button x:Name="bBarra_TecnologiasR" Content="Tecnologias Recomendadas" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Canvas.Top="75"/>
+        <Canvas x:Name="shield" HorizontalAlignment="Left" Height="800" Margin="-32,0,-5,0" VerticalAlignment="Top" Width="517" Background="#59000000" Grid.RowSpan="2" Tap="shield_Tap" d:IsHidden="True"/>
+        <ContentControl x:Name="CControl" IsTabStop="True" HorizontalAlignment="Left" Height="720" Margin="-333,0,0,0" VerticalAlignment="Top" Width="301" Grid.Row="1" LostFocus="CControl_LostFocus">
+            <Canvas x:Name="sliding_menu" HorizontalAlignment="Left" Height="723" VerticalAlignment="Top" Width="321" Background="#FFF47420" ScrollViewer.VerticalScrollBarVisibility="Auto" >
+                <ScrollViewer Height="723" Width="321">
+                    <Grid Height="1293" Width="321">
+                        <Button x:Name="bBarra_MarcoN" Content="Marco Normativo" BorderBrush="{x:Null}" Foreground="White" Click="bBarra_MarcoN_Click" FontSize="22" Margin="0,0,0,1223" ClickMode="Press"/>
+                        <Grid x:Name="grid_marcoN" Background="#FFC5B8B1" Margin="0,70,-10,1083">
+                            <TextBlock HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="   ● Marco Normativo" VerticalAlignment="Top" Width="288" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Consideraciones por Entidad" VerticalAlignment="Top" Width="288" Margin="10,39,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_1"/>
+                            <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="   ● Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="288" Margin="10,72,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_2"/>
+                        </Grid>
+                        <Button x:Name="bBarra_TecnologiasR" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="21" Click="bBarra_TecnologiasR_Click" Margin="0,70,0,1153" ClickMode="Press" Content="Tecnologias Recomendadas"/>
+                        <!-- <Button d:IsHidden="True"/> -->
+                        <Grid x:Name="grid_TecnologiasR" Background="#FFC5B8B1" Margin="0,140,-10,862">
+                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ●Acceso a los servicios de aborto seguro" VerticalAlignment="Top" Width="289" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● La práctica clínica del aborto seguro" VerticalAlignment="Top" Width="289" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_4"/>
+                            <TextBlock HorizontalAlignment="Left" Height="110" TextWrapping="Wrap" Text="   ● Métodos recomendados para el aborto seguro                              a) Con medicamentos                            b) Aspiración por vacío" VerticalAlignment="Top" Width="311" Margin="10,116,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_5"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Contraindicaciones y precauciones" VerticalAlignment="Top" Width="289" Margin="10,231,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_6"/>
+                        </Grid>
+                        <Button x:Name="bBarra_MetodosA" Content="Metodos Anticonceptivos" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_MetodosA_Click" Margin="0,140,0,1083" ClickMode="Press"/>
+                        <Grid x:Name="grid_MetodosA" Background="#FFC5B8B1" Margin="0,210,-10,862">
+                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ● Criterios médicos de eligibilidad" VerticalAlignment="Top" Width="311" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_7"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Información anticonceptiva en el post-aborto" VerticalAlignment="Top" Width="291" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_8"/>
+                            <TextBlock HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="   ● Disco de cirterios médicos" VerticalAlignment="Top" Width="291" Margin="10,111,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_9"/>
+                            <TextBlock HorizontalAlignment="Left" Height="52" TextWrapping="Wrap" Text="   ● Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="291" Margin="10,157,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_10"/>
+                        </Grid>
+                        <Button x:Name="bBarra_Estigma" Content="Estigma" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_Estigma_Click" Margin="0,210,-10,1013" ClickMode="Press"/>
+                        <Grid x:Name="grid_Estigma" Background="#FFC5B8B1" Margin="0,280,0,832" HorizontalAlignment="Left" Width="321">
+                            <TextBlock HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="   ● ¿Que es el estigma por aborto?" VerticalAlignment="Top" Width="291" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_11"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Impacto en la salud de las mujeres" VerticalAlignment="Top" Width="291" Margin="10,62,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_12"/>
+                            <TextBlock Height="51" TextWrapping="Wrap" Text="   ● Estigmómetro" VerticalAlignment="Top" Margin="10,130,0,0" Foreground="#FFE71D91" HorizontalAlignment="Left" Width="291" Tap="TextBlock_Tap_13"/>
+                        </Grid>
+                    </Grid>
+                </ScrollViewer>
             </Canvas>
         </ContentControl>
 
