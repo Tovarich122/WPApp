@@ -1,3 +1,32 @@
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\App.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\MainPage.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Mapa\Mapa.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Marco_Normativo\MarcoNormativo_Quiz.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Disco_Criterios.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\UICustomControls\MapFlyOut.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\UICustomControls\OverlayMenu.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Contraindicaciones_Precauciones.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Metodos_Recomendados.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_1.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_2.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_3.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_main.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_1.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_2.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_3.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_main.g.cs
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.g.resources
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.resources
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.es-MX.resources
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csproj.GenerateResource.Cache
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\ApplicationIcon.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileLarge.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png
@@ -6,8 +35,8 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\Ic
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\Tiles\IconicTileSmall.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Images\medicine.png
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\clinics.xml
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states.xml
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states_1.xml
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states1.xml
+C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Model\states_2.xml
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS App.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS App.pdb
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\es-MX\IPAS App.resources.dll
@@ -123,36 +152,6 @@ C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.W
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\de-DE\Telerik.Windows.Controls.Primitives.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\fr-FR\Telerik.Windows.Controls.Primitives.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\it-IT\Telerik.Windows.Controls.Primitives.resources.dll
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csprojResolveAssemblyReference.cache
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\App.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Estigma\Estigmometro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\MainPage.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Mapa\Mapa.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Marco_Normativo\MarcoNormativo_Quiz.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Criterios_Medicos.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Disco_Criterios.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Informacion_Anticonceptiva.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Main_Metodos_Anticonceptivos.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Metodos_Anticonceptivos\Quiz_Metodos_Anticonceptivos.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\UICustomControls\MapFlyOut.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\UICustomControls\OverlayMenu.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Clinica_Aborto_Seguro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Contraindicaciones_Precauciones.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Metodos_Recomendados.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Principal_Tec_Recomendadas.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Tec_Recomendadas\Servicios_Aborto_Seguro.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_1.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_2.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_3.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\Estigma_main.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_1.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_2.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_3.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\Views\MarcoN_main.g.cs
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.g.resources
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.resources
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS_App.Resources.AppResources.es-MX.resources
-C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.csproj.GenerateResource.Cache
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\es-MX\IPAS App.resources.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll
 C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.pdb

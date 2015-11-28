@@ -24,5 +24,11 @@ namespace IPAS_App
 			webBrowserTask.Uri = new Uri("http://ipasmexico.org", UriKind.Absolute);
 			webBrowserTask.Show();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
+        }
     }
 }

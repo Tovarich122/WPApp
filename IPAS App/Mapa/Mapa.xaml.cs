@@ -87,12 +87,19 @@ namespace IPAS_App.Mapa
             Microsoft.Phone.Maps.MapsSettings.ApplicationContext.AuthenticationToken = "1pOOPeH3OK4vDUybldNrBw";
         }
 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Principal_Tec_Recomendadas.xaml", UriKind.RelativeOrAbsolute));
+        }
+
         public Mapa()
         {
             InitializeComponent();
             MyMap = new Map();
-            MapLayer mapLayer = new MapLayer();
+            MapLayer clinicsMapLayer = new MapLayer();
             MyMap.Loaded += onMapLoaded;
+            MyMap.Tap += OnMapTapped;
 
             ClinicsRoot clinicsXML = null;
             string path = "Model/clinics.xml";
@@ -143,7 +150,7 @@ namespace IPAS_App.Mapa
                 mapOverlay.Content = pushpin;
                 mapOverlay.GeoCoordinate = new GeoCoordinate(finalLat, finalLon);
                 mapOverlay.PositionOrigin = new Point(0.5, 0.5);
-                mapLayer.Add(mapOverlay);
+                clinicsMapLayer.Add(mapOverlay);
             }
 
             StationRoot stationsXML = null;
@@ -152,6 +159,7 @@ namespace IPAS_App.Mapa
             StreamReader reader2 = new StreamReader(path);
             stationsXML = (StationRoot)serializer2.Deserialize(reader2);
             reader2.Close();
+            MapLayer stationsMapLayer = new MapLayer();
 
             foreach (var item in stationsXML.stations)
             {
@@ -183,7 +191,7 @@ namespace IPAS_App.Mapa
                 MapOverlay mapOverlay = new MapOverlay();
                 mapOverlay.Content = pushpin;
                 mapOverlay.GeoCoordinate = new GeoCoordinate(finalLat, finalLon);
-                mapLayer.Add(mapOverlay);
+                stationsMapLayer.Add(mapOverlay);
             }
 
             MyMap.Center = new GeoCoordinate(Double.Parse(clinicsXML.clinics[0].lat.Replace('"', ' ').Trim()), Double.Parse(clinicsXML.clinics[0].lng.Replace('"', ' ').Trim()));
@@ -191,12 +199,32 @@ namespace IPAS_App.Mapa
             MyMap.CartographicMode = MapCartographicMode.Road;
             MyMap.ColorMode = MapColorMode.Light;
             
-            MyMap.Layers.Add(mapLayer);
+            MyMap.Layers.Add(clinicsMapLayer);
+            MyMap.Layers.Add(stationsMapLayer);
             ContentPanel.Children.Add(MyMap);
+        }
+
+        //Ocultar los pins que no están en focus
+        private void OnMapTapped(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            MapLayer localMapLayer = MyMap.Layers[0];
+            foreach (var overlay in localMapLayer)
+            {
+                Pushpin localPushpin = overlay.Content as Pushpin;
+                StackPanel localMainStack = localPushpin.Content as StackPanel;
+                StackPanel childrenStack = localMainStack.Children[2] as StackPanel;
+                TextBlock name = localMainStack.Children[0] as TextBlock;
+                TextBlock newName = localMainStack.Children[1] as TextBlock;
+                name.Visibility = Visibility.Visible;
+                newName.Visibility = Visibility.Collapsed;
+                childrenStack.Visibility = Visibility.Collapsed;
+            }
+            
         }
 
         private void OnTap(object sender, System.Windows.Input.GestureEventArgs e)
         {
+
             Pushpin pushpin = sender as Pushpin;
 
             if (pushpin.Content != null)
@@ -212,6 +240,7 @@ namespace IPAS_App.Mapa
 
                 if (hiddenChildren.Visibility == Visibility.Collapsed)
                 {
+
                     TextBlock name = hiddenContentParent.Children[0] as TextBlock;
                     TextBlock newName = hiddenContentParent.Children[1] as TextBlock;
                     name.Visibility = Visibility.Collapsed;

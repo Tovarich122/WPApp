@@ -35,7 +35,7 @@
                 <Image x:Name="img_Menu" Margin="34,0,324,0" Source="/Assets/Images/ic_legislative.png" Stretch="Fill"/>
                 <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Marco Normativo" Margin="158,0,71,10" HorizontalAlignment="Center" FontSize="26.667" Height="49" VerticalAlignment="Bottom" Foreground="White" Width="251"/>
                 <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
-                <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" ClickMode="Press" Click="Button_Click"/>
+                <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" ClickMode="Press" Click="Button_Click" Style="{StaticResource TransparentBackButtonStyle}"/>
             </Grid>
         </Grid>
         <!--ContentPanel - place additional content here-->
@@ -158,15 +158,15 @@
                     </Path>
                 </Canvas>
             </ScrollViewer>
-            <ScrollViewer x:Name="popup" HorizontalAlignment="Left" Height="540" Margin="0,181,0,0" VerticalAlignment="Top" Width="456">
-                <Grid x:Name="texto_estado" HorizontalAlignment="Left" Height="1029" VerticalAlignment="Top" Width="456">
-                    <TextBlock x:Name="n_estado" TextWrapping="Wrap" Text="Baja Califronia Sut" Margin="0,42,10,795" Foreground="#FFEC098D" TextAlignment="Center" FontSize="36"/>
-                    <TextBlock HorizontalAlignment="Left" Height="72" Margin="0,112,0,0" TextWrapping="Wrap" Text="Causas Consideradas en el Codigo Penal del Estado:" VerticalAlignment="Top" Width="446" Foreground="#FFFF0094" FontSize="22" />
-                    <TextBlock x:Name="text_content" HorizontalAlignment="Left" Height="693" Margin="0,184,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="446" Foreground="Black"/>
-                    <Canvas HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Background="DarkGray"/>
-                    <Image HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Source="/Assets/iconos/appbar.close.png" Tap="close_popup"/>
-                </Grid>
-            </ScrollViewer>
+            <Grid x:Name="popup" HorizontalAlignment="Left" Height="1029" VerticalAlignment="Top" Width="456" Margin="0,176,0,-405">
+                <TextBlock x:Name="n_estado" TextWrapping="Wrap" Text="Baja Califronia Sut" Margin="0,42,10,795" Foreground="#FFEC098D" TextAlignment="Center" FontSize="36"/>
+                <TextBlock x:Name="texto_descripcion" HorizontalAlignment="Left" Height="72" Margin="0,112,0,0" TextWrapping="Wrap" Text="Causas Consideradas en el Codigo Penal del Estado:" VerticalAlignment="Top" Width="446" Foreground="#FFFF0094" FontSize="22" />
+                <Canvas HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Background="DarkGray"/>
+                <Image HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Source="/Assets/iconos/appbar.close.png" Tap="close_popup"/>
+                <ScrollViewer HorizontalAlignment="Left" Margin="0,239,0,0" Width="456" Height="298" VerticalAlignment="Top">
+                    <TextBlock x:Name="text_content" HorizontalAlignment="Left" Height="693" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                </ScrollViewer>
+            </Grid>
         </Grid>
     </Grid>
 

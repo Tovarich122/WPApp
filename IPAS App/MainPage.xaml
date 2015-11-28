@@ -15,13 +15,13 @@
     SupportedOrientations="Portrait" Orientation="Portrait">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-	<Grid x:Name="LayoutRoot" Background="White">
-		<Grid.RowDefinitions>
-			<RowDefinition Height="Auto"/>
-			<RowDefinition Height="*"/>
-		</Grid.RowDefinitions>
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
 
-		<!-- LOCALIZATION NOTE:
+        <!-- LOCALIZATION NOTE:
             To localize the displayed strings copy their values to appropriately named
             keys in the app's neutral language resource file (AppResources.resx) then
             replace the hard-coded text value between the attributes' quotation marks
@@ -40,63 +40,76 @@
             CurrentUICulture of the app at run time.
          -->
 
-		<!--Uncomment to see an alignment grid to help ensure your controls are
+        <!--Uncomment to see an alignment grid to help ensure your controls are
             aligned on common boundaries.  The image has a top margin of -32px to
             account for the System Tray. Set this to 0 (or remove the margin altogether)
             if the System Tray is hidden.
 
             Before shipping remove this XAML and the image itself.-->
-		<!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
-		<!--TitlePanel contains the name of the application and page title-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+        <!--TitlePanel contains the name of the application and page title-->
 
         <!--ContentPanel - place additional content here-->
-		<Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
-			<Image Margin="388,10,28,6" Source="/Images/ic_clinics.png" Stretch="Fill">
-				<i:Interaction.Triggers>
-					<i:EventTrigger EventName="MouseLeftButtonDown">
-						<ec:NavigateToPageAction TargetPage="/Mapa/Mapa.xaml"/>
-					</i:EventTrigger>
-				</i:Interaction.Triggers>
-			</Image>
-		</Grid>
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+            <Image Margin="388,10,28,6" Source="/Images/ic_clinics.png" Stretch="Fill">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="MouseLeftButtonDown">
+                        <ec:NavigateToPageAction TargetPage="/Mapa/Mapa.xaml"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+            </Image>
+            <Button x:Name="boton_menu" Content="Button" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" Click="Button_Click"/>
+        </Grid>
 
         <!--ContentPanel - place additional content here-->
-		<Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,103,0,0">
-			<Grid.ColumnDefinitions>
-				<ColumnDefinition Width="97*"/>
-				<ColumnDefinition Width="55*"/>
-			</Grid.ColumnDefinitions>
-            
-            
-            
-			<telerikPrimitives:RadSlideHubTile Title="Nuevas Tecnologias" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
-				<telerikPrimitives:RadSlideHubTile.Picture>
-					<Image Source="/Assets/Images/ic_new.png" Width="221" Margin="0,0,-50,-44"/>
-				</telerikPrimitives:RadSlideHubTile.Picture>
-			</telerikPrimitives:RadSlideHubTile>
-			<telerikPrimitives:RadSlideHubTile Title="Marco Normativo" Margin="51,190,84,256" FontSize="16" UpdateInterval="0:0:3" Tap="RadSlideHubTile_Tap" Background="#FFEC098D">
-				<telerikPrimitives:RadSlideHubTile.Picture>
-					<Image Source="/Assets/Images/ic_legislative.png" Height="116" Width="171"/>
-				</telerikPrimitives:RadSlideHubTile.Picture>
-			</telerikPrimitives:RadSlideHubTile>
+        <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,103,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="97*"/>
+                <ColumnDefinition Width="55*"/>
+            </Grid.ColumnDefinitions>
 
-			<telerikPrimitives:RadSlideHubTile Title="Estigma" Margin="252,379,57,67" FontSize="16" UpdateInterval="0:0:5" Grid.ColumnSpan="2" Tap="RadSlideHubTile_Tap_1" Background="#FFEC098D">
-				<telerikPrimitives:RadSlideHubTile.Picture>
-					<Image Source="/Assets/Images/ic_trafficlight.png" Width="197" Margin="0,22,-26,-20"/>
-				</telerikPrimitives:RadSlideHubTile.Picture>
-			</telerikPrimitives:RadSlideHubTile>
-			<telerikPrimitives:RadSlideHubTile Title="Metodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
-				<telerikPrimitives:RadSlideHubTile.Picture>
-					<Image Source="/Assets/Images/ic_anti.png" Height="132" Width="192"/>
-				</telerikPrimitives:RadSlideHubTile.Picture>
-			</telerikPrimitives:RadSlideHubTile>
 
-		</Grid>
-		<Grid x:Name="ContentPanel1" Grid.Row="1" Margin="0,0,0,617">
-			<Image Margin="17,6,17,-164" Source="Images/im_header_main.png" Stretch="Fill"/>
 
-		</Grid>
+            <telerikPrimitives:RadSlideHubTile Title="Nuevas Tecnologias" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
+                <telerikPrimitives:RadSlideHubTile.Picture>
+                    <Image Source="/Assets/Images/ic_new.png" Width="221" Margin="0,0,-50,-44"/>
+                </telerikPrimitives:RadSlideHubTile.Picture>
+            </telerikPrimitives:RadSlideHubTile>
+            <telerikPrimitives:RadSlideHubTile Title="Marco Normativo" Margin="51,190,84,256" FontSize="16" UpdateInterval="0:0:3" Tap="RadSlideHubTile_Tap" Background="#FFEC098D">
+                <telerikPrimitives:RadSlideHubTile.Picture>
+                    <Image Source="/Assets/Images/ic_legislative.png" Height="116" Width="171"/>
+                </telerikPrimitives:RadSlideHubTile.Picture>
+            </telerikPrimitives:RadSlideHubTile>
 
-	</Grid>
+            <telerikPrimitives:RadSlideHubTile Title="Estigma" Margin="252,379,57,67" FontSize="16" UpdateInterval="0:0:5" Grid.ColumnSpan="2" Tap="RadSlideHubTile_Tap_1" Background="#FFEC098D">
+                <telerikPrimitives:RadSlideHubTile.Picture>
+                    <Image Source="/Assets/Images/ic_trafficlight.png" Width="197" Margin="0,22,-26,-20"/>
+                </telerikPrimitives:RadSlideHubTile.Picture>
+            </telerikPrimitives:RadSlideHubTile>
+            <telerikPrimitives:RadSlideHubTile Title="Metodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
+                <telerikPrimitives:RadSlideHubTile.Picture>
+                    <Image Source="/Assets/Images/ic_anti.png" Height="132" Width="192"/>
+                </telerikPrimitives:RadSlideHubTile.Picture>
+            </telerikPrimitives:RadSlideHubTile>
+
+        </Grid>
+        <Grid x:Name="ContentPanel1" Grid.Row="1" Margin="0,0,0,617">
+            <Image Margin="17,6,17,-164" Source="Images/im_header_main.png" Stretch="Fill"/>
+
+        </Grid>
+        <Canvas x:Name="shield" HorizontalAlignment="Left" Height="800" Margin="-32,0,-5,0" VerticalAlignment="Top" Width="517" Background="#59000000" Grid.RowSpan="2" Tap="shield_Tap"/>
+        <ContentControl x:Name="CControl" IsTabStop="True" HorizontalAlignment="Left" Height="720" Margin="-234,0,0,0" VerticalAlignment="Top" Width="229" Grid.Row="1" LostFocus="CControl_LostFocus">
+            <Canvas x:Name="sliding_menu" HorizontalAlignment="Left" Height="723" VerticalAlignment="Top" Width="230" Background="#FF46FF00" >
+                <Button x:Name="bBarra_MarcoN" Content="Marco Normativo" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Click="bBarra_MarcoN_Click"/>
+                <Grid x:Name="grid_marcoN" Height="167" Canvas.Top="70" Width="230" Background="#FF6C6C6C">
+                    <TextBlock HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="Marco Normativo" VerticalAlignment="Top" Width="230"/>
+                    <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="Consideraciones por Entidad" VerticalAlignment="Top" Width="230" Margin="0,39,0,0"/>
+                    <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="230" Margin="0,106,0,0"/>
+                </Grid>
+                <Button x:Name="bBarra_TecnologiasR" Content="Tecnologias Recomendadas" Height="70" Width="230" BorderBrush="{x:Null}" Foreground="#FFC84005" ClickMode="Press" Canvas.Top="75"/>
+            </Canvas>
+        </ContentControl>
+
+    </Grid>
 
 </phone:PhoneApplicationPage>

@@ -8,16 +8,23 @@ using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using IPAS_App.Resources;
+using Telerik.Windows.Controls;
+using System.Windows.Media.Animation;
 
 namespace IPAS
 {
     public partial class MainPage : PhoneApplicationPage
     {
+        int a = 0;
+        int wmarcon = 0;
+        bool LosingFocus = true;
+        
         // Constructor
         public MainPage()
         {
             InitializeComponent();
-
+            shield.Visibility = Visibility.Collapsed;
+            grid_marcoN.Height = 0;
             // Sample code to localize the ApplicationBar
             //BuildLocalizedApplicationBar();
          
@@ -46,6 +53,104 @@ namespace IPAS
         private void RadSlideHubTile_Tap_3(object sender, System.Windows.Input.GestureEventArgs e)
         {
             this.NavigationService.Navigate(new Uri("/Metodos_Anticonceptivos/Main_Metodos_Anticonceptivos.xaml", UriKind.RelativeOrAbsolute));
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+                RadMoveAnimation animation = new RadMoveAnimation();
+                EasingFunctionBase ease = new QuadraticEase();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                if (a == 0)
+                {
+                    endPoint.X = 234;
+                    endPoint.Y = 0;
+                    a = 1;
+                    CControl.Focus();
+                    boton_menu.IsEnabled = false;
+                }
+                shield.Visibility = Visibility.Visible;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                RadAnimationManager.Play(CControl, animation);
+                
+          
+        }
+        private void CControl_LostFocus(object sender, RoutedEventArgs e)
+        {
+            bool fg = LosingFocus;
+            if (LosingFocus == true)
+            {
+                RadMoveAnimation animation = new RadMoveAnimation();
+                EasingFunctionBase ease = new QuadraticEase();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                endPoint.X = 0;
+                endPoint.Y = 0;
+                a = 0;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                shield.Visibility = Visibility.Collapsed;
+                boton_menu.IsEnabled = true;
+                RadAnimationManager.Play(CControl, animation);
+            }
+            else
+            {
+
+                LosingFocus = true;
+            }
+        }
+
+        private void bBarra_MarcoN_Click(object sender, RoutedEventArgs e)
+        {
+            LosingFocus = false;
+            RadResizeAnimation resizeAnimation = new RadResizeAnimation();
+            EasingFunctionBase ease = new QuadraticEase();
+            ease.EasingMode = EasingMode.EaseInOut;
+            if (wmarcon == 0)
+            {
+                resizeAnimation.StartSize = new Size(230, 0);
+                Size size = new Size(230, 170);
+                resizeAnimation.EndSize = size;
+                resizeAnimation.Easing = ease;
+                //Canvas.SetTop(bBarra_TecnologiasR, 245);
+                RadMoveAnimation animation = new RadMoveAnimation();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                endPoint.X = 0;
+                endPoint.Y = 170;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                RadAnimationManager.Play(bBarra_TecnologiasR, animation);
+    
+                wmarcon = 1;
+            }
+            else
+            {
+                resizeAnimation.StartSize = new Size(230,170);
+                Size size = new Size(230, 0);
+                resizeAnimation.EndSize = size;
+                resizeAnimation.Easing = ease;
+                wmarcon = 0;
+                Canvas.SetTop(bBarra_TecnologiasR, 75);
+               // RadMoveAnimation animation = new RadMoveAnimation();
+                RadMoveAnimation animation = new RadMoveAnimation();
+                ease.EasingMode = EasingMode.EaseInOut;
+                Point endPoint = new Point();
+                endPoint.X = 0;
+                endPoint.Y = 0;
+                animation.EndPoint = endPoint;
+                animation.Easing = ease;
+                RadAnimationManager.Play(bBarra_TecnologiasR, animation);
+            }
+            
+            RadAnimationManager.Play(grid_marcoN, resizeAnimation);
+        }
+
+        private void shield_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            LosingFocus = true;
         }
 
 
