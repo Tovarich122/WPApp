@@ -110,7 +110,7 @@
     </Compile>
     <Compile Include="Model\Estado.cs" />
     <Compile Include="Model\Pregunta.cs" />
-    <Compile Include="Estigma\Estigmometro.xaml.cs">
+    <Compile Include="Estigma.old\Estigmometro.xaml.cs">
       <DependentUpon>Estigmometro.xaml</DependentUpon>
     </Compile>
     <Compile Include="LocalizedStrings.cs" />
@@ -118,7 +118,7 @@
     <Compile Include="Mapa\Mapa.xaml.cs">
       <DependentUpon>Mapa.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Marco_Normativo\MarcoNormativo_Quiz.xaml.cs">
+    <Compile Include="Marco_Normativo.old\MarcoNormativo_Quiz.xaml.cs">
       <DependentUpon>MarcoNormativo_Quiz.xaml</DependentUpon>
     </Compile>
     <Compile Include="UICustomControls\MapFlyOut.xaml.cs">
@@ -163,7 +163,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </ApplicationDefinition>
-    <Page Include="Estigma\Estigmometro.xaml">
+    <Page Include="Estigma.old\Estigmometro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -174,7 +174,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Marco_Normativo\MarcoNormativo_Quiz.xaml">
+    <Page Include="Marco_Normativo.old\MarcoNormativo_Quiz.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -306,6 +306,7 @@
     <Content Include="Assets\Images\im_splash_center.png" />
     <Content Include="Assets\Images\im_test_introduction.png" />
     <Content Include="Assets\Images\test.png" />
+    <Content Include="Assets\Images\YouTube-avatar-generic %286%29.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
