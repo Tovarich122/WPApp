@@ -56,28 +56,28 @@ namespace IPAS
             this.NavigationService.Navigate(new Uri("/Metodos_Anticonceptivos/Main_Metodos_Anticonceptivos.xaml", UriKind.RelativeOrAbsolute));
         }
 
-        //private void Button_Click(object sender, RoutedEventArgs e)
-        //{
+        private void Button_Click1(object sender, RoutedEventArgs e)
+        {
 
-        //        RadMoveAnimation animation = new RadMoveAnimation();
-        //        EasingFunctionBase ease = new QuadraticEase();
-        //        ease.EasingMode = EasingMode.EaseInOut;
-        //        Point endPoint = new Point();
-        //        if (a == 0)
-        //        {
-        //            endPoint.X = 321;
-        //            endPoint.Y = 0;
-        //            a = 1;
-        //            CControl.Focus();
-        //            boton_menu.IsEnabled = false;
-        //        }
-        //        shield.Visibility = Visibility.Visible;
-        //        animation.EndPoint = endPoint;
-        //        animation.Easing = ease;
-        //        RadAnimationManager.Play(CControl, animation);
+            RadMoveAnimation animation = new RadMoveAnimation();
+            EasingFunctionBase ease = new QuadraticEase();
+            ease.EasingMode = EasingMode.EaseInOut;
+            Point endPoint = new Point();
+            if (a == 0)
+            {
+                endPoint.X = 321;
+                endPoint.Y = 0;
+                a = 1;
+                CControl.Focus();
+                //boton_menu.IsEnabled = false;
+            }
+            shield.Visibility = Visibility.Visible;
+            animation.EndPoint = endPoint;
+            animation.Easing = ease;
+            RadAnimationManager.Play(CControl, animation);
 
 
-        //}
+        }
         private void CControl_LostFocus(object sender, RoutedEventArgs e)
         {
             bool fg = LosingFocus;
@@ -292,8 +292,6 @@ namespace IPAS
 
             RadAnimationManager.Play(grid_marcoN, resizeAnimation);
         }
-
-
 
         private void bBarra_TecnologiasR_Click(object sender, RoutedEventArgs e)
         {
@@ -624,22 +622,22 @@ namespace IPAS
 
         private void TextBlock_Tap_3(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Tec_Recomendas/Servicios_Aborto_Seguro.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Servicios_Aborto_Seguro.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void TextBlock_Tap_4(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Tec_Recomendas/Clinica_Aborto_Seguro.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Clinica_Aborto_Seguro.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void TextBlock_Tap_5(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Tec_Recomendas/Metodos_Recomendados.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Metodos_Recomendados.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void TextBlock_Tap_6(object sender, System.Windows.Input.GestureEventArgs e)
         {
-            this.NavigationService.Navigate(new Uri("/Tec_Recomendas/Contraindicaciones_Precauciones.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Contraindicaciones_Precauciones.xaml", UriKind.RelativeOrAbsolute));
         }
 
         private void TextBlock_Tap_7(object sender, System.Windows.Input.GestureEventArgs e)

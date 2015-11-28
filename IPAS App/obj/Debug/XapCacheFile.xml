@@ -1,12 +1,6 @@
-<<<<<<< HEAD
-﻿<xapCache source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="24/11/2015 08:31:13 p. m.">
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="24/11/2015 08:31:07 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\es-MX\IPAS App.resources.dll" archivePath="es-MX\IPAS App.resources.dll" lastWriteTime="24/11/2015 08:31:08 p. m." />
-=======
-﻿<xapCache source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="24/11/2015 10:31:30 p. m.">
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="24/11/2015 10:31:27 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\es-MX\IPAS App.resources.dll" archivePath="es-MX\IPAS App.resources.dll" lastWriteTime="24/11/2015 10:31:27 p. m." />
->>>>>>> refs/remotes/origin/master
+﻿<xapCache source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\IPAS_App_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="27/11/2015 07:22:16 p. m.">
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="27/11/2015 07:22:12 p. m." />
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Debug\es-MX\IPAS App.resources.dll" archivePath="es-MX\IPAS App.resources.dll" lastWriteTime="27/11/2015 07:22:13 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" archivePath="es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" lastWriteTime="17/10/2015 08:14:47 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\CountryFile.html" archivePath="Assets\CountryFile.html" lastWriteTime="12/11/2015 05:55:37 p. m." />
@@ -52,17 +46,15 @@
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_splash_center.png" archivePath="Assets\Images\im_splash_center.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_test_introduction.png" archivePath="Assets\Images\im_test_introduction.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\test.png" archivePath="Assets\Images\test.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\YouTube-avatar-generic (6).png" archivePath="Assets\Images\YouTube-avatar-generic (6).png" lastWriteTime="27/11/2015 07:19:22 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\FlipCycleTileSmall.png" archivePath="FlipCycleTileSmall.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-<<<<<<< HEAD
-=======
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical1.png" archivePath="Images\anesthesia_paracervical1.png" lastWriteTime="24/11/2015 08:42:46 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical2.png" archivePath="Images\anesthesia_paracervical2.png" lastWriteTime="24/11/2015 08:42:46 p. m." />
->>>>>>> refs/remotes/origin/master
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical1.png" archivePath="Images\anesthesia_paracervical1.png" lastWriteTime="27/11/2015 07:10:11 p. m." />
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical2.png" archivePath="Images\anesthesia_paracervical2.png" lastWriteTime="27/11/2015 07:10:11 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_18marzo.png" archivePath="Images\ic_18marzo.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_balderas.png" archivePath="Images\ic_balderas.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_barrancadelmuerto.png" archivePath="Images\ic_barrancadelmuerto.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
@@ -83,14 +75,9 @@
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\im_btn_menu_index1.png" archivePath="Images\im_btn_menu_index1.png" lastWriteTime="01/11/2015 06:55:24 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\medicine.png" archivePath="Images\medicine.png" lastWriteTime="02/11/2015 06:12:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\clinics.xml" archivePath="Model\clinics.xml" lastWriteTime="12/11/2015 05:55:40 p. m." />
-<<<<<<< HEAD
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="24/11/2015 08:23:33 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states_1.xml" archivePath="Model\states_1.xml" lastWriteTime="24/11/2015 08:23:33 p. m." />
-=======
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="24/11/2015 08:42:46 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states1.xml" archivePath="Model\states1.xml" lastWriteTime="24/11/2015 08:42:46 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states_2.xml" archivePath="Model\states_2.xml" lastWriteTime="24/11/2015 08:42:46 p. m." />
->>>>>>> refs/remotes/origin/master
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="27/11/2015 07:10:13 p. m." />
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states1.xml" archivePath="Model\states1.xml" lastWriteTime="27/11/2015 07:10:13 p. m." />
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states_2.xml" archivePath="Model\states_2.xml" lastWriteTime="27/11/2015 07:10:34 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\stations.xml" archivePath="Model\stations.xml" lastWriteTime="12/11/2015 05:55:40 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Tec_Recomendadas\CountryFile.html" archivePath="Tec_Recomendadas\CountryFile.html" lastWriteTime="05/11/2015 09:51:44 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
@@ -98,11 +85,7 @@
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
-<<<<<<< HEAD
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="23/11/2015 11:19:28 p. m." />
-=======
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="24/11/2015 10:31:06 p. m." />
->>>>>>> refs/remotes/origin/master
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="27/11/2015 07:22:15 p. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 01:41:02 a. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="17/10/2015 08:14:47 p. m." />
@@ -126,9 +109,5 @@
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.xml" archivePath="Telerik.Windows.Core.xml" lastWriteTime="26/02/2014 11:13:42 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.xml" archivePath="Telerik.Windows.Data.xml" lastWriteTime="26/02/2014 11:14:06 a. m." />
   <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\FlipCycleTileMedium.png" archivePath="FlipCycleTileMedium.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-<<<<<<< HEAD
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="23/11/2015 11:19:28 p. m." />
-=======
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="24/11/2015 10:31:06 p. m." />
->>>>>>> refs/remotes/origin/master
+  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="27/11/2015 07:22:15 p. m." />
 </xapCache>
