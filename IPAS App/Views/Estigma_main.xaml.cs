@@ -17,6 +17,13 @@ namespace IPAS_App.Views
         {
             InitializeComponent();
         }
+
+        private void ShowInBrowser(string url)
+        {
+            Microsoft.Phone.Tasks.WebBrowserTask wbt = new Microsoft.Phone.Tasks.WebBrowserTask();
+            wbt.Uri = new Uri(url);
+            wbt.Show();
+        }
         private void HyperlinkButton_Click(object sender, System.Windows.RoutedEventArgs e)
         {
             WebBrowserTask webBrowserTask = new WebBrowserTask();
@@ -50,6 +57,11 @@ namespace IPAS_App.Views
             {
                 NavigationService.RemoveBackEntry();
             }
+        }
+
+        private void HyperlinkButton_Click_1(object sender, RoutedEventArgs e)
+        {
+            ShowInBrowser("https://www.youtube.com/watch?v=smYW7l-7SUI");
         }
     }
 }
