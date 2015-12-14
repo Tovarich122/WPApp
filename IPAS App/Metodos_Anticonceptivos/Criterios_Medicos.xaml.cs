@@ -7,6 +7,7 @@ using System.Windows.Controls;
 using System.Windows.Navigation;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
+using Microsoft.Phone.Tasks;
 
 namespace IPAS_App
 {
@@ -21,7 +22,6 @@ namespace IPAS_App
         {
 
             this.NavigationService.Navigate(new Uri("/Metodos_Anticonceptivos/Main_Metodos_Anticonceptivos.xaml", UriKind.RelativeOrAbsolute));
-            
             
         }
 
@@ -65,6 +65,20 @@ namespace IPAS_App
 			blackGrid.Visibility = Visibility.Visible;
             whiteGrid.Visibility = Visibility.Visible;
 		}
+
+        private void HyperlinkButton_Click2(object sender, RoutedEventArgs e)
+        {
+            WebBrowserTask webBrowserTask = new WebBrowserTask();
+            webBrowserTask.Uri = new Uri("http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf", UriKind.Absolute);
+            webBrowserTask.Show();
+        }
+
+        private void HyperlinkButton_Click3(object sender, RoutedEventArgs e)
+        {
+            WebBrowserTask webBrowserTask = new WebBrowserTask();
+            webBrowserTask.Uri = new Uri("http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/", UriKind.Absolute);
+            webBrowserTask.Show();
+        }
         
     }
 }

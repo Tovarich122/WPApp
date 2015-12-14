@@ -51,7 +51,7 @@
                                 <Run>1. Si la mujer tiene relaciones sexuales sin usar un método anticonceptivo moderno, puede quedar embarazada tan pronto como una semana después de interrumpir el embarazo.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>2. En comparación con los métodos de corta duración, como las píldoras, los métodos de acción prolongada, como implantes y DIU, tienen tasas más altas de continuación y tasas más bajas de embarazos repetidos que otros métodos..</Run>
+                                <Run>2. En comparación con los métodos de corta duración, como las píldoras, los métodos de acción prolongada, como implantes y Dispositivo Intrauterino (DIU), tienen tasas más altas de continuación y tasas más bajas de embarazos repetidos que otros métodos..</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>3. Se considera seguro el inicio inmediato de anticonceptivos hormonales y no hormonales después del aborto con medicamentos y quirúrgico, en el primer y segundo trimestre.</Run>
@@ -85,14 +85,16 @@
                                 <Run>- Inicio del uso de anticonceptivos</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>El DIU puede insertarse inmediatamente después de la Aspiración Endouterina.</Run>
+                                <Run>El Dispositivo Intrauterino (DIU) puede insertarse inmediatamente después de la Aspiración Endouterina.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>La mayoría de los métodos anticonceptivos  (tales como pastillas, inyecciones e implantes) pueden iniciarse el mismo día que se administra la primera tableta (mifepristona) del régimen combinado o que se realiza la aspiración endouterina.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>Para condiciones médicas concomitantes (ej.: diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar:</Run>
-                                <Run>http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf y href="http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/</Run>
+                                <Hyperlink Foreground="Blue" Click="HyperlinkButton_Click2">- http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf</Hyperlink>
+                                <LineBreak/>
+                                <Hyperlink Foreground="Blue" Click="HyperlinkButton_Click3">- http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/</Hyperlink>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>1. Métodos anticonceptivos después de la aspiración endouterina</Run>
@@ -101,7 +103,7 @@
                                 <Run>Inmediatamente después de realizarse un aborto por aspiración endouterina en el 1er trimestre, sin complicaciones, es seguro y se puede:</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>a) Insertar un DIU de cobre o medicado.</Run>
+                                <Run>a) Insertar un Dispositivo Intrauterino (DIU) de cobre o medicado.</Run>
                                 <LineBreak/>
                                 <Run>b) Insertar implante subdermico.</Run>
                                 <LineBreak/>
@@ -123,10 +125,10 @@
                                 <Run>c) Iniciar las pastillas, parches, o el anillo vaginal.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>La inserción del DIU de cobre o medicado puede hacerse cuando se tenga la certeza razonable de que no hay embarazo, tan pronto como 7 días después de la ultima  toma de tabletas del régimen combinado.</Run>
+                                <Run>La inserción del Dispositivo Intrauterino (DIU) de cobre o medicado puede hacerse cuando se tenga la certeza razonable de que no hay embarazo, tan pronto como 7 días después de la ultima  toma de tabletas del régimen combinado.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>La OCLUSIÓN TUBÁRICA puede realizarse tan pronto como la mujer lo desee, cuando se tenga la certeza razonable de que no hay … tan pronto como 7 días después.</Run>
+                                <Run>La oclusión tubárica puede realizarse tan pronto como la mujer lo desee, cuando se tenga la certeza razonable de que no hay embarazo inmediatamente después de un procedimiento de aspiración manual intrauterina.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                             </Paragraph>
@@ -157,10 +159,10 @@
                                 <Run>Después de un aborto del 2do trimestre por dilatación y evacuación (D&amp;E) o de aborto con medicamentos, se recomienda y considera seguro el inicio inmediato de anticonceptivos hormonales ( pastillas, parche, anillo vaginal, inyecciones, implante subdpérmico).</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>El DIU (de cobre o medicado) puede insertarse inmediatamente después de un procedimiento de D&amp;E.</Run>
+                                <Run>El Dispositivo Intrauterino (DIU) (de cobre o medicado) puede insertarse inmediatamente después de un procedimiento de D&amp;E.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>En caso de aborto con medicamentos, la inserción de DIU de cobre o medicado, se puede realizar cuando exista la certeza razonable de que la mujer ya no esta embarazada.</Run>
+                                <Run>En caso de aborto con medicamentos, la inserción de Dispositivo Intrauterino (DIU) de cobre o medicado, se puede realizar cuando exista la certeza razonable de que la mujer ya no esta embarazada.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                             </Paragraph>
@@ -190,10 +192,10 @@
                                 <Run>a) En caso de paridad satisfecha, privilegiar los métodos definitivos.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>b) En caso de un aborto séptico: existe contraindicación absoluta para la inserción del DIU y se recomienda esperar al menos 3 meses post tratamiento.</Run>
+                                <Run>b) En caso de un aborto séptico: existe contraindicación absoluta para la inserción del Dispositivo Intrauterino (DIU) y se recomienda esperar al menos 3 meses post tratamiento.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>c) En caso de un embarazo ectópico: se recomienda privilegiar los métodos hormonales; el uso de DIU ( de cobre o medicado), sin embargo, no aumenta el riesgo absoluto de un embarazo ectópico.</Run>
+                                <Run>c) En caso de un embarazo ectópico: se recomienda privilegiar los métodos hormonales; el uso de Dispositivo Intrauterino (DIU) ( de cobre o medicado), sin embargo, no aumenta el riesgo absoluto de un embarazo ectópico.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>d) En caso de enfermedad trofoblástica gestacional (mola): el dispositivo de cobre y medicado son Categoría 3, por el riesgo relativo de perforación uterina. El  dispositivo de cobre y medicado son categoría 4 cuando la hormona del embarazo (𝛽hCG) está persistentemente elevada o existe sospecha de coriocarcinoma.</Run>

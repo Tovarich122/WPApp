@@ -30,5 +30,20 @@ namespace IPAS_App
 
             this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Principal_Tec_Recomendadas.xaml", UriKind.RelativeOrAbsolute));
         }
+
+        private void HyperlinkButton_Click2(object sender, System.Windows.RoutedEventArgs e)
+        {
+			WebBrowserTask webBrowserTask = new WebBrowserTask();
+            webBrowserTask.Uri = new Uri("http://www.who.int/reproductivehealth/publications/unsafe_abortion/abortion-task-shifting/en/", UriKind.Absolute);
+            webBrowserTask.Show();
+        }
+		
+		private void HyperlinkButton_Click3(object sender, System.Windows.RoutedEventArgs e)
+        {
+			WebBrowserTask webBrowserTask = new WebBrowserTask();
+            webBrowserTask.Uri = new Uri("http://ipasmexico.org/act-clinicas.html", UriKind.Absolute);
+            webBrowserTask.Show();
+        }
+	
     }
 }

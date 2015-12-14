@@ -90,7 +90,7 @@ namespace IPAS_App.Mapa
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
-            this.NavigationService.Navigate(new Uri("/Tec_Recomendadas/Principal_Tec_Recomendadas.xaml", UriKind.RelativeOrAbsolute));
+            this.NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
         public Mapa()
@@ -118,7 +118,18 @@ namespace IPAS_App.Mapa
                 if (item.name.Length > 15)
                 {
                     StackPanel stack = new StackPanel();
-                    stack.Children.Add(new TextBlock { Text = item.name.Substring(0, 14) + "...", MaxWidth = 480,TextWrapping = TextWrapping.Wrap });
+                    // stack.Children.Add(new TextBlock { Text = item.name.Substring(0, 14) + "...", MaxWidth = 480,TextWrapping = TextWrapping.Wrap }  );
+
+                    System.Windows.Media.Imaging.BitmapImage bmp = new System.Windows.Media.Imaging.BitmapImage();
+                    string filePath = "/Images/ic_pin.png";
+                    bmp.UriSource = new Uri(filePath, UriKind.Relative);
+
+                    var imageBrush = new System.Windows.Media.ImageBrush
+                    {
+                        ImageSource = bmp,
+                    };
+
+                    stack.Children.Add(new Grid() { Background = imageBrush, Height = 50, Width = 50 });
                     stack.Children.Add(new TextBlock { Text = item.name, MaxWidth = 480, TextWrapping = TextWrapping.Wrap });
                     stack.Children[1].Visibility = Visibility.Collapsed;
 
@@ -143,7 +154,7 @@ namespace IPAS_App.Mapa
                     pushpin.Content = item.name;
                 }
 
-                pushpin.Style = (Style)App.Current.Resources["OrangePushpin"];
+                pushpin.Style = (Style)App.Current.Resources["PushpinTransparent"];
                 pushpin.Tap += OnTap;
 
                 MapOverlay mapOverlay = new MapOverlay();
@@ -178,15 +189,22 @@ namespace IPAS_App.Mapa
                     ImageSource = bmp
                 };
 
-                pushpin.Content = new Grid()
-                {
-                    Background = imageBrush,
-                    Height = 40,
-                    Width = 40
-                };
+
+                StackPanel panel = new StackPanel();
+                panel.Children.Add(new Grid() { Background = imageBrush, Height = 40, Width = 40}); // Elemento 0
+                panel.Children.Add(new TextBlock { Text = item.name, MaxWidth = 480, TextWrapping = TextWrapping.Wrap }); // Elemento 1
+                StackPanel coordinates = new StackPanel(); //Elemento 2
+                coordinates.Children.Add(new TextBlock { Text = item.lat });
+                coordinates.Children.Add(new TextBlock { Text = item.lng });
+                coordinates.Visibility = Visibility.Collapsed;
+                panel.Children.Add(coordinates);
+
+                panel.Children[1].Visibility = Visibility.Collapsed;
+
+                pushpin.Content = panel;
 
                 pushpin.Style = (Style)App.Current.Resources["OrangePushpin"];
-                //pushpin.Tap += OnTap;
+                pushpin.Tap += OnTap2;
 
                 MapOverlay mapOverlay = new MapOverlay();
                 mapOverlay.Content = pushpin;
@@ -194,7 +212,8 @@ namespace IPAS_App.Mapa
                 stationsMapLayer.Add(mapOverlay);
             }
 
-            MyMap.Center = new GeoCoordinate(Double.Parse(clinicsXML.clinics[0].lat.Replace('"', ' ').Trim()), Double.Parse(clinicsXML.clinics[0].lng.Replace('"', ' ').Trim()));
+            //MyMap.Center = new GeoCoordinate(Double.Parse(clinicsXML.clinics[0].lat.Replace('"', ' ').Trim()), Double.Parse(clinicsXML.clinics[0].lng.Replace('"', ' ').Trim()));
+            MyMap.Center = new GeoCoordinate(19.428242, -99.133324);
             MyMap.ZoomLevel = 12;
             MyMap.CartographicMode = MapCartographicMode.Road;
             MyMap.ColorMode = MapColorMode.Light;
@@ -211,13 +230,23 @@ namespace IPAS_App.Mapa
             foreach (var overlay in localMapLayer)
             {
                 Pushpin localPushpin = overlay.Content as Pushpin;
+                localPushpin.Style = (Style)App.Current.Resources["PushpinTransparent"];
                 StackPanel localMainStack = localPushpin.Content as StackPanel;
                 StackPanel childrenStack = localMainStack.Children[2] as StackPanel;
-                TextBlock name = localMainStack.Children[0] as TextBlock;
+                Grid pinImg = localMainStack.Children[0] as Grid;
                 TextBlock newName = localMainStack.Children[1] as TextBlock;
-                name.Visibility = Visibility.Visible;
+                pinImg.Visibility = Visibility.Visible;
                 newName.Visibility = Visibility.Collapsed;
                 childrenStack.Visibility = Visibility.Collapsed;
+            }
+
+            localMapLayer = MyMap.Layers[1];
+            foreach (var overlay in localMapLayer)
+            {
+                Pushpin localPushpin = overlay.Content as Pushpin;
+                StackPanel localMainStack = localPushpin.Content as StackPanel;
+                TextBlock localTB = localMainStack.Children[1] as TextBlock;
+                localTB.Visibility = Visibility.Collapsed;
             }
             
         }
@@ -226,6 +255,7 @@ namespace IPAS_App.Mapa
         {
 
             Pushpin pushpin = sender as Pushpin;
+            pushpin.Style = (Style)App.Current.Resources["OrangePushpin"];
 
             if (pushpin.Content != null)
             {
@@ -236,16 +266,43 @@ namespace IPAS_App.Mapa
                 //SetCenter
                 TextBlock latTB = hiddenCoordinates.Children[0] as TextBlock;
                 TextBlock lngTB = hiddenCoordinates.Children[1] as TextBlock;
-                MyMap.SetView(new GeoCoordinate(Double.Parse(latTB.Text), Double.Parse(lngTB.Text)),20,MapAnimationKind.Parabolic);
+                MyMap.SetView(new GeoCoordinate(Double.Parse(latTB.Text), Double.Parse(lngTB.Text)),18,MapAnimationKind.Parabolic);
 
                 if (hiddenChildren.Visibility == Visibility.Collapsed)
                 {
 
-                    TextBlock name = hiddenContentParent.Children[0] as TextBlock;
+                    Grid pinImg = hiddenContentParent.Children[0] as Grid;
+                    //TextBlock name = hiddenContentParent.Children[0] as TextBlock;
                     TextBlock newName = hiddenContentParent.Children[1] as TextBlock;
-                    name.Visibility = Visibility.Collapsed;
+                    pinImg.Visibility = Visibility.Collapsed;
                     newName.Visibility = Visibility.Visible;
                     hiddenChildren.Visibility = Visibility.Visible;
+                }
+            }
+            // to stop the event from going to the parent map control
+            e.Handled = true;
+
+        }
+
+        private void OnTap2(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+
+            Pushpin pushpin = sender as Pushpin;
+
+            if (pushpin.Content != null)
+            {
+                StackPanel hiddenContentParent = pushpin.Content as StackPanel;
+                TextBlock hiddenText = hiddenContentParent.Children[1] as TextBlock;
+                StackPanel hiddenCoordinates = hiddenContentParent.Children[2] as StackPanel;
+
+                //SetCenter
+                TextBlock latTB = hiddenCoordinates.Children[0] as TextBlock;
+                TextBlock lngTB = hiddenCoordinates.Children[1] as TextBlock;
+                MyMap.SetView(new GeoCoordinate(Double.Parse(latTB.Text), Double.Parse(lngTB.Text)), 18, MapAnimationKind.Parabolic);
+
+                if (hiddenText.Visibility == Visibility.Collapsed)
+                {
+                    hiddenText.Visibility = Visibility.Visible;
                 }
             }
             // to stop the event from going to the parent map control

@@ -27,7 +27,7 @@
             <Button Content="Impacto en la Salud de las Mujeres" HorizontalAlignment="Left" Height="97" Margin="10,178,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_1" Style="{StaticResource ButtonPressedPink}"/>
             <Button Content="Estigmómetro" HorizontalAlignment="Left" Height="97" Margin="10,302,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_2" Style="{StaticResource ButtonPressedPink}"/>
             <TextBlock HorizontalAlignment="Left" Height="40" Margin="218,569,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="Ver Video"/>
-            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436">
+            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" TextAlignment="Center">
             	<Run Text="&quot;"/>
             	<Run Text="Porque soy médico y no juez. Tu puedes hacer la diferencia para reducir el estigma hacia las mujeres que abortan y proteger su salud sexual reproductiva."/>
             	<Run Text="&quot;"/>

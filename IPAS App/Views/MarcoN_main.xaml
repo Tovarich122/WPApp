@@ -26,7 +26,7 @@
             <Button Content="Marco Normativo" HorizontalAlignment="Left" Height="97" Margin="10,53,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click" Style="{StaticResource ButtonPressedPink}"/>
             <Button Content="Consideraciones por Entidad" HorizontalAlignment="Left" Height="97" Margin="10,178,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_1" Style="{StaticResource ButtonPressedPink}"/>
             <Button Content="Test de Conocimiento" HorizontalAlignment="Left" Height="97" Margin="10,302,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_2" Style="{StaticResource ButtonPressedPink}"/>
-            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,426,0,0" TextWrapping="Wrap" Text="Porque soy médico y no juez. #YoYaNoEstigmatizo. Negar un servicio de salud por prejuicios morales puede poner en riesgo la vida de las mujeres" VerticalAlignment="Top" Width="436"/>
+            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,426,0,0" TextWrapping="Wrap" Text="Porque soy médico y no juez. #YoYaNoEstigmatizo. Negar un servicio de salud por prejuicios morales puede poner en riesgo la vida de las mujeres" VerticalAlignment="Top" Width="436" TextAlignment="Center"/>
         </Grid>
         <Grid x:Name="Header_Footer" HorizontalAlignment="Left" Height="768" Grid.RowSpan="2" VerticalAlignment="Top" Width="480">
             <Grid x:Name="BreadCrumb_Grid" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,-34" Width="489">

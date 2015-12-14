@@ -336,6 +336,7 @@
     <Content Include="Images\ic_indiosverdes.png" />
     <Content Include="Images\ic_new_technologies.png" />
     <Content Include="Images\ic_observatorio.png" />
+    <Content Include="Images\ic_pin.png" />
     <Content Include="Images\ic_rioconsulado.png" />
     <Content Include="Images\ic_rosario.png" />
     <Content Include="Images\ic_sanlazaro.png" />

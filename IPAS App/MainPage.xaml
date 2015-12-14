@@ -58,13 +58,14 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Image>
-            <Button x:Name="boton_menu" Content="" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" Click="Button_Click1" BorderBrush="#FFF47420">
-            <!--<Button x:Name="boton_menu" Content="" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" BorderBrush="#FFF47420">-->
-            <Button.Background>
-                    <ImageBrush Stretch="UniformToFill" ImageSource="/Assets/iconos/appbar.home.png"/>
-                </Button.Background>
-            </Button>
+            <Image Margin="-6,-7,376,-11" Source="/Assets/iconos/appbar.home.png" Stretch="Fill"/>
         </Grid>
+        <Button x:Name="boton_menu" Content="" HorizontalAlignment="Left" Height="80" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" Click="Button_Click1" BorderBrush="#FFF47420" Style="{StaticResource ButtonPressedPink}">
+            <!--<Button x:Name="boton_menu" Content="" HorizontalAlignment="Left" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.457,0.443" BorderBrush="#FFF47420">-->
+        	<Button.Background>
+        		<ImageBrush Stretch="UniformToFill"/>
+        	</Button.Background>
+        </Button>
 
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="0,103,0,0">
@@ -73,7 +74,7 @@
                 <ColumnDefinition Width="55*"/>
             </Grid.ColumnDefinitions>
 
-            <telerikPrimitives:RadSlideHubTile Title="Nuevas Tecnologias" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Tecnologías Recomendadas" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_new.png" Width="221" Margin="0,0,-50,-44"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
@@ -89,7 +90,7 @@
                     <Image Source="/Assets/Images/ic_trafficlight.png" Width="197" Margin="0,22,-26,-20"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
             </telerikPrimitives:RadSlideHubTile>
-            <telerikPrimitives:RadSlideHubTile Title="Metodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Métodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_anti.png" Height="132" Width="192"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
@@ -111,7 +112,7 @@
                             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Consideraciones por Entidad" VerticalAlignment="Top" Width="288" Margin="10,39,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_1"/>
                             <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="   ● Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="288" Margin="10,72,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_2"/>
                         </Grid>
-                        <Button x:Name="bBarra_TecnologiasR" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="21" Click="bBarra_TecnologiasR_Click" Margin="0,70,0,1153" ClickMode="Press" Content="Tecnologias Recomendadas"/>
+                        <Button x:Name="bBarra_TecnologiasR" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="21" Click="bBarra_TecnologiasR_Click" Margin="0,70,0,1153" ClickMode="Press" Content="Tecnologías Recomendadas"/>
                         <!-- <Button d:IsHidden="True"/> -->
                         <Grid x:Name="grid_TecnologiasR" Background="#FFC5B8B1" Margin="0,140,-10,862">
                             <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ●Acceso a los servicios de aborto seguro" VerticalAlignment="Top" Width="289" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_3"/>
@@ -119,7 +120,7 @@
                             <TextBlock HorizontalAlignment="Left" Height="110" TextWrapping="Wrap" Text="   ● Métodos recomendados para el aborto seguro                              a) Con medicamentos                            b) Aspiración por vacío" VerticalAlignment="Top" Width="311" Margin="10,116,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_5"/>
                             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Contraindicaciones y precauciones" VerticalAlignment="Top" Width="289" Margin="10,231,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_6"/>
                         </Grid>
-                        <Button x:Name="bBarra_MetodosA" Content="Metodos Anticonceptivos" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_MetodosA_Click" Margin="0,140,0,1083" ClickMode="Press"/>
+                        <Button x:Name="bBarra_MetodosA" Content="Métodos Anticonceptivos" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_MetodosA_Click" Margin="0,140,0,1083" ClickMode="Press"/>
                         <Grid x:Name="grid_MetodosA" Background="#FFC5B8B1" Margin="0,210,-10,862">
                             <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ● Criterios médicos de eligibilidad" VerticalAlignment="Top" Width="311" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_7"/>
                             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Información anticonceptiva en el post-aborto" VerticalAlignment="Top" Width="291" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_8"/>

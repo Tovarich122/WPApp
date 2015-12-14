@@ -31,7 +31,7 @@
         	<RichTextBox FontSize="21.333">
         		
 				<Paragraph TextAlignment="Left" Foreground="Black">
-					<Run Text="Información Anticonceptiva en el post-aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                    <Run Text="Información y consejería anticonceptiva en el post aborto" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
 					<LineBreak/>
 					<InlineUIContainer >
         							<Image HorizontalAlignment="Left"

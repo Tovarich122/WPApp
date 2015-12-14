@@ -39,7 +39,7 @@
                     </i:EventTrigger>
                 </i:Interaction.Triggers>
             </Button>
-            <Button Content="Información Anticonceptiva &#xD;&#xA;        en el post-aborto" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Height="117" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}">
+            <Button Content="     Información y consejería &#xD;&#xA;anticonceptiva en el post aborto" HorizontalAlignment="Left" Margin="10,130,0,0" VerticalAlignment="Top" Height="117" Width="460" BorderBrush="#FF00728F" Foreground="White" Background="#FF00728F" Style="{StaticResource ButtonPressedPink}">
                 <i:Interaction.Triggers>
                     <i:EventTrigger EventName="Click">
                         <ec:NavigateToPageAction TargetPage="/Metodos_Anticonceptivos/Informacion_Anticonceptiva.xaml"/>

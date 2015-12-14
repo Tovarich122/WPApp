@@ -91,7 +91,7 @@
 								<InlineUIContainer>
 									<Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
         								<TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-										Características de las diferentes Vías de administración del misoprostol.
+										Características de las diferentes vías de administración del misoprostol
 										</TextBlock>
 									</Grid>
 								</InlineUIContainer>
@@ -156,7 +156,6 @@
                                 <LineBreak/>
                                 <LineBreak/>
                             </Paragraph>
-            
 
                         </RichTextBox>
 
@@ -211,7 +210,7 @@
                                     <Run>a) Verificar que el aborto concluyó con éxito.</Run>
                                     <LineBreak/>
                                     <LineBreak/>
-                                    <Run>b) Asegurar que no hay complicaciones (ej.: infección).</Run>
+                                    <Run>b) Asegurar que no hay complicaciones (ej: infección).</Run>
                                     <LineBreak/>
                                     <LineBreak/>
                                     <Run>c) Descartar la posibilidad de embrazo ectópico (ya que no es posible analizar los restos ovulares, a diferencia del  AMEU).</Run>
@@ -240,7 +239,51 @@
                                     <LineBreak/>
                                 </Paragraph>
 
+                                <Paragraph TextAlignment="Center">
+                                    <InlineUIContainer>
+                                        <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
+                                            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
+										Manejo del dolor en aborto con medicamentos del 1er trimestre
+                                            </TextBlock>
+                                        </Grid>
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run FontWeight="Bold">Recomendación:</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Las mujeres que tendrán un aborto con medicamentos  en el 1er trimestre deben recibir medicamentos y medidas no farmacológicas para prevenir y tratar el dolor (OMS 2012).</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Las mujeres que tendrán un aborto con medicamentos en el  1er trimestre pueden experimentar ansiedad, miedo o aprehensión y estos podrían incrementar la sensación del dolor.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- El paracetamol no es efectivo para aliviar el dolor durante el aborto.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- El ibuprofeno (u otros Anti-Inflamatorios No Esteroideos: AINES), debe administrarse entre 30 a 45 minutos antes de la toma de los medicamentos y de forma rutinaria en todas las mujeres, para asegurarse de que sea más efectivo.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Las mujeres jóvenes y nulíparas refieren , por lo general, sentir más dolor durante el procedimiento de aborto en comparación con  las mujeres adultas y que han tenido hijos.  Por lo tanto es importante prestar particular atención a sus necesidades  individuales en cuanto al manejo del dolor.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>- Las medidas no farmacológicas y el acompañamiento de personas cercanas son importantes para aliviar la ansiedad, el miedo y por ende el dolor que pueda asociarse al aborto con medicamento.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
+
+                                <Paragraph TextAlignment="Center" Foreground="Black">
+                                    <InlineUIContainer >
+                                        <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="img_table_abort_m"
+        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_abort_m.png" Width="357" />
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
                             </RichTextBox>
 
@@ -268,7 +311,7 @@
 								<Run>- La aspiración por vacío (manual o eléctrica)  es la tecnología recomendada por los líderes nacionales e internacionales en temas de salud de las mujeres como el Centro Nacional de Excelencia Tecnológica en Salud (CENETEC), la Organización Mundial de la Salud (OMS) y la Federación Internacional de Ginecología y Obstetricia (FIGO).</Run>
 								<LineBreak/>
 								<LineBreak/>
-								<Run>La tecnología de aspiración por vacío se considera como un servicio esencial en la práctica obstétrica moderna en la atención para aborto del 1er trimestre.</Run>
+								<Run>- La tecnología de aspiración por vacío se considera como un servicio esencial en la práctica obstétrica moderna en la atención para aborto del 1er trimestre.</Run>
 								<LineBreak/>
 								<LineBreak/>								
 								</Paragraph>
@@ -377,7 +420,7 @@
                                 <InlineUIContainer>
                                     <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
                                         <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-										Ventajas de la Aspiración por Vacío en el 1er trimestre
+										Ventajas de la aspiración por vacío en el 1er trimestre
                                         </TextBlock>
                                     </Grid>
                                 </InlineUIContainer>
@@ -386,7 +429,7 @@
                             </Paragraph>
 
                             <Paragraph TextAlignment="Left" Foreground="Black">
-                                <Run>La aspiración al vacío es un procedimiento quirúrgico de baja complejidad que requiere de un profesional capacitado (médico o no médico, por ej.: enfermeras y parteras); tiene las siguientes características:</Run>
+                                <Run>La aspiración al vacío es un procedimiento quirúrgico de baja complejidad que requiere de un profesional capacitado (médico o no médico, por ej: enfermeras y parteras); tiene las siguientes características:</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>1. Es un procedimiento ambulatorio</Run>
@@ -403,8 +446,9 @@
                                 <Run>En comparación con el aborto con medicamentos, el proceso se resuelve en minutos (3-10 minutos, promedio).</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>α Para mayor información ver: http://www.who.int/reproductivehealth/publications/unsafe_abortion/abortion-task-shifting/en/</Run>
+                                <Run>Para mayor información ver: </Run>
                                 <LineBreak/>
+								<Hyperlink Foreground="Blue" Click="HyperlinkButton_Click2">http://www.who.int/reproductivehealth/publications/unsafe_abortion/abortion-task-shifting/en/</Hyperlink>
                                 <LineBreak/>
                             </Paragraph>
 
@@ -438,8 +482,9 @@
                                 <Run>Entre las 12 y 14 semanas, se recomienda la preparación cervical para facilitar la instrumentación cervical y minimizar las molestias de la usuaria.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>α Para mayor información ver: http://www.who.int/reproductivehealth/publications/unsafe_abortion/abortion-task-shifting/en/</Run>
-                                <LineBreak/>
+                                <Run>Para mayor información ver: </Run>
+                                <Hyperlink Foreground="Blue" Click="HyperlinkButton_Click2">http://www.who.int/reproductivehealth/publications/unsafe_abortion/abortion-task-shifting/en/</Hyperlink>
+								<LineBreak/>
                                 <LineBreak/>
                             </Paragraph>
 
@@ -466,8 +511,6 @@
                                 <Run>- La anestesia general no se recomienda como procedimiento de rutina para el manejo del dolor en el primer trimestre.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>Manejo del dolor en Ab med y Qco.</Run>
-                                <LineBreak/>
                             </Paragraph>
 
                             <Paragraph TextAlignment="Center" Foreground="Black">
@@ -480,20 +523,9 @@
                                 <LineBreak/>
                             </Paragraph>
 
-                            
-
                         </RichTextBox>
 
                             <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
-                                <Paragraph TextAlignment="Center" Foreground="Black">
-                                    <InlineUIContainer >
-                                        <Image HorizontalAlignment="Left"
-        								Margin="0" x:Name="img_table_abort_m"
-        								Stretch="Uniform" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_table_abort_m.png" Width="357" />
-                                    </InlineUIContainer>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                </Paragraph>
 
                                 <Paragraph TextAlignment="Left" Foreground="Black">
                                     <Run>El paracetamol no es efectivo para aliviar el dolor durante el aborto.</Run>
@@ -505,43 +537,7 @@
                                     <Run>Las mujeres jóvenes y nulíparas refieren, por lo general, sentir más dolor durante el procedimiento de aborto en comparación con  las mujeres adultas y que han tenido hijos.  Por lo tanto, es importante prestar particular atención a sus necesidades  individuales en cuanto al manejo del dolor.</Run>
                                     <LineBreak/>
                                     <LineBreak/>
-                                    <Run>En el 1er trimestre, la combinación de medicamentos orales, anestesia local (ej.:  bloqueo paracervical) y medidas no farmacológicas, generalmente alivia adecuadamente el dolor  en la mayoría de las mujeres (OMS 2012).</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                </Paragraph>
-
-                                <Paragraph TextAlignment="Center">
-                                    <InlineUIContainer>
-                                        <Grid Background="#FFEC098D" Width="357" Margin="0" Grid.Row="1" Height="100">
-                                            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Width="357" TextAlignment="Center">
-										Manejo del dolor en aborto con medicamentos del 1er trimestre
-                                            </TextBlock>
-                                        </Grid>
-                                    </InlineUIContainer>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                </Paragraph>
-
-                                <Paragraph TextAlignment="Left" Foreground="Black">
-                                    <Run FontWeight="Bold">Recomendación:</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- Las mujeres que tendrán un aborto con medicamentos  en el 1er trimestre deben recibir medicamentos y medidas no farmacológicas para prevenir y tratar el dolor (OMS 2012).</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- Las mujeres que tendrán un aborto con medicamentos en el  1er trimestre pueden experimentar ansiedad, miedo o aprehensión y estos podrían incrementar la sensación del dolor.</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- El paracetamol no es efectivo para aliviar el dolor durante el aborto.</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- El ibuprofeno (u otros Anti-Inflamatorios No Esteroideos: AINES), debe administrarse entre 30 a 45 minutos antes de la toma de los medicamentos y de forma rutinaria en todas las mujeres, para asegurarse de que sea más efectivo.</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- Las mujeres jóvenes y nulíparas refieren , por lo general, sentir más dolor durante el procedimiento de aborto en comparación con  las mujeres adultas y que han tenido hijos.  Por lo tanto es importante prestar particular atención a sus necesidades  individuales en cuanto al manejo del dolor.</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>- Las medidas no farmacológicas y el acompañamiento de personas cercanas son importantes para aliviar la ansiedad, el miedo y por ende el dolor que pueda asociarse al aborto con medicamento.</Run>
+                                    <Run>En el 1er trimestre, la combinación de medicamentos orales, anestesia local (ej:  bloqueo paracervical) y medidas no farmacológicas, generalmente alivia adecuadamente el dolor  en la mayoría de las mujeres (OMS 2012).</Run>
                                     <LineBreak/>
                                     <LineBreak/>
                                 </Paragraph>
@@ -563,9 +559,8 @@
                                     <LineBreak/>
                                     <LineBreak/>
                                     <Run>Para mayor información consultar: “Actualizaciones clínicas en salud reproductiva”, Ipas. Enero 2015, pág. 17.</Run>
-                                    <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>http://ipasmexico.org/act-clinicas.html"</Run>
+									<LineBreak/>
+									<Hyperlink  Foreground="Blue" Click="HyperlinkButton_Click3">http://ipasmexico.org/act-clinicas.html</Hyperlink>
                                     <LineBreak/>
                                     <LineBreak/>
                                 </Paragraph>
@@ -624,8 +619,7 @@
                                     <LineBreak/>
                                     <Run>Para mayor información consultar: “Actualizaciones clínicas en salud reproductiva”, Ipas. Enero 2015, pág. 17.</Run>
                                     <LineBreak/>
-                                    <LineBreak/>
-                                    <Run>http://ipasmexico.org/act-clinicas.html</Run>
+									<Hyperlink  Foreground="Blue" Click="HyperlinkButton_Click3">http://ipasmexico.org/act-clinicas.html</Hyperlink>
                                     <LineBreak/>
                                     <LineBreak/>
                                 </Paragraph>
