@@ -40,7 +40,7 @@
         </Grid>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Height="88" Margin="0,88,0,0" TextWrapping="Wrap" Text="Marco Normativo" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D"  FontSize="27"/>
+            <TextBlock HorizontalAlignment="Left" Height="38" Margin="0,88,0,0" TextWrapping="Wrap" Text="Consideraciones por Entidad" VerticalAlignment="Top" Width="416" Foreground="#FFEC098D"  FontSize="27"/>
             <Image HorizontalAlignment="Left" Height="27" Margin="0,131,0,0" VerticalAlignment="Top" Width="456" Source="/IPAS App;component/Images/img_line_title.png"/>
             <ScrollViewer x:Name="mapa_completo" HorizontalAlignment="Left" Height="573" VerticalAlignment="Top" Width="456" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto" Margin="0,148,0,0">
                 <Canvas x:Name="mapita" HorizontalAlignment="Left" Height="900" VerticalAlignment="Top" Width="1481" ScrollViewer.HorizontalScrollBarVisibility="Visible">

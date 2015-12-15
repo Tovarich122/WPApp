@@ -41,13 +41,13 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid HorizontalAlignment="Left" Height="591" Margin="0,92,-24,0" VerticalAlignment="Top" Width="480">
-                <Grid x:Name="instrucciones" HorizontalAlignment="Left" Height="606" Margin="10,10,0,-25" VerticalAlignment="Top" Width="456">
-                    <Image HorizontalAlignment="Left" Height="137" Margin="52,10,0,0" VerticalAlignment="Top" Width="365" Source="/Assets/Images/header_instructions_estigmometer.png"/>
+                <Grid x:Name="instrucciones" HorizontalAlignment="Left" Height="606" Margin="10,10,0,-25" VerticalAlignment="Top" Width="456" d:IsHidden="True">
+                    <Image HorizontalAlignment="Left" Height="137" Margin="40,10,0,0" VerticalAlignment="Top" Width="365" Source="/Assets/Images/im_header_estigmometro.png"/>
                     <TextBlock HorizontalAlignment="Left" Height="39" Margin="5,178,0,0" TextWrapping="Wrap" Text="Instrucciones" VerticalAlignment="Top" Width="139" Foreground="Black" FontWeight="Bold"/>
                     <TextBlock HorizontalAlignment="Left" Height="204" Margin="5,217,0,0" TextWrapping="Wrap" Text="A continuación, se presentarán una serie de afirmaciones donde usted debe elegir únicamente una opción. Es importante responder de manera libre y honesta recordándole que el resultado tiene como propósito principal el autoevaluarse para así, a partir del resultado obtenido, mejorar su práctica profesional." VerticalAlignment="Top" Width="441" Foreground="Black" />
                     <Button Content="Comenzar" HorizontalAlignment="Left" Height="72" Margin="52,461,0,0" VerticalAlignment="Top" Width="330" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Tap="Image_Tap" Click="Button_Click"/>
                 </Grid>
-                <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,-52,0">
+                <Grid x:Name="test_window" HorizontalAlignment="Left" Height="577" VerticalAlignment="Top" Width="522" Margin="10,0,-52,0" d:IsHidden="True">
                     <TextBlock HorizontalAlignment="Left" Height="60" Margin="116,507,0,0" TextWrapping="Wrap" Text="Pregunta 2 de 5" x:Name="pregunta_textblock" VerticalAlignment="Top" Width="214" Foreground="#FFF9A53A" FontSize="22" RenderTransformOrigin="0.529,0.485"/>
                     <TextBlock x:Name="pregunta_text" HorizontalAlignment="Left" Height="180" TextWrapping="Wrap" Text="Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido Texto de prueba para la pregunta hahaha esto es divertido" VerticalAlignment="Top" Width="385" FontSize="22" Margin="10,10,0,0" Foreground="Black"/>
                     <RadioButton x:Name="r1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,208,0,0" Width="385" Height="74" FontSize="16" BorderBrush="#FF838383" Foreground="Black" Background="#FFFDD8AF"/>
@@ -70,18 +70,18 @@
                         <Image HorizontalAlignment="Left" Height="86" Margin="-19,0,-18,-2" VerticalAlignment="Top" Width="95" Source="/Assets/iconos/appbar.close.png" Stretch="UniformToFill"/>
                     </Grid>
                 </Grid>
-                <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="10,-16,0,0" VerticalAlignment="Top" Width="469" d:IsHidden="True">
-                    <Canvas Height="217" x:Name="img_resultado" Width="266" Canvas.Left="79">
+                <Canvas x:Name="c_resultado" HorizontalAlignment="Left" Height="551" Margin="10,-16,0,0" VerticalAlignment="Top" Width="469">
+                    <Canvas Height="217" x:Name="img_resultado" Width="266" Canvas.Left="85" Canvas.Top="10">
                         <Image x:Name="n_resultado_x1" Height="171" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_green.png" Stretch="UniformToFill" Canvas.Top="17"/>
                         <Image x:Name="n_resultado_x2" Height="171" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_red.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
                         <Image x:Name="n_resultado_1" Height="236" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_green_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
                         <Image x:Name="n_resultado_2" Height="200" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_red_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
                         <Image x:Name="n_resultado_3" Height="200" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_yellow_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
                     </Canvas>
-                    <ScrollViewer Height="226" Canvas.Top="256" Width="445">
-                        <TextBlock x:Name="t_resultado" Height="392" TextWrapping="Wrap" Text="TextBlock" Width="435" Foreground="Black"/>
+                    <ScrollViewer x:Name="scroll_1" Height="226" Canvas.Top="268" Width="445" Canvas.Left="4">
+                        <TextBlock x:Name="t_resultado" Height="298" TextWrapping="Wrap" Text="TextBlock" Width="435" Foreground="Black" FontSize="24"/>
                     </ScrollViewer>
-                    <Button x:Name="bTerminar" Content="OK" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="146" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="142" Canvas.Top="487"/>
+                    <Button x:Name="bTerminar" Content="OK" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="146" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="146" Canvas.Top="499"/>
                 </Canvas>
             </Grid>
         </Grid>

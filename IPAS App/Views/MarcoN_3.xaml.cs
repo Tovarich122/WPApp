@@ -33,6 +33,7 @@ namespace IPAS_App.Views
             bCancelar.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bTerminar.Visibility = Visibility.Collapsed;
+            bTerminar2.Visibility = Visibility.Collapsed;
 
             r[0] = r1; r[1] = r2; r[2] = r3; r[3] = r4;
             preguntas_text[0] = "Por cuál de las siguientes razones una mujer puede abortar de forma legal en cualquier estado de la República Mexicana?";
@@ -126,7 +127,7 @@ namespace IPAS_App.Views
                 bCancelar.Visibility = Visibility.Collapsed;
                 bSiguiente.Visibility = Visibility.Collapsed;
                 bTerminar.Visibility = Visibility.Visible;
-
+                bTerminar2.Visibility = Visibility.Visible;
 
                 c_resultado.Visibility = Visibility.Visible;
             }
@@ -290,6 +291,11 @@ namespace IPAS_App.Views
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void bTerminar2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
 

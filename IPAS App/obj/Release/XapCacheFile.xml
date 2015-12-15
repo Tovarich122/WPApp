@@ -1,96 +1,103 @@
-﻿<xapCache source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Release\IPAS_App_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="13/12/2015 08:09:50 p. m.">
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Release\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="13/12/2015 08:09:46 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\obj\Release\es-MX\IPAS App.resources.dll" archivePath="es-MX\IPAS App.resources.dll" lastWriteTime="13/12/2015 08:09:46 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" archivePath="es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\CountryFile.html" archivePath="Assets\CountryFile.html" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\FlipCycleTileMedium.png" archivePath="Assets\FlipCycleTileMedium.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\FlipCycleTileSmall.png" archivePath="Assets\FlipCycleTileSmall.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.add.png" archivePath="Assets\iconos\appbar.add.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.arrow.left.png" archivePath="Assets\iconos\appbar.arrow.left.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.arrow.right.png" archivePath="Assets\iconos\appbar.arrow.right.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.check.png" archivePath="Assets\iconos\appbar.check.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.close.png" archivePath="Assets\iconos\appbar.close.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.cog.png" archivePath="Assets\iconos\appbar.cog.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.delete.png" archivePath="Assets\iconos\appbar.delete.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.disk.png" archivePath="Assets\iconos\appbar.disk.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.edit.png" archivePath="Assets\iconos\appbar.edit.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.home.png" archivePath="Assets\iconos\appbar.home.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.information.png" archivePath="Assets\iconos\appbar.information.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.list.check.png" archivePath="Assets\iconos\appbar.list.check.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.magnify.png" archivePath="Assets\iconos\appbar.magnify.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.page.file.pdf.tag.png" archivePath="Assets\iconos\appbar.page.file.pdf.tag.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.paperclip.png" archivePath="Assets\iconos\appbar.paperclip.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.pin.png" archivePath="Assets\iconos\appbar.pin.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.pin.remove.png" archivePath="Assets\iconos\appbar.pin.remove.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.question.png" archivePath="Assets\iconos\appbar.question.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.skydrive.download.png" archivePath="Assets\iconos\appbar.skydrive.download.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.skydrive.png" archivePath="Assets\iconos\appbar.skydrive.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\iconos\appbar.skydrive.upload.png" archivePath="Assets\iconos\appbar.skydrive.upload.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\ic_anti.png" archivePath="Assets\Images\ic_anti.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\ic_arrow_left.png" archivePath="Assets\Images\ic_arrow_left.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\ic_legislative.png" archivePath="Assets\Images\ic_legislative.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\ic_new.png" archivePath="Assets\Images\ic_new.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\ic_trafficlight.png" archivePath="Assets\Images\ic_trafficlight.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_diagram_estigma.png" archivePath="Assets\Images\img_diagram_estigma.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_light_green.png" archivePath="Assets\Images\img_light_green.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_light_green_answer.png" archivePath="Assets\Images\img_light_green_answer.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_light_red.png" archivePath="Assets\Images\img_light_red.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_light_red_answer.png" archivePath="Assets\Images\img_light_red_answer.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_light_yellow_answer.png" archivePath="Assets\Images\img_light_yellow_answer.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\img_women_impact.png" archivePath="Assets\Images\img_women_impact.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_header_estigmometro.png" archivePath="Assets\Images\im_header_estigmometro.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_question_result_bad.png" archivePath="Assets\Images\im_question_result_bad.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_question_result_good.png" archivePath="Assets\Images\im_question_result_good.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_question_result_moreorless.png" archivePath="Assets\Images\im_question_result_moreorless.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_splash_center.png" archivePath="Assets\Images\im_splash_center.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\im_test_introduction.png" archivePath="Assets\Images\im_test_introduction.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\test.png" archivePath="Assets\Images\test.png" lastWriteTime="05/11/2015 09:51:43 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Images\YouTube-avatar-generic (6).png" archivePath="Assets\Images\YouTube-avatar-generic (6).png" lastWriteTime="27/11/2015 07:19:22 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="17/10/2015 01:53:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\FlipCycleTileSmall.png" archivePath="FlipCycleTileSmall.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical1.png" archivePath="Images\anesthesia_paracervical1.png" lastWriteTime="27/11/2015 07:10:11 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\anesthesia_paracervical2.png" archivePath="Images\anesthesia_paracervical2.png" lastWriteTime="27/11/2015 07:10:11 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_18marzo.png" archivePath="Images\ic_18marzo.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_balderas.png" archivePath="Images\ic_balderas.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_barrancadelmuerto.png" archivePath="Images\ic_barrancadelmuerto.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_blvdptaereo.png" archivePath="Images\ic_blvdptaereo.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_canaldelnorte.png" archivePath="Images\ic_canaldelnorte.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_clinics.png" archivePath="Images\ic_clinics.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_cuitlahuac.png" archivePath="Images\ic_cuitlahuac.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_indiosverdes.png" archivePath="Images\ic_indiosverdes.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_new_technologies.png" archivePath="Images\ic_new_technologies.png" lastWriteTime="01/11/2015 07:00:08 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_observatorio.png" archivePath="Images\ic_observatorio.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_pin.png" archivePath="Images\ic_pin.png" lastWriteTime="06/12/2015 02:46:59 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_rioconsulado.png" archivePath="Images\ic_rioconsulado.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_rosario.png" archivePath="Images\ic_rosario.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_sanlazaro.png" archivePath="Images\ic_sanlazaro.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_tacubaya.png" archivePath="Images\ic_tacubaya.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_tasquena.png" archivePath="Images\ic_tasquena.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_tlahuac.png" archivePath="Images\ic_tlahuac.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\ic_universidad.png" archivePath="Images\ic_universidad.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\im_btn_menu_index1.png" archivePath="Images\im_btn_menu_index1.png" lastWriteTime="01/11/2015 06:55:24 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Images\medicine.png" archivePath="Images\medicine.png" lastWriteTime="02/11/2015 06:12:15 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\clinics.xml" archivePath="Model\clinics.xml" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="27/11/2015 07:10:13 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states1.xml" archivePath="Model\states1.xml" lastWriteTime="27/11/2015 07:10:13 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\states_2.xml" archivePath="Model\states_2.xml" lastWriteTime="27/11/2015 07:10:34 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Model\stations.xml" archivePath="Model\stations.xml" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Tec_Recomendadas\CountryFile.html" archivePath="Tec_Recomendadas\CountryFile.html" lastWriteTime="05/11/2015 09:51:44 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="17/10/2015 08:14:48 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="13/12/2015 08:09:48 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="12/11/2015 05:55:37 p. m." />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 01:41:02 a. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="17/10/2015 08:14:47 p. m." />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25/09/2012 01:41:02 a. m." />
+﻿<xapCache source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\IPAS_App_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="14/12/2015 11:43:10 p. m.">
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\IPAS App.dll" archivePath="IPAS App.dll" lastWriteTime="14/12/2015 11:43:04 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\es-MX\IPAS App.resources.dll" archivePath="es-MX\IPAS App.resources.dll" lastWriteTime="14/12/2015 11:43:04 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\packages\WPtoolkit.4.2013.08.16\lib\wp8\es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" archivePath="es-MX\Microsoft.Phone.Controls.Toolkit.resources.dll" lastWriteTime="14/12/2015 10:12:56 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="14/12/2015 10:12:09 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\CountryFile.html" archivePath="Assets\CountryFile.html" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\FlipCycleTileMedium.png" archivePath="Assets\FlipCycleTileMedium.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\FlipCycleTileSmall.png" archivePath="Assets\FlipCycleTileSmall.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.add.png" archivePath="Assets\iconos\appbar.add.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.arrow.left.png" archivePath="Assets\iconos\appbar.arrow.left.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.arrow.right.png" archivePath="Assets\iconos\appbar.arrow.right.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.check.png" archivePath="Assets\iconos\appbar.check.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.close.png" archivePath="Assets\iconos\appbar.close.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.cog.png" archivePath="Assets\iconos\appbar.cog.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.delete.png" archivePath="Assets\iconos\appbar.delete.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.disk.png" archivePath="Assets\iconos\appbar.disk.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.edit.png" archivePath="Assets\iconos\appbar.edit.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.home.png" archivePath="Assets\iconos\appbar.home.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.information.png" archivePath="Assets\iconos\appbar.information.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.list.check.png" archivePath="Assets\iconos\appbar.list.check.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.magnify.png" archivePath="Assets\iconos\appbar.magnify.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.page.file.pdf.tag.png" archivePath="Assets\iconos\appbar.page.file.pdf.tag.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.paperclip.png" archivePath="Assets\iconos\appbar.paperclip.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.pin.png" archivePath="Assets\iconos\appbar.pin.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.pin.remove.png" archivePath="Assets\iconos\appbar.pin.remove.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.question.png" archivePath="Assets\iconos\appbar.question.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.skydrive.download.png" archivePath="Assets\iconos\appbar.skydrive.download.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.skydrive.png" archivePath="Assets\iconos\appbar.skydrive.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\iconos\appbar.skydrive.upload.png" archivePath="Assets\iconos\appbar.skydrive.upload.png" lastWriteTime="14/12/2015 10:12:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\estigma_imagen.png" archivePath="Assets\Images\estigma_imagen.png" lastWriteTime="14/12/2015 11:09:29 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\ic_anti.png" archivePath="Assets\Images\ic_anti.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\ic_arrow_left.png" archivePath="Assets\Images\ic_arrow_left.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\ic_legislative.png" archivePath="Assets\Images\ic_legislative.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\ic_new.png" archivePath="Assets\Images\ic_new.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\ic_trafficlight.png" archivePath="Assets\Images\ic_trafficlight.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_diagram_estigma.png" archivePath="Assets\Images\img_diagram_estigma.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_light_green.png" archivePath="Assets\Images\img_light_green.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_light_green_answer.png" archivePath="Assets\Images\img_light_green_answer.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_light_red.png" archivePath="Assets\Images\img_light_red.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_light_red_answer.png" archivePath="Assets\Images\img_light_red_answer.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_light_yellow_answer.png" archivePath="Assets\Images\img_light_yellow_answer.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\img_women_impact.png" archivePath="Assets\Images\img_women_impact.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_header_estigmometro.png" archivePath="Assets\Images\im_header_estigmometro.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_question_result_bad.png" archivePath="Assets\Images\im_question_result_bad.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_question_result_good.png" archivePath="Assets\Images\im_question_result_good.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_question_result_moreorless.png" archivePath="Assets\Images\im_question_result_moreorless.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_splash_center.png" archivePath="Assets\Images\im_splash_center.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\im_test_introduction.png" archivePath="Assets\Images\im_test_introduction.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\liga_youtube.png" archivePath="Assets\Images\liga_youtube.png" lastWriteTime="14/12/2015 11:09:29 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\test.png" archivePath="Assets\Images\test.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Images\YouTube-avatar-generic (6).png" archivePath="Assets\Images\YouTube-avatar-generic (6).png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\FlipCycleTileSmall.png" archivePath="FlipCycleTileSmall.png" lastWriteTime="14/12/2015 10:12:09 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\anesthesia_paracervical1.png" archivePath="Images\anesthesia_paracervical1.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\anesthesia_paracervical2.png" archivePath="Images\anesthesia_paracervical2.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_18marzo.png" archivePath="Images\ic_18marzo.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_balderas.png" archivePath="Images\ic_balderas.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_barrancadelmuerto.png" archivePath="Images\ic_barrancadelmuerto.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_blvdptaereo.png" archivePath="Images\ic_blvdptaereo.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_canaldelnorte.png" archivePath="Images\ic_canaldelnorte.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_clinics.png" archivePath="Images\ic_clinics.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_cuitlahuac.png" archivePath="Images\ic_cuitlahuac.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_indiosverdes.png" archivePath="Images\ic_indiosverdes.png" lastWriteTime="14/12/2015 10:12:35 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_new_technologies.png" archivePath="Images\ic_new_technologies.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_observatorio.png" archivePath="Images\ic_observatorio.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_pin.png" archivePath="Images\ic_pin.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_rioconsulado.png" archivePath="Images\ic_rioconsulado.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_rosario.png" archivePath="Images\ic_rosario.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_sanlazaro.png" archivePath="Images\ic_sanlazaro.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_tacubaya.png" archivePath="Images\ic_tacubaya.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_tasquena.png" archivePath="Images\ic_tasquena.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_tlahuac.png" archivePath="Images\ic_tlahuac.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\ic_universidad.png" archivePath="Images\ic_universidad.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\im_btn_menu_index1.png" archivePath="Images\im_btn_menu_index1.png" lastWriteTime="14/12/2015 10:12:37 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Images\medicine.png" archivePath="Images\medicine.png" lastWriteTime="14/12/2015 10:12:38 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Model\clinics.xml" archivePath="Model\clinics.xml" lastWriteTime="14/12/2015 10:12:40 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Model\states.xml" archivePath="Model\states.xml" lastWriteTime="14/12/2015 10:48:11 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Model\states1.xml" archivePath="Model\states1.xml" lastWriteTime="14/12/2015 10:12:40 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Model\states_2.xml" archivePath="Model\states_2.xml" lastWriteTime="14/12/2015 10:12:40 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Model\stations.xml" archivePath="Model\stations.xml" lastWriteTime="14/12/2015 10:12:40 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Tec_Recomendadas\CountryFile.html" archivePath="Tec_Recomendadas\CountryFile.html" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="14/12/2015 10:12:41 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="14/12/2015 11:43:08 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="14/12/2015 10:12:09 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="14/12/2015 10:12:10 p. m." />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/09/2012 02:41:02 a. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="14/12/2015 10:12:55 p. m." />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Windows Phone\v8.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25/09/2012 02:41:02 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Behaviors.dll" archivePath="Telerik.Windows.Behaviors.dll" lastWriteTime="26/02/2014 11:14:26 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Chart.dll" archivePath="Telerik.Windows.Controls.Chart.dll" lastWriteTime="26/02/2014 11:14:12 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Data.dll" archivePath="Telerik.Windows.Controls.Data.dll" lastWriteTime="26/02/2014 11:14:08 a. m." />
@@ -109,6 +116,7 @@
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Controls.Primitives.xml" archivePath="Telerik.Windows.Controls.Primitives.xml" lastWriteTime="26/02/2014 11:13:46 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Core.xml" archivePath="Telerik.Windows.Core.xml" lastWriteTime="26/02/2014 11:13:42 a. m." />
   <file source="C:\Program Files (x86)\Telerik\UI for Windows Phone 8 Q1 2014\Binaries\WindowsPhone\Telerik.Windows.Data.xml" archivePath="Telerik.Windows.Data.xml" lastWriteTime="26/02/2014 11:14:06 a. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\FlipCycleTileMedium.png" archivePath="FlipCycleTileMedium.png" lastWriteTime="12/11/2015 05:55:40 p. m." />
-  <file source="C:\Users\Omar\Documents\GitHub\IPAS App\WPApp\IPAS App\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="13/12/2015 08:09:48 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="14/12/2015 10:12:09 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\FlipCycleTileMedium.png" archivePath="FlipCycleTileMedium.png" lastWriteTime="14/12/2015 10:12:09 p. m." />
+  <file source="D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\Bin\Release\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="14/12/2015 11:43:08 p. m." />
 </xapCache>
