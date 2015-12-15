@@ -267,6 +267,7 @@ namespace IPAS_App.Views
             c_resultado.Visibility = Visibility.Visible;
             //Actualizar Valores
             saveAnswer(o);
+            this.scroll_1.ScrollToVerticalOffset(0);
             p = preguntas.Find(k => k.id == o);
             if (p.its_correct) //Semaforo Verde
             {

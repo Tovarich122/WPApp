@@ -40,18 +40,19 @@
         </Grid>
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-            <TextBlock HorizontalAlignment="Left" Height="88" Margin="0,88,0,0" TextWrapping="Wrap" Text="Marco Normativo en México" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D"  FontSize="27"/>
+            <TextBlock HorizontalAlignment="Left" Height="43" Margin="10,88,-10,0" TextWrapping="Wrap" Text="Marco Normativo en México" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D"  FontSize="27"/>
             <Image HorizontalAlignment="Left" Height="27" Margin="0,149,0,0" VerticalAlignment="Top" Width="456" Source="/Assets/Images/img_line_title.png"/>
             <ScrollViewer HorizontalAlignment="Left" Height="551" VerticalAlignment="Top" Width="456" Margin="0,149,0,0">
                 <Grid HorizontalAlignment="Left" Height="3776" VerticalAlignment="Top" Width="456">
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,10,0,0" TextWrapping="Wrap" Text="La OMS en su Constitución de 1946, definió a la Salud como el estado de completo bienestar  físico, mental y social, y no solamente la ausencia de afecciones o enfermedad." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="199" Margin="10,153,0,0" TextWrapping="Wrap" Text="Diversas instancias de protección de los derechos humanos han reconocido que para alcanzar este completo estado de bienestar, es necesario contar con los más altos estándares que protejan la salud y la vida de las mujeres, evitando con ello que se sometan a procedimientos que pongan en peligro su integridad." VerticalAlignment="Top" Width="436" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="225" Margin="20,352,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black">
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,0,0,0" TextWrapping="Wrap" Text="La OMS en su Constitución de 1946, definió a la Salud como el estado de completo bienestar  físico, mental y social, y no solamente la ausencia de afecciones o enfermedad." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="194" Margin="10,143,0,0" TextWrapping="Wrap" Text="Diversas instancias de protección de los derechos humanos han reconocido que para alcanzar este completo estado de bienestar, es necesario contar con los más altos estándares que protejan la salud y la vida de las mujeres, evitando con ello que se sometan a procedimientos que pongan en peligro su integridad." VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="225" Margin="10,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black">
                     	<Run Text="La atención del aborto incompleto es una obligación de todo el sistema nacional de salud, no existe impedimento legal para el uso de medicamentos, Aspiración Manual Endouterina (AMEU), Aspiración Eléctrica Endouterina (AEEU) o incluso Legrado Uterino Instrumental (LUI) si se trata de un aborto en evolución, incompleto o en caso de huevo muerto retenido."/>
                     	<LineBreak/>
                     	<Run Text=""/>
                     </TextBlock>
-                    <Grid Margin="0,610,0,1934" Background="#FFEC098D">
+                    <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" Text="Numeral de causales y requisitos legales en el país: " FontSize="18" FontWeight="Bold" TextDecorations="Underline"/>
+                    <Grid Margin="0,600,0,1969" Background="#FFEC098D">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="*" />
                             <ColumnDefinition Width="70" />
@@ -69,9 +70,9 @@
                             <RowDefinition Height="auto" />
                         </Grid.RowDefinitions>
 
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Causales" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" />
-                        <TextBlock Grid.Row="0" Grid.Column="1" Foreground="Black" Text="Estados que la reconocen" TextAlignment="Center" TextWrapping="Wrap"/>
-                        <TextBlock Grid.Row="0" Grid.Column="2" Foreground="Black" Text="Requisitos legales" TextAlignment="Center" TextWrapping="Wrap"/>
+                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Causales" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Margin="0,0,60,0" Grid.ColumnSpan="2" />
+                        <TextBlock Grid.Row="0" Foreground="Black" Text="Estados que la reconocen" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Grid.ColumnSpan="3" Margin="171,0,180,0"/>
+                        <TextBlock Grid.Row="0" Grid.Column="2" Foreground="Black" Text="Requisitos legales" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold"/>
                         <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="216" Grid.Row="1" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Grid.RowSpan="2"/>
 
                         <TextBlock Grid.Row="1" Grid.Column="0" Text="Violación" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" />
@@ -81,7 +82,7 @@
 
                         <TextBlock Grid.Row="2" Grid.Column="0" Text="Imprudencial" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,121.559,0,58.883" Grid.RowSpan="2" />
                         <TextBlock Grid.Row="2" Grid.Column="1" Foreground="Black" Text="29" TextAlignment="Center" Margin="10,121.559,10,58.883" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="2" Grid.Column="2" Foreground="Black" Text="Incompleto, por omisión de cuidado, negligencia, imprudencia, espontáneo o biológico" TextAlignment="Center" TextWrapping="Wrap" Margin="0,121.559,0,17.883" Grid.RowSpan="2"/>
+                        <TextBlock Grid.Row="2" Grid.Column="2" Foreground="Black" Text="Incompleto, por omisión de cuidado, negligencia, imprudencia, espontáneo o biológico" TextAlignment="Center" TextWrapping="Wrap" Margin="0,122.365,0,16.27" Grid.RowSpan="2"/>
                         <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="3" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,96,0,0" Grid.RowSpan="2"/>
 
                         <TextBlock Grid.Row="3" Grid.Column="0" Text="Peligro de muerte" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,97,0,27.023" Grid.RowSpan="2" />
@@ -116,16 +117,40 @@
                         <TextBlock Grid.Row="8" Grid.Column="0" Text="Con el consentimiento de la mujer embarazada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="5,178.25,0,-80.25" Grid.ColumnSpan="3" />
 
                     </Grid>
-                    <TextBlock HorizontalAlignment="Left" Height="144" Margin="10,1887,0,0" TextWrapping="Wrap" Text="[1] establece que a toda víctima de violación, se le garantizará el acceso de servicios de anticoncepción de emergencia y de interrupción voluntaria del embarazo con absoluto respeto a su voluntad." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="144" Margin="10,2061,0,0" TextWrapping="Wrap" Text="[2] En el caso de Baja California con aviso al Ministerio Público y de Durango previa autorización del Ministerio Público." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="267" Margin="10,2238,0,0" TextWrapping="Wrap" Text="[3] En Hidalgo además solicita que los médicos estén debidamente certificados por los Colegios, Academias Nacionales o Consejos de Medicina de la rama correspondiente. Además de los anteriores requisitos en Yucatán el Código Penal solicita el consentimiento de la madre y del padre del producto." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="267" Margin="10,2538,0,0" TextWrapping="Wrap" Text="[4] De los 15 códigos que tienen esta causal, sólo 4: Baja California Sur, Coahuila, Chiapas y Morelos requieren el juicio de un médico. Los otros 11 estados: Colima, Distrito Federal, Guerrero, Hidalgo, México, Oaxaca, Puebla, Quintana Roo, Tlaxcala, Veracruz y Yucatán requieren dictamen de dos médicos." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="267" Margin="10,2838,0,0" TextWrapping="Wrap" Text="[5] Aunque no se menciona explícitamente en el Código Penal de Campeche esta causal queda comprendida en 'grave daño a la salud', Omisión e indiferencia/Derechos Reproductivos en México, Grupo de Información en Reproducción Elegida, GIRE, A.C.  2ª Edición, Agosto 2013" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="144" Margin="0,3135,0,0" TextWrapping="Wrap" Text="[6] Sólo en Michoacán y Yucatán (en éste último, siempre que tenga ya 3 hijos)." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="267" Margin="10,3314,0,0" TextWrapping="Wrap" Text="[7] Sólo en el Distrito Federal, regulado en la Gaceta Oficial del Distrito Federal CIRCULAR/GDF-SSDF/01/06 que contiene los Lineamientos Generales de Organización y operación de los servicios de salud relacionados con la interrupción legal del embarazo en el Distrito Federal (Última reforma 20 junio 2012)." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,3628,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="129" Margin="0,1812,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[1] "/>
+                    	<Run FontWeight="Normal" Text="E"/>
+                    	<Run FontWeight="Normal" Text="stablece que a toda víctima de violación, se le garantizará el acceso de servicios de anticoncepción de emergencia y de interrupción voluntaria del embarazo con absoluto respeto a su voluntad."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="81" Margin="-2,1946,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[2] "/>
+                    	<Run FontWeight="Normal" Text="En el caso de Baja California con aviso al Ministerio Público y de Durango previa autorización del Ministerio Público."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="186" Margin="-2,2027,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[3] "/>
+                    	<Run FontWeight="Normal" Text="En Hidalgo además solicita que los médicos estén debidamente certificados por los Colegios, Academias Nacionales o Consejos de Medicina de la rama correspondiente. Además de los anteriores requisitos en Yucatán el Código Penal solicita el consentimiento de la madre y del padre del producto."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="188" Margin="-2,2213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[4] "/>
+                    	<Run FontWeight="Normal" Text="De los 15 códigos que tienen esta causal, sólo 4: Baja California Sur, Coahuila, Chiapas y Morelos requieren el juicio de un médico. Los otros 11 estados: Colima, Distrito Federal, Guerrero, Hidalgo, México, Oaxaca, Puebla, Quintana Roo, Tlaxcala, Veracruz y Yucatán requieren dictamen de dos médicos."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="161" Margin="-2,2401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[5] "/>
+                    	<Run FontWeight="Normal" Text="Aunque no se menciona explícitamente en el Código Penal de Campeche esta causal queda comprendida en 'grave daño a la salud', Omisión e indiferencia/Derechos Reproductivos en México, Grupo de Información en Reproducción Elegida, GIRE, A.C.  2ª Edición, Agosto 2013"/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="53" Margin="-2,2562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[6] "/>
+                    	<Run FontWeight="Normal" Text="Sólo en Michoacán y Yucatán (en éste último, siempre que tenga ya 3 hijos)."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="182" Margin="-2,2615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    	<Run Text="[7] "/>
+                    	<Run FontWeight="Normal" Text="Sólo en el Distrito Federal, regulado en la Gaceta Oficial del Distrito Federal CIRCULAR/GDF-SSDF/01/06 que contiene los Lineamientos Generales de Organización y operación de los servicios de salud relacionados con la interrupción legal del embarazo en el Distrito Federal (Última reforma 20 junio 2012)."/>
+                    </TextBlock>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="-7,2824,0,0" TextWrapping="Wrap" Text="Conoce más sobre las Normas Oficiales Mexicanas en las siguientes ligas:" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="-7,2945,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
                 </Grid>
             </ScrollViewer>
+            <Image HorizontalAlignment="Left" Height="30" Margin="0,125,0,0" VerticalAlignment="Top" Width="456" Source="/IPAS App;component/Images/img_line_title.png"/>
         </Grid>
     </Grid>
 

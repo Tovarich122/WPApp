@@ -287,6 +287,7 @@
     <Content Include="Assets\iconos\appbar.skydrive.download.png" />
     <Content Include="Assets\iconos\appbar.skydrive.png" />
     <Content Include="Assets\iconos\appbar.skydrive.upload.png" />
+    <Content Include="Assets\Images\estigma_imagen.png" />
     <Content Include="Assets\Images\ic_anti.png" />
     <Content Include="Assets\Images\ic_arrow_left.png" />
     <Content Include="Assets\Images\ic_legislative.png" />
@@ -305,6 +306,7 @@
     <Content Include="Assets\Images\im_question_result_moreorless.png" />
     <Content Include="Assets\Images\im_splash_center.png" />
     <Content Include="Assets\Images\im_test_introduction.png" />
+    <Content Include="Assets\Images\liga_youtube.png" />
     <Content Include="Assets\Images\test.png" />
     <Content Include="Assets\Images\YouTube-avatar-generic %286%29.png" />
     <Content Include="Assets\Tiles\FlipCycleTileLarge.png">

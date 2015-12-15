@@ -26,16 +26,16 @@
             <Button Content="¿Que es el estigma por aborto?" HorizontalAlignment="Left" Height="97" Margin="10,53,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click" Style="{StaticResource ButtonPressedPink}"/>
             <Button Content="Impacto en la Salud de las Mujeres" HorizontalAlignment="Left" Height="97" Margin="10,178,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_1" Style="{StaticResource ButtonPressedPink}"/>
             <Button Content="Estigmómetro" HorizontalAlignment="Left" Height="97" Margin="10,302,0,0" VerticalAlignment="Top" Width="436" Background="#FF00728F" BorderBrush="#FF00728F" Foreground="White" Click="Button_Click_2" Style="{StaticResource ButtonPressedPink}"/>
-            <TextBlock HorizontalAlignment="Left" Height="40" Margin="218,569,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Text="Ver Video"/>
-            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,426,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" TextAlignment="Center">
+            <TextBlock HorizontalAlignment="Left" Height="40" Margin="118,603,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="214" Text="Da click para ver el vídeo" FontSize="18" FontWeight="Bold"/>
+            <TextBlock HorizontalAlignment="Left" Height="113" Margin="10,404,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" TextAlignment="Center">
             	<Run Text="&quot;"/>
             	<Run Text="Porque soy médico y no juez. Tu puedes hacer la diferencia para reducir el estigma hacia las mujeres que abortan y proteger su salud sexual reproductiva."/>
             	<Run Text="&quot;"/>
             </TextBlock>
         </Grid>
-        <HyperlinkButton Content="" HorizontalAlignment="Left" Height="81" Margin="103,630,0,0" VerticalAlignment="Top" Width="133" Foreground="Black" Grid.RowSpan="2" Click="HyperlinkButton_Click_1">
+        <HyperlinkButton Content="" HorizontalAlignment="Left" Height="88" Margin="156,600,0,0" VerticalAlignment="Top" Width="159" Foreground="Black" Grid.RowSpan="2" Click="HyperlinkButton_Click_1">
             <HyperlinkButton.Background>
-                <ImageBrush ImageSource="/Assets/Images/YouTube-avatar-generic (6).png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="/Assets/Images/liga_youtube.png" Stretch="UniformToFill"/>
             </HyperlinkButton.Background>
         </HyperlinkButton>
         <Grid x:Name="Header_Footer" HorizontalAlignment="Left" Height="768" Grid.RowSpan="2" VerticalAlignment="Top" Width="480">

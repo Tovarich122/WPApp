@@ -44,58 +44,64 @@
             <Image HorizontalAlignment="Left" Height="27" Margin="0,153,0,0" VerticalAlignment="Top" Width="456" Source="/Assets/Images/img_line_title.png"/>
             <ScrollViewer HorizontalAlignment="Left" Height="551" Margin="0,167,0,0" VerticalAlignment="Top" Width="456">
                 <Grid HorizontalAlignment="Left" Height="2031" VerticalAlignment="Top" Width="456">
-                    <TextBlock Height="184" TextWrapping="Wrap" Text="Es el atributo negativo que se le da a una mujer que busca interrumpir su embarazo y que la &quot;marca&quot; como inferior frente al ideal de ser mujer." Width="456" Margin="0,-6,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="86" Margin="10,118,0,0" TextWrapping="Wrap" Text="Kumar, Hessini and Mitchel. Conceptualizing Abortion Stigma. Culture, Health and Sexuality. 2009)" VerticalAlignment="Top" Width="423" Foreground="Black" FontWeight="Bold" FontStyle="Italic"/>
-                    <TextBlock HorizontalAlignment="Left" Height="86" Margin="10,204,0,0" TextWrapping="Wrap" Text="Link, Bruce and Jo Phelan. 2006. On stigma and its public health implications. The Lancet, 367: 528-9." VerticalAlignment="Top" Width="423" Foreground="Black" FontWeight="Bold" FontStyle="Italic"/>
-                    <TextBlock HorizontalAlignment="Left" Height="97" Margin="12,348,0,0" TextWrapping="Wrap" Text="Componentes que producen y mantienen el estigma" VerticalAlignment="Top" Width="433" Foreground="#FFEC098D" FontSize="30"/>
-                    <Image HorizontalAlignment="Left" Height="294" Margin="19,450,0,0" VerticalAlignment="Top" Width="408" Source="/Assets/Images/img_diagram_estigma.png"/>
-                    <TextBlock HorizontalAlignment="Left" Height="114" Margin="12,808,0,0" TextWrapping="Wrap" Text="Existen algunos componentes en las relaciones sociales que interactúan para producir y mantener el estigma hacia las mujeres que abortan:" VerticalAlignment="Top" Width="421" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="12,922,0,0" TextWrapping="Wrap" Text="1. Etiquetas: La gente identifica y coloca etiquetas que catalogan a las mujeres que abortan." VerticalAlignment="Top" Width="434" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="12,1009,0,0" TextWrapping="Wrap" Text="2. Estereotipos: A las personas que se etiquetan se les asocia con caracteristicas indeseables: estereotipo negativo." VerticalAlignment="Top" Width="434" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="12,1096,0,0" TextWrapping="Wrap" Text="3. Separación: A las personas que son ubicadas con ese estereotipo negativo se les separa del resto de las personas." VerticalAlignment="Top" Width="434" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="90" Margin="12,1188,0,0" TextWrapping="Wrap" Text="4. Discriminación: Las personas etiquetadas con esos atributos negativos sufren pérdida de estatus,rechazo,exclusión y discriminación." VerticalAlignment="Top" Width="434" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="158" TextWrapping="Wrap" Text="El estigma hacia el aborto se genera y dirige a distintos grupos sociales:" VerticalAlignment="Top" Width="456"  Foreground="#FFEC098D" FontSize="30" Margin="-6,1303,0,0"/>
-                    <TextBlock HorizontalAlignment="Left" Height="36" Margin="19,1503,0,0" TextWrapping="Wrap" Text="Se genera:" VerticalAlignment="Top" Width="106" Foreground="Black"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="120,1496,0,0" Stroke="Black" VerticalAlignment="Top" Width="116">
+                    <TextBlock Height="88" TextWrapping="Wrap" Text="Es el atributo negativo que se le da a una mujer que busca interrumpir su embarazo y que la &quot;marca&quot; como inferior frente al ideal de ser mujer." Width="456" VerticalAlignment="Top" HorizontalAlignment="Left" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="52" Margin="10,93,0,0" TextWrapping="Wrap" Text="Kumar, Hessini and Mitchel. Conceptualizing Abortion Stigma. Culture, Health and Sexuality. 2009)" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold" FontStyle="Italic" FontSize="16" TextAlignment="Center"/>
+                    <TextBlock HorizontalAlignment="Left" Height="49" Margin="10,145,0,0" TextWrapping="Wrap" Text="Link, Bruce and Jo Phelan. 2006. On stigma and its public health implications. The Lancet, 367: 528-9." VerticalAlignment="Top" Width="430" Foreground="Black" FontWeight="Bold" FontStyle="Italic" FontSize="16" TextAlignment="Center"/>
+                    <Rectangle HorizontalAlignment="Left" Height="84" Margin="-2,218,0,0" VerticalAlignment="Top" Width="458" Fill="#FFED1190"/>
+                    <TextBlock HorizontalAlignment="Left" Height="97" Margin="17,218,0,0" TextWrapping="Wrap" Text="Componentes que producen y mantienen el estigma" VerticalAlignment="Top" Width="426" Foreground="White" FontSize="30"/>
+                    <Image HorizontalAlignment="Left" Height="294" Margin="17,320,0,0" VerticalAlignment="Top" Width="408" Source="/Assets/Images/img_diagram_estigma.png"/>
+                    <TextBlock HorizontalAlignment="Left" Height="114" Margin="8,625,0,0" TextWrapping="Wrap" Text="Existen algunos componentes en las relaciones sociales que interactúan para producir y mantener el estigma hacia las mujeres que abortan:" VerticalAlignment="Top" Width="421" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="8,739,0,0" TextWrapping="Wrap" Text="1. Etiquetas: La gente identifica y coloca etiquetas que catalogan a las mujeres que abortan." VerticalAlignment="Top" Width="434" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="8,826,0,0" TextWrapping="Wrap" Text="2. Estereotipos: A las personas que se etiquetan se les asocia con caracteristicas indeseables: estereotipo negativo." VerticalAlignment="Top" Width="434" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="87" Margin="8,913,0,0" TextWrapping="Wrap" Text="3. Separación: A las personas que son ubicadas con ese estereotipo negativo se les separa del resto de las personas." VerticalAlignment="Top" Width="434" Foreground="Black"/>
+                    <TextBlock HorizontalAlignment="Left" Height="90" Margin="8,1005,0,0" TextWrapping="Wrap" Text="4. Discriminación: Las personas etiquetadas con esos atributos negativos sufren pérdida de estatus,rechazo,exclusión y discriminación." VerticalAlignment="Top" Width="434" Foreground="Black"/>
+                    <Rectangle HorizontalAlignment="Left" Height="120" Margin="-16,1113,0,0" VerticalAlignment="Top" Width="462" Fill="#FFED1190"/>
+                    <TextBlock HorizontalAlignment="Left" Height="158" TextWrapping="Wrap" Text="El estigma hacia el aborto se genera y dirige a distintos grupos sociales:" VerticalAlignment="Top" Width="456"  Foreground="White" FontSize="30" Margin="-2,1113,0,0"/>
+                    <TextBlock HorizontalAlignment="Left" Height="36" Margin="23,1313,0,0" TextWrapping="Wrap" Text="Se genera:" VerticalAlignment="Top" Width="106" Foreground="Black" d:IsHidden="True"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="124,1306,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="15"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="120,1544,0,0" Stroke="Black" VerticalAlignment="Top" Width="116">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="124,1354,0,0" Stroke="Black" VerticalAlignment="Top" Width="116" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="165"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <TextBlock HorizontalAlignment="Left" Height="84" Margin="244,1455,0,0" TextWrapping="Wrap" Text="En la comunidad (familia, amigos, etc.)" VerticalAlignment="Top" Width="196" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="145" Margin="244,1539,0,0" TextWrapping="Wrap" Text="En los servicios de salud(médicos,enfermeras,trabajadoras sociales,etc.)" VerticalAlignment="Top" Width="189" Foreground="Black"/>
-                    <TextBlock HorizontalAlignment="Left" Height="55" Margin="0,1850,0,0" TextWrapping="Wrap" Text="Se dirige hacia distintos grupos" VerticalAlignment="Top" Width="159" Foreground="Black"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="138,1816,0,0" Stroke="Black" VerticalAlignment="Top" Width="60">
+                    <TextBlock HorizontalAlignment="Left" Height="84" Margin="248,1265,0,0" TextWrapping="Wrap" Text="En la comunidad (familia, amigos, etc.)" VerticalAlignment="Top" Width="196" Foreground="Black" d:IsHidden="True"/>
+                    <TextBlock HorizontalAlignment="Left" Height="145" Margin="248,1349,0,0" TextWrapping="Wrap" Text="En los servicios de salud(médicos,enfermeras,trabajadoras sociales,etc.)" VerticalAlignment="Top" Width="189" Foreground="Black" d:IsHidden="True"/>
+                    <TextBlock HorizontalAlignment="Left" Height="55" Margin="4,1660,0,0" TextWrapping="Wrap" Text="Se dirige hacia distintos grupos" VerticalAlignment="Top" Width="159" Foreground="Black" d:IsHidden="True"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="142,1626,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="40"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="138,1934,0,0" Stroke="Black" VerticalAlignment="Top" Width="60">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="142,1742,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="140"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <TextBlock HorizontalAlignment="Left" Height="24" Margin="196,1774,0,0" TextWrapping="Wrap" Text="De la comunidad" VerticalAlignment="Top" Width="122" Foreground="Black" FontSize="16"/>
-                    <TextBlock HorizontalAlignment="Left" Height="51" Margin="205,1946,0,0" TextWrapping="Wrap" Text="De prestadores de servicios de salud." VerticalAlignment="Top" Width="137" Foreground="Black" FontSize="16"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="152,1879,0,0" Stroke="Black" VerticalAlignment="Top" Width="60"/>
-                    <TextBlock HorizontalAlignment="Left" Height="50" Margin="220,1854,0,0" TextWrapping="Wrap" Text="De los prestadores de servicios de salud" VerticalAlignment="Top" Width="160" Foreground="Black" FontSize="16"/>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="320,1796,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+                    <TextBlock HorizontalAlignment="Left" Height="24" Margin="200,1584,0,0" TextWrapping="Wrap" Text="De la comunidad" VerticalAlignment="Top" Width="122" Foreground="Black" FontSize="16" d:IsHidden="True"/>
+                    <TextBlock HorizontalAlignment="Left" Height="51" Margin="209,1756,0,0" TextWrapping="Wrap" Text="De prestadores de servicios de salud." VerticalAlignment="Top" Width="137" Foreground="Black" FontSize="16" d:IsHidden="True"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="156,1689,0,0" Stroke="Black" VerticalAlignment="Top" Width="60" d:IsHidden="True"/>
+                    <TextBlock HorizontalAlignment="Left" Height="50" Margin="224,1664,0,0" TextWrapping="Wrap" Text="De los prestadores de servicios de salud" VerticalAlignment="Top" Width="160" Foreground="Black" FontSize="16" d:IsHidden="True"/>
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="322,1607,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="160"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="320,1847,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+                    <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="2" Margin="324,1658,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" d:IsHidden="True">
                         <Rectangle.Projection>
                             <PlaneProjection RotationZ="20"/>
                         </Rectangle.Projection>
                     </Rectangle>
-                    <TextBlock HorizontalAlignment="Left" Height="31" Margin="250,1811,0,0" TextWrapping="Wrap" Text="A las mujeres que interrumpen sus embarazos" VerticalAlignment="Top" Width="196" Foreground="Black" FontSize="12"/>
+                    <TextBlock HorizontalAlignment="Left" Height="31" Margin="254,1621,0,0" TextWrapping="Wrap" Text="A las mujeres que interrumpen sus embarazos" VerticalAlignment="Top" Width="196" Foreground="Black" FontSize="12" d:IsHidden="True"/>
+                    <ScrollViewer HorizontalAlignment="Left" Height="383" Margin="-5,1238,0,0" VerticalAlignment="Top" Width="449" Foreground="{x:Null}">
+                        <Image HorizontalAlignment="Left" Height="383" VerticalAlignment="Top" Width="669" Source="/Assets/Images/estigma_imagen.png" Stretch="UniformToFill"/>
+                    </ScrollViewer>
                 </Grid>
             </ScrollViewer>
+            <Image HorizontalAlignment="Left" Height="25" Margin="0,128,0,0" VerticalAlignment="Top" Width="446" Source="/IPAS App;component/Images/img_line_title.png"/>
         </Grid>
     </Grid>
 
