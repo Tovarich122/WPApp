@@ -21,7 +21,7 @@
 
         <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
             <Image x:Name="img_Menu" Margin="25,0,333,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
-            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Criterios Médicos de Elegibilidad" Margin="127,21,-51,10" HorizontalAlignment="Center" FontSize="26.667" Width="404"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Métodos Anticonceptivos" Margin="150,21,16,10" HorizontalAlignment="Center" FontSize="26.667" Width="314"/>
             <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
             <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
@@ -82,7 +82,7 @@
                             <Paragraph TextAlignment="Left" Foreground="Black">
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>- Inicio del uso de anticonceptivos</Run>
+                                <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Inicio del uso de anticonceptivo</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>El Dispositivo Intrauterino (DIU) puede insertarse inmediatamente después de la Aspiración Endouterina.</Run>
@@ -91,7 +91,7 @@
                                 <Run>La mayoría de los métodos anticonceptivos  (tales como pastillas, inyecciones e implantes) pueden iniciarse el mismo día que se administra la primera tableta (mifepristona) del régimen combinado o que se realiza la aspiración endouterina.</Run>
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>Para condiciones médicas concomitantes (ej.: diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar:</Run>
+                                <Run>Para condiciones médicas concomitantes (ej. diabetes, hipertensión, enfermedades del corazón, etc.) aplican los Criterios Médicos de Elegibilidad para el uso de anticonceptivos, consultar:</Run>
                                 <Hyperlink Foreground="Blue" Click="HyperlinkButton_Click2">- http://apps.who.int/iris/bitstream/10665/44710/1/9789243563886_spa.pdf</Hyperlink>
                                 <LineBreak/>
                                 <Hyperlink Foreground="Blue" Click="HyperlinkButton_Click3">- http://www.who.int/reproductivehealth/publications/family_planning/Ex-Summ-MEC-5/en/</Hyperlink>
@@ -156,7 +156,7 @@
                             <Paragraph TextAlignment="Left" Foreground="Black">
                                 <LineBreak/>
                                 <LineBreak/>
-                                <Run>Después de un aborto del 2do trimestre por dilatación y evacuación (D&amp;E) o de aborto con medicamentos, se recomienda y considera seguro el inicio inmediato de anticonceptivos hormonales ( pastillas, parche, anillo vaginal, inyecciones, implante subdpérmico).</Run>
+                                <Run>Después de un aborto del 2do trimestre por dilatación y evacuación (D&amp;E) o de aborto con medicamentos, se recomienda y considera seguro el inicio inmediato de anticonceptivos hormonales (pastillas, parche, anillo vaginal, inyecciones, implante subdpérmico).</Run>
                                 <LineBreak/>
                                 <LineBreak/>
                                 <Run>El Dispositivo Intrauterino (DIU) (de cobre o medicado) puede insertarse inmediatamente después de un procedimiento de D&amp;E.</Run>
@@ -230,35 +230,35 @@
             <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="Categorias:" VerticalAlignment="Top" Margin="61,25,0,0"/>
         </Grid>
         <Grid x:Name="blackGrid" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Background="Black" Grid.RowSpan="2" Opacity="0.445"/>
-        <Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="400" VerticalAlignment="Center" Width="400" Background="White" Margin="0,0,0,258" Grid.Row="1">
-        	<Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="330,0,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
-        	<TextBlock x:Name="PopTitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFEC098D" Margin="35,58,0,0" FontSize="24"/>
-        	<TextBlock x:Name="PopSubtitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Margin="35,116,0,0" FontSize="24" Height="267" Width="346"/>
-        	<ScrollViewer x:Name="PopScrollIntro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,95,0,0" Height="267" Width="346" >
-        	 <RichTextBox x:Name="PopIntro" FontSize="18.667" Width="336" TextWrapping="Wrap">
+        <Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="539" VerticalAlignment="Center" Width="400" Background="White" Margin="40,31,40,150" Grid.Row="1">
+            <Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="330,0,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
+            <TextBlock x:Name="PopTitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFEC098D" Margin="35,58,0,0" FontSize="24"/>
+            <TextBlock x:Name="PopSubtitulo" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" Margin="35,116,0,0" FontSize="24" Height="267" Width="346"/>
+            <ScrollViewer x:Name="PopScrollIntro" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="35,95,0,0" Height="426" Width="346" >
+                <RichTextBox x:Name="PopIntro" FontSize="18.667" Width="336" TextWrapping="Wrap">
 
-                            <Paragraph TextAlignment="Left" Foreground="Black">
-                                <Run>Los criterios médicos de elegibilidad brindan recomendaciones que sirvand e base para la racionalización del suminsitro de diversos anticonceptivos, teniendo en cuenta la información más actualizada disponible sobre la seguridad de los métodos para las personas con ciertas condiciones médicas.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Categorías: </Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>1. Una condición para la que no hay restricción para el uso del método.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>2. Una condición donde las ventajas del uso del método generalmente superan los riesgos teóricos o probados.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>3. Una condición donde los riesgos teóricos o provados generalmente superan las ventajas del uso del método.</Run>
-								<LineBreak/>
-                                <LineBreak/>
-                                <Run>4. Una condición que representa un reisgo de salud inadmisible si se utiliza el método anticonceptivo.</Run>
-                                
-                            </Paragraph>
+                    <Paragraph TextAlignment="Left" Foreground="Black">
+                        <Run>Los criterios médicos de elegibilidad brindan recomendaciones que sirvand e base para la racionalización del suminsitro de diversos anticonceptivos, teniendo en cuenta la información más actualizada disponible sobre la seguridad de los métodos para las personas con ciertas condiciones médicas.</Run>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run>Categorías:</Run>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run>1. Una condición para la que no hay restricción para el uso del método.</Run>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run>2. Una condición donde las ventajas del uso del método generalmente superan los riesgos teóricos o probados.</Run>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run>3. Una condición donde los riesgos teóricos o provados generalmente superan las ventajas del uso del método.</Run>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run>4. Una condición que representa un reisgo de salud inadmisible si se utiliza el método anticonceptivo.</Run>
 
-                        </RichTextBox>
-			</ScrollViewer>
+                    </Paragraph>
+
+                </RichTextBox>
+            </ScrollViewer>
         </Grid>
 
     </Grid>

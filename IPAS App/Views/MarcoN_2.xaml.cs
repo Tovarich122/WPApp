@@ -51,9 +51,10 @@ namespace IPAS_App.Views
         private void tap1(object sender, System.Windows.Input.GestureEventArgs e)
         {
             System.Windows.Shapes.Path a = (System.Windows.Shapes.Path)sender;
-
+            this.scroll_1.ScrollToVerticalOffset(0);
+            
             p = listaEstados.Find(k => k.n_boton == a.Name);
-            if (p.n_boton == "n_df")
+            if (p.n_boton == "e_df")
             {
                 texto_descripcion.Text = "Causas Consideradas en el Codigo Penal de la Entidad Federativa:";
             }

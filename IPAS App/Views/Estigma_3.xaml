@@ -38,7 +38,6 @@
                 <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" ClickMode="Press" Click="Button_Click_1" Style="{StaticResource TransparentBackButtonStyle}"/>
             </Grid>
         </Grid>
-        <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <Grid HorizontalAlignment="Left" Height="591" Margin="0,92,-24,0" VerticalAlignment="Top" Width="480">
                 <Grid x:Name="instrucciones" HorizontalAlignment="Left" Height="606" Margin="10,10,0,-25" VerticalAlignment="Top" Width="456" d:IsHidden="True">
@@ -79,12 +78,13 @@
                         <Image x:Name="n_resultado_3" Height="200" Canvas.Left="52" Width="168" Source="/Assets/Images/img_light_yellow_answer.png" Stretch="UniformToFill" Canvas.Top="17" d:IsHidden="True"/>
                     </Canvas>
                     <ScrollViewer x:Name="scroll_1" Height="226" Canvas.Top="268" Width="445" Canvas.Left="4">
-                        <TextBlock x:Name="t_resultado" Height="298" TextWrapping="Wrap" Text="TextBlock" Width="435" Foreground="Black" FontSize="24"/>
+                        <TextBlock x:Name="t_resultado" Height="auto" TextWrapping="Wrap" Text="TextBlock" Width="435" Foreground="Black" FontSize="24" TextAlignment="Center"/>
                     </ScrollViewer>
-                    <Button x:Name="bTerminar" Content="OK" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="146" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="146" Canvas.Top="499"/>
+                    <Button x:Name="bTerminar" Content="OK" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="146" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="156" Canvas.Top="499"/>
                 </Canvas>
             </Grid>
         </Grid>
+        <!--ContentPanel - place additional content here-->
     </Grid>
 
 </phone:PhoneApplicationPage>

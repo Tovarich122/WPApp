@@ -163,8 +163,8 @@
                 <TextBlock x:Name="texto_descripcion" HorizontalAlignment="Left" Height="72" Margin="0,112,0,0" TextWrapping="Wrap" Text="Causas Consideradas en el Codigo Penal del Estado:" VerticalAlignment="Top" Width="446" Foreground="#FFFF0094" FontSize="22" />
                 <Canvas HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Background="DarkGray"/>
                 <Image HorizontalAlignment="Left" Height="42" Margin="406,0,0,0" VerticalAlignment="Top" Width="40" Source="/Assets/iconos/appbar.close.png" Tap="close_popup"/>
-                <ScrollViewer HorizontalAlignment="Left" Margin="0,239,0,0" Width="456" Height="298" VerticalAlignment="Top">
-                    <TextBlock x:Name="text_content" HorizontalAlignment="Left" Height="693" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="436" Foreground="Black"/>
+                <ScrollViewer x:Name="scroll_1" HorizontalAlignment="Left" Margin="0,189,0,0" Width="456" Height="298" VerticalAlignment="Top">
+                    <TextBlock x:Name="text_content" HorizontalAlignment="Left" Height="386" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="436" Foreground="Black"/>
                 </ScrollViewer>
             </Grid>
         </Grid>

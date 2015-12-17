@@ -21,221 +21,230 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-		 <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
+        <Grid x:Name="Menu_Grid" Grid.Row="0" Margin="0" Background="#FFF47420" Height="80">
             <Image x:Name="img_Menu" Margin="20,0,338,0" Source="/IPAS App;component/Images/ic_anticonceptivos.png" Stretch="Fill"/>
-            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Criterios Médicos de Elegibilidad" Margin="127,21,-51,10" HorizontalAlignment="Center" FontSize="26.667" Width="404"/>
+            <TextBlock x:Name="tb_Menu" TextWrapping="Wrap" Text="Métodos Anticonceptivos" Margin="156,21,23,10" HorizontalAlignment="Center" FontSize="26.667" Width="301"/>
             <Image HorizontalAlignment="Left" Height="49" Margin="10,21,0,0" VerticalAlignment="Top" Width="24" Source="/Assets/Images/ic_arrow_left.png" Opacity="0.8"/>
             <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
 
-		 <!--ContentPanel - place additional content here-->
+        <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
-        	<phone:Pivot HorizontalAlignment="Left" Height="640" Title="Pon a prueba tus conocimientos" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
-        					
-				<phone:PivotItem CacheMode="{x:Null}" Header="Caso Clínico 1" Foreground="Black" FontSize="16"  >
-        			<ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+            <phone:Pivot HorizontalAlignment="Left" Height="640" Title="Pon a prueba tus conocimientos" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D" Style="{StaticResource PivotHeaderStyle}">
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="Caso Clínico 1" Foreground="Black" FontSize="16"  >
+                    <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
 
                         <StackPanel>
-                                                        
+
                             <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
 
-                            <Paragraph TextAlignment="Center" Foreground="Black">
-                                <Run Text="Mujer de 41 años G3 P1 A2" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
-                                <LineBreak/>
-                                <LineBreak/>
-                                <InlineUIContainer>
-                                    <Image Width="300"  HorizontalAlignment="Left"
-        											Margin="0" x:Name="im_woman17" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_woman17.png" />
-                                </InlineUIContainer>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
-                            
-							<Paragraph TextAlignment="Left" Foreground="Black">
-                                <Run Text="Diagnóstico de ingreso: Huevo muerto retenido y antecedente de portar Válvula cardiaca mecánica."/>
-								<LineBreak/>
-								<LineBreak/>
-                                <Run Text="Paciente a quien se le indicó profilaxis antibiótica, manejo del dolor y preparación cervical con misoprostol previa aspiración endouterina. Durante el procedimiento de AMEU se dio acompañamiento e información y consejería sobre métodos anticonceptivos."/>
-								<LineBreak/>
-								<LineBreak/>
-                                <Run Text="Entre sus antecedentes relevantes: Diagnóstico de Fiebre reumatoide a los 22 años de edad. Cirugía para colocación de válvula mecánica a los 37 años y desde esa edad tratamiento con Aspirina 100 mg /día. Último PAP hace 6 meses y resultado negativo a LIE. Niega otro antecedente."/>
-								<LineBreak/>
-								<LineBreak/>
-                                <Run Text="Ella refiere estar interesada en los siguientes métodos; de estos ¿cuál es el método más indicado para ella?"/>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
+                                <Paragraph TextAlignment="Center" Foreground="Black">
+                                    <Run Text="Mujer de 41 años G3 P1 A2" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Width="300"  HorizontalAlignment="Left"
+        											Margin="0" x:Name="im_woman17" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_woman42.png" />
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
-        				</RichTextBox>
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Diagnóstico de ingreso:</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run Text="Huevo muerto retenido y antecedente de portar Válvula cardiaca mecánica."/>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run Text="Paciente a quien se le indicó profilaxis antibiótica, manejo del dolor y preparación cervical con misoprostol previa aspiración endouterina. Durante el procedimiento de AMEU se dio acompañamiento e información y consejería sobre métodos anticonceptivos."/>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run Text="Entre sus antecedentes relevantes: Diagnóstico de Fiebre reumatoide a los 22 años de edad. Cirugía para colocación de válvula mecánica a los 37 años y desde esa edad tratamiento con Aspirina 100 mg /día. Último PAP hace 6 meses y resultado negativo a LIE. Niega otro antecedente."/>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run Text="Ella refiere estar interesada en los siguientes métodos; de estos ¿cuál es el método más indicado para ella?"/>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
+
+                            </RichTextBox>
                             <StackPanel>
-                            	<Button x:Name="caso1Button1" Content="Pastillas (anticonceptivo &#xA;&#x9;&#x9;oral combinado)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="108" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
-                            	<Button x:Name="caso1Button2" Content="Anillo Vaginal combinado" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
-                            	<Button x:Name="caso1Button3" Content="Dispositivo intrauterino de cobre" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
+                                <Button x:Name="caso1Button1" Content="Pastillas (anticonceptivo &#xA;&#x9;&#x9;oral combinado)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="108" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
+                                <Button x:Name="caso1Button2" Content="Anillo Vaginal combinado" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
+                                <Button x:Name="caso1Button3" Content="Dispositivo intrauterino de cobre" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso1Buttons" />
                             </StackPanel>
 
                         </StackPanel>
-                        
+
                     </ScrollViewer>
-        		</phone:PivotItem>
-        		
-				<phone:PivotItem CacheMode="{x:Null}" Header="Caso Clínico 2" Foreground="Black">
-        			<ScrollViewer x:Name="Text_Grid_2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+                </phone:PivotItem>
+
+                <phone:PivotItem CacheMode="{x:Null}" Header="Caso Clínico 2" Foreground="Black">
+                    <ScrollViewer x:Name="Text_Grid_2" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
 
                         <StackPanel>
                             <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
 
-                            <Paragraph TextAlignment="Center" Foreground="Black">
-                                <Run Text="Mujer de 35 años G2 P1 A1" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
-                                <LineBreak/>
-                                <LineBreak/>
-                                <InlineUIContainer>
-                                    <Image Width="300" HorizontalAlignment="Left"
-        											Margin="0" x:Name="im_woman42" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_woman42.png" />
-                                </InlineUIContainer>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
+                                <Paragraph TextAlignment="Center" Foreground="Black">
+                                    <Run Text="Mujer de 35 años G2 P1 A1" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Width="300" HorizontalAlignment="Left"
+        											Margin="0" x:Name="im_woman42" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_woman17.png" />
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
-                            <Paragraph TextAlignment="Left" Foreground="Black">
-                                <Run>Diagnóstico de ingreso: Aborto incompleto séptico y Obesidad grado I (IMC 30 kg/m2).</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Se indicó manejo del dolor y posterior a  la impregnación con doble esquema antibiótico se  le realizó AMEU sin complicaciones y pasa a sala de recuperación  con signos vitales estables.
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Diagnóstico de ingreso:</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Aborto incompleto séptico y Obesidad grado I (IMC 30 kg/m2).</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Se indicó manejo del dolor y posterior a  la impregnación con doble esquema antibiótico se  le realizó AMEU sin complicaciones y pasa a sala de recuperación  con signos vitales estables.
                 Entre sus antecedentes relevantes refiere tabaquismo desde hace 6 años a razón de 16 cigarrillos /día.  Nunca PAP y con uso inconsistente de preservativo.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Se le orienta sobre métodos anticonceptivos  de los cuales ella refiere estar interesada en  los que se enuncian a continuación; de estos , ¿cuál es el método no recomendado para ella?</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Se le orienta sobre métodos anticonceptivos  de los cuales ella refiere estar interesada en  los que se enuncian a continuación; de estos , ¿cuál es el método no recomendado para ella?</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
-                        </RichTextBox>
+                            </RichTextBox>
                             <StackPanel>
-                            	<Button x:Name="caso2Button1" Content="Entantato de Norestisterona (EN-NET, &#xD;&#xA;&#x9;        Inyectable bimensual)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="110" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
-                            	<Button x:Name="caso2Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
-                            	<Button x:Name="caso2Button3" Content="Dispositivo intrauterino" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
+                                <Button x:Name="caso2Button1" Content="Entantato de Norestisterona (EN-NET, &#xD;&#xA;&#x9;        Inyectable bimensual)" HorizontalAlignment="Left" VerticalAlignment="Top" Height="110" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
+                                <Button x:Name="caso2Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
+                                <Button x:Name="caso2Button3" Content="Dispositivo intrauterino" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" Click="caso2Buttons" />
                             </StackPanel>
 
-                        
-                        
+
+
                         </StackPanel>
 
                     </ScrollViewer>
-        		</phone:PivotItem>
-			
+                </phone:PivotItem>
+
                 <phone:PivotItem CacheMode="{x:Null}" Header="Caso Clínico 3" Foreground="Black" FontSize="16"  >
-					<ScrollViewer x:Name="Text_Grid1" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
+                    <ScrollViewer x:Name="Text_Grid1" HorizontalAlignment="Left" Margin="0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="432">
 
                         <StackPanel>
                             <RichTextBox FontSize="16" Margin="0,0,-18,0" Width="432">
 
-                            <Paragraph TextAlignment="Center" Foreground="Black">
-                                <Run Text="Mujer de 18 años G1 P0" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
-                                <LineBreak/>
-                                <LineBreak/>
-                                <InlineUIContainer>
-                                    <Image Width="300" HorizontalAlignment="Left"
+                                <Paragraph TextAlignment="Center" Foreground="Black">
+                                    <Run Text="Mujer de 18 años G1 P0" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <InlineUIContainer>
+                                        <Image Width="300" HorizontalAlignment="Left"
         											Margin="0" x:Name="im_woman15" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_woman15.png" />
-                                </InlineUIContainer>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
+                                    </InlineUIContainer>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
-                            <Paragraph TextAlignment="Left" Foreground="Black">
-                                <Run>Diagnóstico de ingreso: Embarazo de 7 semanas</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Refiere nauseas y vómitos desde hace 1 semana, se realizó una prueba de embarazo en orina con resultado positivo. Niega otros síntomas.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Antecedentes relevantes: PAP con colposcopía hace  4 meses con resultado NIC I, actualmente en observación.
+                                <Paragraph TextAlignment="Left" Foreground="Black">
+                                    <Run FontStyle="Normal" FontSize="18" FontWeight="Bold" Foreground="#FFEC098D">Diagnóstico de ingreso:</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Embarazo de 7 semanas</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Refiere nauseas y vómitos desde hace 1 semana, se realizó una prueba de embarazo en orina con resultado positivo. Niega otros síntomas.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Antecedentes relevantes: PAP con colposcopía hace  4 meses con resultado NIC I, actualmente en observación.
                 Método anticonceptivo: Preservativo y en los últimos 8 meses ha usado la píldora de emergencia en 5 ocasiones. Solicitó hace 1 año DIU medicado pero le fue negado en su centro de salud por su edad.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Ahora acude  a su centro de salud solicitando interrupción legal del embarazo.</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                                <Run>Posterior a la información y consejería ella elige la interrupción con el régimen combinado y  refiere estar interesada en  los  siguientes métodos; de estos ¿cuál es el método más indicado para ella?</Run>
-                                <LineBreak/>
-                                <LineBreak/>
-                            </Paragraph>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Ahora acude  a su centro de salud solicitando interrupción legal del embarazo.</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                    <Run>Posterior a la información y consejería ella elige la interrupción con el régimen combinado y  refiere estar interesada en  los  siguientes métodos; de estos ¿cuál es el método más indicado para ella?</Run>
+                                    <LineBreak/>
+                                    <LineBreak/>
+                                </Paragraph>
 
-                        </RichTextBox>
+                            </RichTextBox>
                             <StackPanel>
-                            	<Button Click="caso3Buttons" x:Name="caso3Button1" Content="Dispositivo intrauterino medicado" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Click="caso3Buttons" x:Name="caso3Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
-                            	<Button Click="caso3Buttons" x:Name="caso3Button3" Content="Pastillas orales de progestina sola" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                                <Button Click="caso3Buttons" x:Name="caso3Button1" Content="Dispositivo intrauterino medicado" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                                <Button Click="caso3Buttons" x:Name="caso3Button2" Content="Implante subdérmico" HorizontalAlignment="Left"  VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
+                                <Button Click="caso3Buttons" x:Name="caso3Button3" Content="Pastillas orales de progestina sola" HorizontalAlignment="Left" VerticalAlignment="Top" Height="94" Width="430" BorderBrush="#FFEC098D" Foreground="White" Background="#FFEC098D" Style="{StaticResource ButtonPressedPink}" />
                             </StackPanel>
-                            
-                            
+
+
 
                         </StackPanel>
                     </ScrollViewer>
-				</phone:PivotItem>
-        	</phone:Pivot>
+                </phone:PivotItem>
+            </phone:Pivot>
 
-			
+
 
         </Grid>
 
-		<Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
-        	<HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
-        		<HyperlinkButton.Background>
-        			<ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
-        		</HyperlinkButton.Background>
-        	</HyperlinkButton>
+        <Grid x:Name="BreadCrumb_Grid" Grid.Row="1" Background="#FFEC098D" Height="80" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0" Width="480">
+            <HyperlinkButton x:Name="Hyperlink_IPAS_Button" Content="HyperlinkButton" HorizontalAlignment="Left" Margin="220,20,0,0" VerticalAlignment="Top" Foreground="{x:Null}" Height="41" Width="257" Style="{StaticResource HyperlinkButtonStyle}">
+                <HyperlinkButton.Background>
+                    <ImageBrush Stretch="Fill" ImageSource="/IPAS App;component/Images/pleca.png"/>
+                </HyperlinkButton.Background>
+            </HyperlinkButton>
         </Grid>
-		<Grid x:Name="blackGrid" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Background="Black" Grid.RowSpan="2" Opacity="0.445" Margin="0,-39,0,0"/>
-		<Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="694" VerticalAlignment="Center" Width="456" Background="White" Margin="12,49,12,57" Grid.RowSpan="2">
-			<Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
-			<Grid Margin="35,80,35,33">
-				<RichTextBox x:Name="PopIntro" FontSize="18.667" TextWrapping="Wrap" d:IsHidden="True">
-				
-					<Paragraph TextAlignment="Center" Foreground="Black">
-						<InlineUIContainer>
-							<Image Width="300" HorizontalAlignment="Left"
+        <Grid x:Name="blackGrid" HorizontalAlignment="Left" Height="800" VerticalAlignment="Top" Width="480" Background="Black" Grid.RowSpan="2" Opacity="0.445" Margin="0,-39,0,0"/>
+        <Grid x:Name="whiteGrid" HorizontalAlignment="Center" Height="694" VerticalAlignment="Center" Width="456" Background="White" Margin="12,49,12,57" Grid.RowSpan="2">
+            <Button x:Name="PopCloseButton" Content="X" HorizontalAlignment="Left" Margin="376,10,0,0" VerticalAlignment="Top" BorderBrush="White" Foreground="Black" Width="70" Height="70" Style="{StaticResource ButtonPressedPink}" Click="PopCloseButton_Click"/>
+            <Grid Margin="35,80,35,33">
+                <RichTextBox x:Name="PopIntro" FontSize="18.667" TextWrapping="Wrap" d:IsHidden="True">
+
+                    <Paragraph TextAlignment="Center" Foreground="Black">
+                        <InlineUIContainer>
+                            <Image Width="300" HorizontalAlignment="Left"
 								Margin="0" x:Name="im_banner_test" VerticalAlignment="Top" Source="/IPAS App;component/Images/im_banner_test.png" />
-						</InlineUIContainer>
-						<LineBreak/>
-					</Paragraph>
+                        </InlineUIContainer>
+                        <LineBreak/>
+                    </Paragraph>
 
-					<Paragraph TextAlignment="Left" Foreground="Black">
-						<Run Text="Instrucciones:"/>
-						<LineBreak/>
-						<LineBreak/>
-						<Run Text="A continuación encontrarás tres casos, basados en descripciones reales de mujeres con distintas características."/>
-						<LineBreak/>
-						<LineBreak/>
-						<Run Text="Te invitamos a analizarlos y a elegir una de las tres opciones de respuesta que te ofrecemos."/>
-						<LineBreak/>
-						<LineBreak/>
-						<Run Text="Debes buscar la respuesta más acertada referente al método anticonceptivo indicado para la mujer antes descrita."/>
-						<LineBreak/>
-						<LineBreak/>
-						<Run Text="¡Responde y pon a prueba tus conocimientos!"/>
-						<LineBreak/>
-						<LineBreak/>
-					</Paragraph>
+                    <Paragraph TextAlignment="Left" Foreground="Black">
+                        <Run Text="Instrucciones:"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="A continuación encontrarás tres casos, basados en descripciones reales de mujeres con distintas características."/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="Te invitamos a analizarlos y a elegir una de las tres opciones de respuesta que te ofrecemos."/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="Debes buscar la respuesta más acertada referente al método anticonceptivo indicado para la mujer antes descrita."/>
+                        <LineBreak/>
+                        <LineBreak/>
+                        <Run Text="¡Responde y pon a prueba tus conocimientos!"/>
+                        <LineBreak/>
+                        <LineBreak/>
+                    </Paragraph>
 
 
-				</RichTextBox>
-				<Grid x:Name="PopAnswersGrid" Margin="-1,8,-1,0">
-					<ScrollViewer Margin="1,118,1,0" Width="386">
-						<TextBlock x:Name="AnswersContent" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" FontSize="18.667">
-						</TextBlock>
+                </RichTextBox>
+                <Grid x:Name="PopAnswersGrid" Margin="-1,8,-1,0">
+                    <ScrollViewer Margin="1,118,1,0" Width="386">
+                        <TextBlock x:Name="AnswersContent" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="Black" FontSize="18.667">
+                        </TextBlock>
 
-           
-					</ScrollViewer>
-					<Image Margin="0,0,0,480" Source="/IPAS App;component/Images/im_header_clarification.png" Stretch="Fill"/>
 
-           
-				</Grid>
+                    </ScrollViewer>
+                    <Image Margin="0,0,0,480" Source="/IPAS App;component/Images/im_header_clarification.png" Stretch="Fill"/>
 
-           
-			</Grid>
 
-           
-        </Grid>	
+                </Grid>
+
+
+            </Grid>
+
+
+        </Grid>
     </Grid>
 
 </phone:PhoneApplicationPage>

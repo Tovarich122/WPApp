@@ -29,6 +29,8 @@ namespace IPAS_App.Views
             n_resultado_2.Visibility = Visibility.Collapsed;
             n_resultado_3.Visibility = Visibility.Collapsed;
             test_window.Visibility = Visibility.Collapsed;
+            s2.Visibility = Visibility.Collapsed;
+
             bPrevio.Visibility = Visibility.Collapsed;
             bCancelar.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
@@ -69,7 +71,7 @@ namespace IPAS_App.Views
         }
         private void GoToNextEstigma(object sender, EventArgs e)
         {
-
+            
             if (this.i >= 5) // Resultado Final.
             {
                 //Regresar a la normalidad
@@ -83,6 +85,7 @@ namespace IPAS_App.Views
                 bCancelar.Visibility = Visibility.Collapsed;
                 bSiguiente.Visibility = Visibility.Visible;
                 bTerminar.Visibility = Visibility.Collapsed;
+                bTerminar2.Visibility = Visibility.Collapsed;
                 //Mostrar testWindow.
                 instrucciones.Visibility = Visibility.Collapsed;
                 test_window.Visibility = Visibility.Visible;
@@ -101,6 +104,8 @@ namespace IPAS_App.Views
                 test_window.Visibility = Visibility.Collapsed;
                 this.i++;
                 int c = 1;
+                Canvas.SetLeft(bTerminar, 10);
+                bTerminar.Content = "Realizar de nuevo";
                 //calcular Score.
 
                 foreach (var item in preguntas)
@@ -130,6 +135,8 @@ namespace IPAS_App.Views
                 bTerminar2.Visibility = Visibility.Visible;
 
                 c_resultado.Visibility = Visibility.Visible;
+                s2.Visibility = Visibility.Collapsed;
+                s1.Visibility = Visibility.Visible;
             }
             else
             {
@@ -160,6 +167,7 @@ namespace IPAS_App.Views
             bCancelar.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bTerminar.Visibility = Visibility.Collapsed;
+            bTerminar2.Visibility = Visibility.Collapsed;
 
             instrucciones.Visibility = Visibility.Visible;
             test_window.Visibility = Visibility.Collapsed;
@@ -226,6 +234,9 @@ namespace IPAS_App.Views
             test_window.Visibility = Visibility.Collapsed;
             //Modificar Appbar
             bTerminar.Visibility = Visibility.Visible;
+            Canvas.SetLeft(bTerminar, 135);
+            bTerminar.Content = "Siguiente";
+            bTerminar2.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bPrevio.Visibility = Visibility.Collapsed;
             bCancelar.Visibility = Visibility.Collapsed;
@@ -234,7 +245,9 @@ namespace IPAS_App.Views
             //Actualizar Valores
             saveAnswer(o);
             p = preguntas.Find(k => k.id == o);
-            t_resultado.Text = p.before_next;
+            t_resultado1.Text = p.before_next;
+            s1.Visibility = Visibility.Collapsed;
+            s2.Visibility = Visibility.Visible;
 
         }
 

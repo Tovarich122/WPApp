@@ -117,37 +117,37 @@
                         <TextBlock Grid.Row="8" Grid.Column="0" Text="Con el consentimiento de la mujer embarazada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="5,178.25,0,-80.25" Grid.ColumnSpan="3" />
 
                     </Grid>
-                    <TextBlock HorizontalAlignment="Left" Height="129" Margin="0,1812,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="129" Margin="10,1812,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[1] "/>
                     	<Run FontWeight="Normal" Text="E"/>
                     	<Run FontWeight="Normal" Text="stablece que a toda víctima de violación, se le garantizará el acceso de servicios de anticoncepción de emergencia y de interrupción voluntaria del embarazo con absoluto respeto a su voluntad."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="81" Margin="-2,1946,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="81" Margin="10,1946,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[2] "/>
                     	<Run FontWeight="Normal" Text="En el caso de Baja California con aviso al Ministerio Público y de Durango previa autorización del Ministerio Público."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="186" Margin="-2,2027,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="186" Margin="10,2027,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[3] "/>
                     	<Run FontWeight="Normal" Text="En Hidalgo además solicita que los médicos estén debidamente certificados por los Colegios, Academias Nacionales o Consejos de Medicina de la rama correspondiente. Además de los anteriores requisitos en Yucatán el Código Penal solicita el consentimiento de la madre y del padre del producto."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="188" Margin="-2,2213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="188" Margin="10,2213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[4] "/>
                     	<Run FontWeight="Normal" Text="De los 15 códigos que tienen esta causal, sólo 4: Baja California Sur, Coahuila, Chiapas y Morelos requieren el juicio de un médico. Los otros 11 estados: Colima, Distrito Federal, Guerrero, Hidalgo, México, Oaxaca, Puebla, Quintana Roo, Tlaxcala, Veracruz y Yucatán requieren dictamen de dos médicos."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="161" Margin="-2,2401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="161" Margin="10,2401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[5] "/>
                     	<Run FontWeight="Normal" Text="Aunque no se menciona explícitamente en el Código Penal de Campeche esta causal queda comprendida en 'grave daño a la salud', Omisión e indiferencia/Derechos Reproductivos en México, Grupo de Información en Reproducción Elegida, GIRE, A.C.  2ª Edición, Agosto 2013"/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="53" Margin="-2,2562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="53" Margin="10,2562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[6] "/>
                     	<Run FontWeight="Normal" Text="Sólo en Michoacán y Yucatán (en éste último, siempre que tenga ya 3 hijos)."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="182" Margin="-2,2615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="182" Margin="10,2615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[7] "/>
                     	<Run FontWeight="Normal" Text="Sólo en el Distrito Federal, regulado en la Gaceta Oficial del Distrito Federal CIRCULAR/GDF-SSDF/01/06 que contiene los Lineamientos Generales de Organización y operación de los servicios de salud relacionados con la interrupción legal del embarazo en el Distrito Federal (Última reforma 20 junio 2012)."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="-7,2824,0,0" TextWrapping="Wrap" Text="Conoce más sobre las Normas Oficiales Mexicanas en las siguientes ligas:" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="-7,2945,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2824,0,0" TextWrapping="Wrap" Text="Conoce más sobre las Normas Oficiales Mexicanas en las siguientes ligas:" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2945,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
                 </Grid>
             </ScrollViewer>
             <Image HorizontalAlignment="Left" Height="30" Margin="0,125,0,0" VerticalAlignment="Top" Width="456" Source="/IPAS App;component/Images/img_line_title.png"/>

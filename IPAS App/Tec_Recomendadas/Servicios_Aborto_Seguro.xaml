@@ -26,17 +26,31 @@
             <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-15,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
         <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
-        	<TextBlock TextWrapping="Wrap" Foreground="Black" Width="387" TextAlignment="Left">
-        		<Run Text="Todas las mujeres deberían tener acceso a servicios de aborto seguro en sus comunidades y deberían poder beneficiarse por igual de nuevas y mejores tecnologías en sus procesos de atención."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="En los paises en desarrollo, a menudo no hay acceso a equipos básicos para los servicios de aborto seguro y atención postaborto, así como para otras intervenciones esenciales en la atención de la urgencia obstétrica. Más aún, incluso cuando hay profesionales de salud calificado, las carencias de insumos básicos y tecnologías apropiadas, hacen difícil de garantizar estándares adecuados en la calidad de las prácticas clínicas relacionadas con la atención a mujeres en situación de aborto."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="Ipas junto con otras Organizaciones Internacionales (OMS, FIGO, FLASOG, entre otras) hemos creado una base de conocimientos, herramientas y guías técnicas para la aplición clínica del aborto seguro, para garantizar el acceso, la asequibilidad y garantía de calidad en la provisión de servicios y productos para la tención de mujeres con aborto, postaborto o con requerimietnos de interrupción legal del embarazo (ILE)."/>
-        	</TextBlock>
+            
+            <RichTextBox FontSize="21.333">
+                <Paragraph TextAlignment="Left" Foreground="Black">
+                    <Run Text="Acceso a los servicios de de aborto seguro " FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                    <LineBreak/>
+                    <InlineUIContainer >
+                        <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+                    </InlineUIContainer>
+                    <LineBreak/>
+                </Paragraph>
+
+                <Paragraph TextAlignment="Left" Foreground="Black">
+                    <Run Text="Todas las mujeres deberían tener acceso a servicios de aborto seguro en sus comunidades y deberían poder beneficiarse por igual de nuevas y mejores tecnologías en sus procesos de atención."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="En los paises en desarrollo, a menudo no hay acceso a equipos básicos para los servicios de aborto seguro y atención postaborto, así como para otras intervenciones esenciales en la atención de la urgencia obstétrica. Más aún, incluso cuando hay profesionales de salud calificado, las carencias de insumos básicos y tecnologías apropiadas, hacen difícil de garantizar estándares adecuados en la calidad de las prácticas clínicas relacionadas con la atención a mujeres en situación de aborto."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="Ipas junto con otras Organizaciones Internacionales (OMS, FIGO, FLASOG, entre otras) hemos creado una base de conocimientos, herramientas y guías técnicas para la aplición clínica del aborto seguro, para garantizar el acceso, la asequibilidad y garantía de calidad en la provisión de servicios y productos para la tención de mujeres con aborto, postaborto o con requerimietnos de interrupción legal del embarazo (ILE)."/>
+
+                </Paragraph>
+            </RichTextBox>
 
 
         </ScrollViewer>

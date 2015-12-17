@@ -26,50 +26,62 @@
             <Button Content="" HorizontalAlignment="Left" Height="104" Margin="-13,-12,0,-12" VerticalAlignment="Top" Width="164" BorderBrush="{x:Null}" Foreground="{x:Null}" Background="{x:Null}" Click="Button_Click" ClickMode="Press" Style="{StaticResource TransparentBackButtonStyle}"/>
         </Grid>
         <ScrollViewer x:Name="Text_Grid" HorizontalAlignment="Left" Margin="45,49,0,0" Grid.Row="1" VerticalAlignment="Top" Height="554" Width="387">
-        	<TextBlock TextWrapping="Wrap" Foreground="Black" Width="387" TextAlignment="Left">
-        		<Run Text="Los profesionales de la salud deben estar informados del marco internacional, de los derechos humanos y de las leyes locales. Todas las normas, estándares y prácticas clínicas relacionadas con la atención del aborto, deben promover y proteger la salud y los derechos humanos de las mujeres, incluyendo las adolescentes, la autonomía, la confidencialidad, la privacidad y la no discriminación."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="Algunos ejemplos prácticos sobre cómo los profesionales de la salud, pueden aplicar estos principios, incluyen:"/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Tratar a todas las mujeres con equidad, calidad y de manera oportuna, sin importar su edad, origen étnico, estatus socioeconómico o estado civil."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Asegurar que los servicios de aborto se proporcionan respetando a las mujerEs en su toma de decisiones."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Proporcionar información completa basada en evidencia científica y fácil de entender."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Respetar la dignidad de la mujer, garantizándole privacidad y confidencialidad."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Tener sesnibilidad antes las necesidades y perspectivas de la mujer."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Proteger la información clínica que proporcione la mujer de cualquier tipo de divulgación no autorizada."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Estar vigilante sobre situaciones en las que una mujer puede recibir coerción para practicarse un aborto en cotra de su voluntad (por ejemplo, en base a su estado de salud o por vivir con VIH)."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Cuando se trate de una adolescente respetar su autonomía tomando en cuenta su acpacidad evolutiva y el interés superior de la menor."/>
-        		<LineBreak/>
-        		<Run/>
-        		<LineBreak/>
-        		<Run Text="- Cuando ella lo solicite y autorice, motivar a los padres a involucrarse para dar apoyo, información y acompañamiento."/>
-        	</TextBlock>
 
+            <RichTextBox>
+            <Paragraph TextAlignment="Left" Foreground="Black">
+                <Run Text="La práctica clínica del aborto seguro" FontSize="30" FontStyle="Normal" FontWeight="Bold" Foreground="#FFEC098D" />
+                <LineBreak/>
+                <InlineUIContainer >
+                    <Image HorizontalAlignment="Left"
+        								Margin="0" x:Name="images" VerticalAlignment="Top" Source="/IPAS App;component/Images/img_line_title.png" />
+                </InlineUIContainer>
+                <LineBreak/>
+            </Paragraph>
+
+                <Paragraph TextAlignment="Left" Foreground="Black">
+                    <Run Text="Los profesionales de la salud deben estar informados del marco internacional, de los derechos humanos y de las leyes locales. Todas las normas, estándares y prácticas clínicas relacionadas con la atención del aborto, deben promover y proteger la salud y los derechos humanos de las mujeres, incluyendo las adolescentes, la autonomía, la confidencialidad, la privacidad y la no discriminación."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="Algunos ejemplos prácticos sobre cómo los profesionales de la salud, pueden aplicar estos principios, incluyen:"/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Tratar a todas las mujeres con equidad, calidad y de manera oportuna, sin importar su edad, origen étnico, estatus socioeconómico o estado civil."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Asegurar que los servicios de aborto se proporcionan respetando a las mujerEs en su toma de decisiones."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Proporcionar información completa basada en evidencia científica y fácil de entender."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Respetar la dignidad de la mujer, garantizándole privacidad y confidencialidad."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Tener sesnibilidad antes las necesidades y perspectivas de la mujer."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Proteger la información clínica que proporcione la mujer de cualquier tipo de divulgación no autorizada."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Estar vigilante sobre situaciones en las que una mujer puede recibir coerción para practicarse un aborto en cotra de su voluntad (por ejemplo, en base a su estado de salud o por vivir con VIH)."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Cuando se trate de una adolescente respetar su autonomía tomando en cuenta su acpacidad evolutiva y el interés superior de la menor."/>
+                    <LineBreak/>
+                    <Run/>
+                    <LineBreak/>
+                    <Run Text="- Cuando ella lo solicite y autorice, motivar a los padres a involucrarse para dar apoyo, información y acompañamiento."/>
+                </Paragraph>
+            </RichTextBox>
 
         </ScrollViewer>
 

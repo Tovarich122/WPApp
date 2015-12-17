@@ -64,7 +64,7 @@
         <lat>19.445933</lat>
         <lng>-99.182511</lng>
     </clinic>
-    <clinic>
+    <!--<clinic>
         <number>8</number>
         <name>Hospital Materno Infantil Cuajimapla</name>
         <address>Av. 16 de septiembre s/n, Col. El Contadero, 05500</address>
@@ -72,7 +72,7 @@
         <references>Metro más cercano: Observatorio o Tacubaya (Tomar transporte público a Cuajimalpa)</references>
         <lat>19.347692</lat>
         <lng>-99.30086</lng>
-    </clinic>
+    </clinic>-->
     <clinic>
         <number>9</number>
         <name>Hospital General Milpa Alta</name>

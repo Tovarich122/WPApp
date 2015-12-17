@@ -74,23 +74,23 @@
                 <ColumnDefinition Width="55*"/>
             </Grid.ColumnDefinitions>
 
-            <telerikPrimitives:RadSlideHubTile Title="Tecnologías Recomendadas" Margin="252,190,57,256" FontSize="16" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Tecnologías&#xA;Recomendadas" Margin="252,190,57,256" FontSize="19" Tap="tile_Tecnologias_Tap" UpdateInterval="0:0:7" Grid.ColumnSpan="2" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_new.png" Width="221" Margin="0,0,-50,-44"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
             </telerikPrimitives:RadSlideHubTile>
-            <telerikPrimitives:RadSlideHubTile Title="Marco Normativo" Margin="51,190,84,256" FontSize="16" UpdateInterval="0:0:3" Tap="RadSlideHubTile_Tap" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Marco&#xA;Normativo" Margin="51,190,84,256" FontSize="19" UpdateInterval="0:0:3" Tap="RadSlideHubTile_Tap" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_legislative.png" Height="116" Width="171"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
             </telerikPrimitives:RadSlideHubTile>
 
-            <telerikPrimitives:RadSlideHubTile Title="Estigma" Margin="252,379,57,67" FontSize="16" UpdateInterval="0:0:5" Grid.ColumnSpan="2" Tap="RadSlideHubTile_Tap_1" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Estigma" Margin="252,379,57,67" FontSize="19" UpdateInterval="0:0:5" Grid.ColumnSpan="2" Tap="RadSlideHubTile_Tap_1" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_trafficlight.png" Width="197" Margin="0,22,-26,-20"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
             </telerikPrimitives:RadSlideHubTile>
-            <telerikPrimitives:RadSlideHubTile Title="Métodos Anticonceptivos" Margin="51,379,84,67" FontSize="16" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
+            <telerikPrimitives:RadSlideHubTile Title="Métodos&#xA;Anticonceptivos" Margin="51,379,84,67" FontSize="19" UpdateInterval="0:0:6" Tap="RadSlideHubTile_Tap_3" Background="#FFEC098D">
                 <telerikPrimitives:RadSlideHubTile.Picture>
                     <Image Source="/Assets/Images/ic_anti.png" Height="132" Width="192"/>
                 </telerikPrimitives:RadSlideHubTile.Picture>
@@ -110,27 +110,27 @@
                         <Grid x:Name="grid_marcoN" Background="#FFC5B8B1" Margin="0,70,-10,1083">
                             <TextBlock HorizontalAlignment="Left" Height="34" TextWrapping="Wrap" Text="   ● Marco Normativo" VerticalAlignment="Top" Width="288" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap"/>
                             <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Consideraciones por Entidad" VerticalAlignment="Top" Width="288" Margin="10,39,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_1"/>
-                            <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="   ● Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="288" Margin="10,72,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_2"/>
+                            <TextBlock HorizontalAlignment="Left" Height="51" TextWrapping="Wrap" Text="   ● Pon a Prueba tus&#x09;&#x09;&#x09;Conocimientos" VerticalAlignment="Top" Width="288" Margin="10,72,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_2"/>
                         </Grid>
                         <Button x:Name="bBarra_TecnologiasR" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="21" Click="bBarra_TecnologiasR_Click" Margin="0,70,0,1153" ClickMode="Press" Content="Tecnologías Recomendadas"/>
                         <!-- <Button d:IsHidden="True"/> -->
                         <Grid x:Name="grid_TecnologiasR" Background="#FFC5B8B1" Margin="0,140,-10,862">
-                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ●Acceso a los servicios de aborto seguro" VerticalAlignment="Top" Width="289" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_3"/>
-                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● La práctica clínica del aborto seguro" VerticalAlignment="Top" Width="289" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_4"/>
-                            <TextBlock HorizontalAlignment="Left" Height="110" TextWrapping="Wrap" Text="   ● Métodos recomendados para el aborto seguro                              a) Con medicamentos                            b) Aspiración por vacío" VerticalAlignment="Top" Width="311" Margin="10,116,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_5"/>
-                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Contraindicaciones y precauciones" VerticalAlignment="Top" Width="289" Margin="10,231,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_6"/>
+                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ● Acceso a los servicios de&#x09;&#x09;&#x09;&#x09;aborto seguro" VerticalAlignment="Top" Width="289" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_3"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● La práctica clínica del aborto&#x09;&#x09;seguro" VerticalAlignment="Top" Width="289" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_4"/>
+                            <TextBlock HorizontalAlignment="Left" Height="110" TextWrapping="Wrap" Text="   ● Métodos recomendados para&#x09;&#x09;&#x09;el aborto seguro                              &#x09;&#x09;a) Con medicamentos                            &#x09;&#x09;b) Aspiración por vacío" VerticalAlignment="Top" Width="311" Margin="10,116,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_5"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Contraindicaciones y &#x09;&#x09;&#x09;&#x09;&#x09;precauciones" VerticalAlignment="Top" Width="289" Margin="10,231,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_6"/>
                         </Grid>
                         <Button x:Name="bBarra_MetodosA" Content="Métodos Anticonceptivos" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_MetodosA_Click" Margin="0,140,0,1083" ClickMode="Press"/>
                         <Grid x:Name="grid_MetodosA" Background="#FFC5B8B1" Margin="0,210,-10,862">
-                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ● Criterios médicos de eligibilidad" VerticalAlignment="Top" Width="311" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_7"/>
-                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Información anticonceptiva en el post-aborto" VerticalAlignment="Top" Width="291" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_8"/>
+                            <TextBlock HorizontalAlignment="Left" Height="58" TextWrapping="Wrap" Text="   ● Criterios médicos de&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;eligibilidad" VerticalAlignment="Top" Width="311" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_7"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Información anticonceptiva&#x09;&#x09;&#x09;en el post-aborto" VerticalAlignment="Top" Width="291" Margin="10,58,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_8"/>
                             <TextBlock HorizontalAlignment="Left" Height="46" TextWrapping="Wrap" Text="   ● Disco de cirterios médicos" VerticalAlignment="Top" Width="291" Margin="10,111,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_9"/>
-                            <TextBlock HorizontalAlignment="Left" Height="52" TextWrapping="Wrap" Text="   ● Pon a Prueba tus Conocimientos." VerticalAlignment="Top" Width="291" Margin="10,157,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_10"/>
+                            <TextBlock HorizontalAlignment="Left" Height="52" TextWrapping="Wrap" Text="   ● Pon a Prueba tus&#x09;&#x09;&#x09;&#x09;&#x09;&#x09;Conocimientos." VerticalAlignment="Top" Width="291" Margin="10,157,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_10"/>
                         </Grid>
                         <Button x:Name="bBarra_Estigma" Content="Estigma" BorderBrush="{x:Null}" Foreground="#FFFEFEFE" FontSize="22" Click="bBarra_Estigma_Click" Margin="0,210,-10,1013" ClickMode="Press"/>
                         <Grid x:Name="grid_Estigma" Background="#FFC5B8B1" Margin="0,280,0,832" HorizontalAlignment="Left" Width="321">
-                            <TextBlock HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="   ● ¿Que es el estigma por aborto?" VerticalAlignment="Top" Width="291" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_11"/>
-                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Impacto en la salud de las mujeres" VerticalAlignment="Top" Width="291" Margin="10,62,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_12"/>
+                            <TextBlock HorizontalAlignment="Left" Height="56" TextWrapping="Wrap" Text="   ● ¿Que es el estigma por&#x09;&#x09;&#x09;&#x09;&#x09;aborto?" VerticalAlignment="Top" Width="291" Foreground="#FFE71D91" Margin="10,0,0,0" Tap="TextBlock_Tap_11"/>
+                            <TextBlock HorizontalAlignment="Left" Height="53" TextWrapping="Wrap" Text="   ● Impacto en la salud de las&#x09;&#x09;&#x09;mujeres" VerticalAlignment="Top" Width="291" Margin="10,62,0,0" Foreground="#FFE71D91" Tap="TextBlock_Tap_12"/>
                             <TextBlock Height="51" TextWrapping="Wrap" Text="   ● Estigmómetro" VerticalAlignment="Top" Margin="10,130,0,0" Foreground="#FFE71D91" HorizontalAlignment="Left" Width="291" Tap="TextBlock_Tap_13"/>
                         </Grid>
                     </Grid>
