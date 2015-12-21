@@ -23,7 +23,7 @@ namespace IPAS_App.Model
         { id = 0; text = res1 = res2 = res3 = res4 = before_next = ""; correcta = ""; rad_checked = 0; its_correct = false; }
         public Pregunta(int id, string text, string res1, string res2, string res3, string res4, string before_next)
         {
-            this.id = id; this.text = text; this.res1 = res1; this.res2 = res2; this.res3 = res3; this.res4 = res4;this.before_next = before_next; this.rad_checked = -1;
+            this.id = id; this.text = text; this.res1 = res1; this.res2 = res2; this.res3 = res3; this.res4 = res4;this.before_next = before_next; this.rad_checked = 0;
         }
         public Pregunta(int a,int id,string text) // Para estigma a = 1
         {
@@ -35,6 +35,7 @@ namespace IPAS_App.Model
                 res2 = "Ni de acuerdo, ni en desacuerdo";
                 res3 = "En desacuerdo";
                 res4 = "";
+                this.rad_checked = 1;
             }
 
         }

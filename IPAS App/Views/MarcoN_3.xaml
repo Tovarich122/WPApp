@@ -79,12 +79,12 @@
                         <Image x:Name="n_resultado_3" Height="207" Canvas.Left="55" Width="165" Source="/Assets/Images/img_light_yellow_answer.png" Stretch="UniformToFill" Canvas.Top="10" />
                     </Canvas>
                     <ScrollViewer x:Name="s1" Height="251" Canvas.Top="269" Width="479">
-                        <TextBlock x:Name="t_resultado" Height="491" TextWrapping="Wrap" Text="TextBlock" Width="463" Foreground="Black" FontSize="24"/>
+                        <TextBlock x:Name="t_resultado" Height="auto" TextWrapping="Wrap" Text="TextBlock" Width="463" Foreground="Black" FontSize="28"/>
                     </ScrollViewer>
                     <Button x:Name="bTerminar" Content="Realizar de Nuevo" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="240" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Click="bTerminar_Tap" Canvas.Left="10" Canvas.Top="525"/>
                     <Button x:Name="bTerminar2" Content="Menú Principal" HorizontalAlignment="Left" Height="78" VerticalAlignment="Top" Width="207" Background="#FFEC098D" BorderBrush="#FFEC098D" BorderThickness="1" Canvas.Left="262" Canvas.Top="525" Click="bTerminar2_Click"/>
-                    <ScrollViewer x:Name="s2" Height="251" Canvas.Top="94" Width="479" Canvas.Left="10">
-                        <TextBlock x:Name="t_resultado1" Height="491" TextWrapping="Wrap" Text="TextBlock" Width="463" Foreground="Black" FontSize="24"/>
+                    <ScrollViewer x:Name="s2" Height="373" Canvas.Top="117" Width="469" Canvas.Left="10">
+                        <TextBlock x:Name="t_resultado1" Height="auto" TextWrapping="Wrap" Text="TextBlock" Width="463" Foreground="Black" FontSize="28" Padding="0,0,5,0" />
                     </ScrollViewer>
                 </Canvas>
             </Grid>

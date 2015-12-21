@@ -293,6 +293,8 @@
     <Content Include="Assets\Images\ic_legislative.png" />
     <Content Include="Assets\Images\ic_new.png" />
     <Content Include="Assets\Images\ic_trafficlight.png" />
+    <Content Include="Assets\Images\img_considerations_color.png" />
+    <Content Include="Assets\Images\img_considerations_color_big.png" />
     <Content Include="Assets\Images\img_diagram_estigma.png" />
     <Content Include="Assets\Images\img_light_green.png" />
     <Content Include="Assets\Images\img_light_green_answer.png" />

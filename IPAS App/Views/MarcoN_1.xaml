@@ -43,7 +43,7 @@
             <TextBlock HorizontalAlignment="Left" Height="43" Margin="10,88,-10,0" TextWrapping="Wrap" Text="Marco Normativo en México" VerticalAlignment="Top" Width="456" Foreground="#FFEC098D"  FontSize="27"/>
             <Image HorizontalAlignment="Left" Height="27" Margin="0,149,0,0" VerticalAlignment="Top" Width="456" Source="/Assets/Images/img_line_title.png"/>
             <ScrollViewer HorizontalAlignment="Left" Height="551" VerticalAlignment="Top" Width="456" Margin="0,149,0,0">
-                <Grid HorizontalAlignment="Left" Height="3776" VerticalAlignment="Top" Width="456">
+                <Grid HorizontalAlignment="Left" Height="2399" VerticalAlignment="Top" Width="456">
                     <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,0,0,0" TextWrapping="Wrap" Text="La OMS en su Constitución de 1946, definió a la Salud como el estado de completo bienestar  físico, mental y social, y no solamente la ausencia de afecciones o enfermedad." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
                     <TextBlock HorizontalAlignment="Left" Height="194" Margin="10,143,0,0" TextWrapping="Wrap" Text="Diversas instancias de protección de los derechos humanos han reconocido que para alcanzar este completo estado de bienestar, es necesario contar con los más altos estándares que protejan la salud y la vida de las mujeres, evitando con ello que se sometan a procedimientos que pongan en peligro su integridad." VerticalAlignment="Top" Width="436" Foreground="Black"/>
                     <TextBlock HorizontalAlignment="Left" Height="225" Margin="10,337,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black">
@@ -52,102 +52,103 @@
                     	<Run Text=""/>
                     </TextBlock>
                     <TextBlock HorizontalAlignment="Left" Height="33" Margin="10,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" Text="Numeral de causales y requisitos legales en el país: " FontSize="18" FontWeight="Bold" TextDecorations="Underline"/>
-                    <Grid Margin="0,600,0,1969" Background="#FFEC098D">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*" />
-                            <ColumnDefinition Width="70" />
-                            <ColumnDefinition Width="*" />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                            <RowDefinition Height="auto" />
-                        </Grid.RowDefinitions>
+                    <ScrollViewer HorizontalAlignment="Left" Height="494" Margin="0,621,0,0" VerticalAlignment="Top" Width="456" HorizontalScrollBarVisibility="Auto">
+                        <Grid Margin="0" Background="#FFEC098D" Height="1295" Width="456">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="110" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                                <RowDefinition Height="auto" />
+                            </Grid.RowDefinitions>
 
-                        <TextBlock Grid.Row="0" Grid.Column="0" Text="Causales" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Margin="0,0,60,0" Grid.ColumnSpan="2" />
-                        <TextBlock Grid.Row="0" Foreground="Black" Text="Estados que la reconocen" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Grid.ColumnSpan="3" Margin="171,0,180,0"/>
-                        <TextBlock Grid.Row="0" Grid.Column="2" Foreground="Black" Text="Requisitos legales" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="216" Grid.Row="1" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="0" Grid.Column="0" Text="Causales" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Margin="0,0,60,0" Grid.ColumnSpan="2" />
+                            <TextBlock Grid.Row="0" Foreground="Black" Text="Estados que la reconocen" TextAlignment="Center" TextWrapping="Wrap" FontWeight="Bold" Grid.ColumnSpan="3" Margin="171,0,180,0"/>
+                            <TextBlock Grid.Row="0" Grid.Column="2" Foreground="Black" Text="Requisitos legales" TextWrapping="Wrap" FontWeight="Bold"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="295" Grid.Row="1" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="1" Grid.Column="0" Text="Violación" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" />
-                        <TextBlock Grid.Row="1" Grid.Column="1" Foreground="Black" Text="32" TextAlignment="Center" Margin="10,0" TextWrapping="Wrap"/>
-                        <TextBlock Grid.Row="1" Grid.Column="2" Foreground="Black" Text="La prestación de servicios de aborto en caso de violación no requiere de condicionamiento alguno, por ejemplo de la denuncia ante Ministerio Público [1]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,0,0,59" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="157" Grid.Row="2" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,122.559,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="1" Grid.Column="0" Text="Violación" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" />
+                            <TextBlock Grid.Row="1" Grid.Column="1" Foreground="Black" Text="32" TextAlignment="Center" Margin="10,0" TextWrapping="Wrap"/>
+                            <TextBlock Grid.Row="1" Grid.Column="2" Foreground="Black" Text="La prestación de servicios de aborto en caso de violación no requiere de condicionamiento alguno, por ejemplo de la denuncia ante Ministerio Público [1]" TextWrapping="Wrap" Margin="0,0,0,167" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="189" Grid.Row="2" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,107.281,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="2" Grid.Column="0" Text="Imprudencial" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,121.559,0,58.883" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="2" Grid.Column="1" Foreground="Black" Text="29" TextAlignment="Center" Margin="10,121.559,10,58.883" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="2" Grid.Column="2" Foreground="Black" Text="Incompleto, por omisión de cuidado, negligencia, imprudencia, espontáneo o biológico" TextAlignment="Center" TextWrapping="Wrap" Margin="0,122.365,0,16.27" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="3" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,96,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="2" Grid.Column="0" Text="Imprudencial" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,105.625,0,74.75" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="2" Grid.Column="1" Foreground="Black" Text="29" TextAlignment="Center" Margin="10,105.625,10,74.75" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="2" Grid.Column="2" Foreground="Black" Text="Incompleto, por omisión de cuidado, negligencia, imprudencia, espontáneo o biológico"  TextWrapping="Wrap" Margin="0,107.297,0,94.406" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="146" Grid.Row="3" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,10,0,0"/>
 
-                        <TextBlock Grid.Row="3" Grid.Column="0" Text="Peligro de muerte" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,97,0,27.023" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="3" Grid.Column="1" Foreground="Black" Text="24" TextAlignment="Center" Margin="10,97,10,27.023" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="3" Grid.Column="2" Foreground="Black" Text="A juicio del médico tratante, oyendo si es posible el dictamen de otro médico [2]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,97,0,27.023" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="137" Grid.Row="4" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,48.117,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="Peligro de muerte" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,18,0,11.438" />
+                            <TextBlock Grid.Row="3" Grid.Column="1" Foreground="Black" Text="24" TextAlignment="Center" Margin="10,18,10,11.438" TextWrapping="Wrap"/>
+                            <TextBlock Grid.Row="3" Grid.Column="2" Foreground="Black" Text="A juicio del médico tratante, oyendo si es posible el dictamen de otro médico [2]"  TextWrapping="Wrap" Margin="0,18,0,11.438"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="137" Grid.Row="3" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,156,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="4" Grid.Column="0" Text="Malformaciones en el producto" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,48.117,0,53.086" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="4" Grid.Column="1" Foreground="Black" Text="16" TextAlignment="Center" Margin="10,48.117,10,53.086" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="4" Grid.Column="2" Foreground="Black" Text="A juicio o con dictamen de uno o dos médicos [3][4]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,48.117,0,53.086" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="5" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,88.273,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="3" Grid.Column="0" Text="Malformaciones en el producto" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,156,0,15.266" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="3" Grid.Column="1" Foreground="Black" Text="16" TextAlignment="Center" Margin="10,156,10,15.266" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="3" Grid.Column="2" Foreground="Black" Text="A juicio o con dictamen de uno o dos médicos [3][4]"  TextWrapping="Wrap" Margin="0,156,0,15.266" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="4" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,24.562,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="5" Grid.Column="0" Text="Graves daños a la salud de la mujer" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,88.273,0,62.727" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="5" Grid.Column="1" Foreground="Black" Text="14" TextAlignment="Center" Margin="10,88.273,10,62.727" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="5" Grid.Column="2" Foreground="Black" Text="A juicio del médico tratante, oyendo si es posible el dictamen de otro médico[5]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,88.273,0,62.727" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="137" Grid.Row="6" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,81.66,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="4" Grid.Column="0" Text="Graves daños a la salud de la mujer" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,25.562,0,14.906" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="4" Grid.Column="1" Foreground="Black" Text="14" TextAlignment="Center" Margin="10,25.562,10,14.906" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="4" Grid.Column="2" Foreground="Black" Text="A juicio del médico tratante, oyendo si es posible el dictamen de otro médico[5]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,25.562,0,14.906" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="137" Grid.Row="5" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,43.734,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="6" Grid.Column="0" Text="Inseminación forzada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,81.66,0,48.996" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="6" Grid.Column="1" Foreground="Black" Text="13" TextAlignment="Center" Margin="10,81.66,10,48.996" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="6" Grid.Column="2" Foreground="Black" Text="Autorización de Ministerio Público" TextAlignment="Center" TextWrapping="Wrap" Margin="0,81.66,0,48.996" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="7" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,79.25,0,0" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="5" Grid.Column="0" Text="Inseminación forzada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,43.734,0,70.031" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="5" Grid.Column="1" Foreground="Black" Text="13" TextAlignment="Center" Margin="10,43.734,10,70.031" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="5" Grid.Column="2" Foreground="Black" Text="Autorización de Ministerio Público" TextAlignment="Center" TextWrapping="Wrap" Margin="0,43.734,0,70.031" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="138" Grid.Row="6" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,82.094,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="7" Grid.Column="0" Text="Causas económicas" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,80.25,0,55.75" Grid.RowSpan="2" />
-                        <TextBlock Grid.Row="7" Grid.Column="1" Foreground="Black" Text="2" TextAlignment="Center" Margin="10,80.25,10,55.75" TextWrapping="Wrap" Grid.RowSpan="2"/>
-                        <TextBlock Grid.Row="7" Grid.Column="2" Foreground="Black" Text="Cuando la mujer tenga al menos tres hijos [6]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,80.25,0,55.75" Grid.RowSpan="2"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="101" Grid.Row="8" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,77.25,0,-38.25"/>
+                            <TextBlock Grid.Row="6" Grid.Column="0" Text="Causas económicas" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,83.094,0,63.969" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="6" Grid.Column="1" Foreground="Black" Text="2" TextAlignment="Center" Margin="10,83.094,10,63.969" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="6" Grid.Column="2" Foreground="Black" Text="Cuando la mujer tenga al menos tres hijos [6]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,83.094,0,63.969" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="101" Grid.Row="7" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,64.969,0,0" Grid.RowSpan="2"/>
 
-                        <TextBlock Grid.Row="8" Grid.Column="0" Text="Voluntad de la mujer" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,77.25,0,-42.25" />
-                        <TextBlock Grid.Row="8" Grid.Column="1" Foreground="Black" Text="1" TextAlignment="Center" Margin="10,77.25,10,-42.25" TextWrapping="Wrap"/>
-                        <TextBlock Grid.Row="8" Grid.Column="2" Foreground="Black" Text="Primeras doce semanas de gestación [7]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,77.25,0,-42.25"/>
-                        <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="38" Grid.Row="8" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,178.25,0,-76.25"/>
-                        <TextBlock Grid.Row="8" Grid.Column="0" Text="Con el consentimiento de la mujer embarazada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="5,178.25,0,-80.25" Grid.ColumnSpan="3" />
+                            <TextBlock Grid.Row="7" Grid.Column="0" Text="Voluntad de la mujer" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="0,64.969,0,67.969" Grid.RowSpan="2" />
+                            <TextBlock Grid.Row="7" Grid.Column="1" Foreground="Black" Text="1" TextAlignment="Center" Margin="10,64.969,10,67.969" TextWrapping="Wrap" Grid.RowSpan="2"/>
+                            <TextBlock Grid.Row="7" Grid.Column="2" Foreground="Black" Text="Primeras doce semanas de gestación [7]" TextAlignment="Center" TextWrapping="Wrap" Margin="0,64.969,0,67.969" Grid.RowSpan="2"/>
+                            <Rectangle Grid.ColumnSpan="3" Fill="#FFFBE4D5" HorizontalAlignment="Left" Height="38" Grid.Row="8" Stroke="#FFF4B083" VerticalAlignment="Top" Width="456" Margin="0,23.562,0,0"/>
+                            <TextBlock Grid.Row="8" Grid.Column="0" Text="Con el consentimiento de la mujer embarazada" Foreground="Black" TextAlignment="Center" TextWrapping="Wrap" Margin="5,23.562,0,74.438" Grid.ColumnSpan="3" />
 
-                    </Grid>
-                    <TextBlock HorizontalAlignment="Left" Height="129" Margin="10,1812,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                        </Grid>
+                    </ScrollViewer>
+                    <TextBlock HorizontalAlignment="Left" Height="129" Margin="10,1134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[1] "/>
-                    	<Run FontWeight="Normal" Text="E"/>
-                    	<Run FontWeight="Normal" Text="stablece que a toda víctima de violación, se le garantizará el acceso de servicios de anticoncepción de emergencia y de interrupción voluntaria del embarazo con absoluto respeto a su voluntad."/>
+                    	<Run FontWeight="Normal" Text="Establece que a toda víctima de violación, se le garantizará el acceso de servicios de anticoncepción de emergencia y de interrupción voluntaria del embarazo con absoluto respeto a su voluntad."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="81" Margin="10,1946,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="81" Margin="10,1268,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[2] "/>
                     	<Run FontWeight="Normal" Text="En el caso de Baja California con aviso al Ministerio Público y de Durango previa autorización del Ministerio Público."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="186" Margin="10,2027,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="186" Margin="10,1349,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[3] "/>
                     	<Run FontWeight="Normal" Text="En Hidalgo además solicita que los médicos estén debidamente certificados por los Colegios, Academias Nacionales o Consejos de Medicina de la rama correspondiente. Además de los anteriores requisitos en Yucatán el Código Penal solicita el consentimiento de la madre y del padre del producto."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="188" Margin="10,2213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="188" Margin="10,1535,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[4] "/>
                     	<Run FontWeight="Normal" Text="De los 15 códigos que tienen esta causal, sólo 4: Baja California Sur, Coahuila, Chiapas y Morelos requieren el juicio de un médico. Los otros 11 estados: Colima, Distrito Federal, Guerrero, Hidalgo, México, Oaxaca, Puebla, Quintana Roo, Tlaxcala, Veracruz y Yucatán requieren dictamen de dos médicos."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="161" Margin="10,2401,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="161" Margin="10,1723,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[5] "/>
                     	<Run FontWeight="Normal" Text="Aunque no se menciona explícitamente en el Código Penal de Campeche esta causal queda comprendida en 'grave daño a la salud', Omisión e indiferencia/Derechos Reproductivos en México, Grupo de Información en Reproducción Elegida, GIRE, A.C.  2ª Edición, Agosto 2013"/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="53" Margin="10,2562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="53" Margin="10,1884,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[6] "/>
                     	<Run FontWeight="Normal" Text="Sólo en Michoacán y Yucatán (en éste último, siempre que tenga ya 3 hijos)."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="182" Margin="10,2615,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
+                    <TextBlock HorizontalAlignment="Left" Height="182" Margin="10,1937,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold">
                     	<Run Text="[7] "/>
                     	<Run FontWeight="Normal" Text="Sólo en el Distrito Federal, regulado en la Gaceta Oficial del Distrito Federal CIRCULAR/GDF-SSDF/01/06 que contiene los Lineamientos Generales de Organización y operación de los servicios de salud relacionados con la interrupción legal del embarazo en el Distrito Federal (Última reforma 20 junio 2012)."/>
                     </TextBlock>
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2824,0,0" TextWrapping="Wrap" Text="Conoce más sobre las Normas Oficiales Mexicanas en las siguientes ligas:" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
-                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2945,0,0" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2146,0,0" TextWrapping="Wrap" Text="Conoce más sobre las Normas Oficiales Mexicanas en las siguientes ligas:" VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
+                    <TextBlock HorizontalAlignment="Left" Height="138" Margin="10,2267,0,-6" TextWrapping="Wrap" Text="Con base en ello en México contamos con un marco legal protector, que permite a las mujeres acceder al aborto en diversas circunstancias." VerticalAlignment="Top" Width="436" Foreground="Black" FontWeight="Bold"/>
                 </Grid>
             </ScrollViewer>
             <Image HorizontalAlignment="Left" Height="30" Margin="0,125,0,0" VerticalAlignment="Top" Width="456" Source="/IPAS App;component/Images/img_line_title.png"/>

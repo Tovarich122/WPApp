@@ -36,6 +36,8 @@ namespace IPAS_App.Views
             bCancelar.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bTerminar.Visibility = Visibility.Collapsed;
+            bTerminar2.Visibility = Visibility.Collapsed;
+
             r[0] = r1; r[1] = r2; r[2] = r3;
             preguntas_text[0] = "Las mujeres que quieren tener hijos/as son más felices que las que no quieren tenerlos/as";
             preguntas_text[1] = "Una mujer que decide abortar es irresponsable.";
@@ -118,6 +120,7 @@ namespace IPAS_App.Views
                 bCancelar.Visibility = Visibility.Collapsed;
                 bSiguiente.Visibility = Visibility.Visible;
                 bTerminar.Visibility = Visibility.Collapsed;
+                bTerminar2.Visibility = Visibility.Collapsed;
                 //Mostrar testWindow.
                 instrucciones.Visibility = Visibility.Collapsed;
                 test_window.Visibility = Visibility.Visible;
@@ -139,6 +142,8 @@ namespace IPAS_App.Views
                 test_window.Visibility = Visibility.Collapsed;
                 this.i++;
                 int c = 1;
+                Canvas.SetLeft(bTerminar, 0);
+                bTerminar.Content = "Realizar de nuevo";
                 //calcular Score.
 
                 foreach (var item in preguntas)
@@ -148,7 +153,7 @@ namespace IPAS_App.Views
                         //sumar correctas
                         c++;
                     }
-                    item.rad_checked = -1;
+                    item.rad_checked = 1;
                 }
                 foreach (var item in r)
                 {
@@ -165,7 +170,7 @@ namespace IPAS_App.Views
                 bCancelar.Visibility = Visibility.Collapsed;
                 bSiguiente.Visibility = Visibility.Collapsed;
                 bTerminar.Visibility = Visibility.Visible;
-
+                bTerminar2.Visibility = Visibility.Visible;
 
                 c_resultado.Visibility = Visibility.Visible;
                 n_resultado_x1.Visibility = Visibility.Collapsed;
@@ -200,6 +205,7 @@ namespace IPAS_App.Views
             bCancelar.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bTerminar.Visibility = Visibility.Collapsed;
+            bTerminar2.Visibility = Visibility.Collapsed;
 
             instrucciones.Visibility = Visibility.Visible;
             test_window.Visibility = Visibility.Collapsed;
@@ -212,7 +218,7 @@ namespace IPAS_App.Views
             this.i = 0;
             foreach (var item in preguntas)
             {
-                item.rad_checked = -1;
+                item.rad_checked = 1;
             }
             foreach (var item in r)
             {
@@ -260,6 +266,9 @@ namespace IPAS_App.Views
             test_window.Visibility = Visibility.Collapsed;
             //Modificar Appbar
             bTerminar.Visibility = Visibility.Visible;
+            Canvas.SetLeft(bTerminar, 108);
+            bTerminar.Content = "Siguiente";
+            bTerminar2.Visibility = Visibility.Collapsed;
             bSiguiente.Visibility = Visibility.Collapsed;
             bPrevio.Visibility = Visibility.Collapsed;
             bCancelar.Visibility = Visibility.Collapsed;
@@ -334,6 +343,11 @@ namespace IPAS_App.Views
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
+        }
+
+        private void bTerminar2_Click(object sender, RoutedEventArgs e)
+        {
+            this.NavigationService.Navigate(new Uri("/MainPage.xaml", UriKind.RelativeOrAbsolute));
         }
 
 

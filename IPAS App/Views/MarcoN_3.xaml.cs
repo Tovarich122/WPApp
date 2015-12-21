@@ -115,7 +115,7 @@ namespace IPAS_App.Views
                         //sumar correctas
                         c++;
                     }
-                    item.rad_checked = -1;
+                    item.rad_checked = 0;
                 }
                 foreach (var item in r)
                 {
@@ -178,7 +178,7 @@ namespace IPAS_App.Views
             this.i = 0;
             foreach (var item in preguntas)
             {
-                item.rad_checked = -1;
+                item.rad_checked = 0;
             }
             foreach (var item in r)
             {

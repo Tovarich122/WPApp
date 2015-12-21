@@ -470,3 +470,4 @@ D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\es-MX
 D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\IPAS App.dll
 D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\IPAS App.pdb
 D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\XapCacheFile.xml
+D:\Usuario\Bibliotecas Alex\WPApp-master\WPApp-master\IPAS App\obj\Release\IPAS App.csprojResolveAssemblyReference.cache

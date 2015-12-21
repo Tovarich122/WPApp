@@ -12,6 +12,9 @@ using System.IO;
 using System.Xml.Serialization;
 using IPAS_App.Model;
 using System.Linq.Expressions;
+using Windows.Phone.Input;
+using System.Windows.Input;
+using System.Windows.Media;
 
 namespace IPAS_App.Views
 {
@@ -24,6 +27,9 @@ namespace IPAS_App.Views
             InitializeComponent();
             popup.Visibility = Visibility.Collapsed;
             listaEstados = obtenerLista().Estados.ToList();
+            mapa_completo.Visibility = Visibility.Collapsed;
+
+           
         }
         public StateCollection obtenerLista()
         {
@@ -46,6 +52,11 @@ namespace IPAS_App.Views
 
         private void PhoneApplicationPage_Loaded(object sender, RoutedEventArgs e)
         {
+            popup2.Visibility = Visibility.Visible;
+            popup.Visibility = Visibility.Collapsed;
+            mapita.Visibility = Visibility.Collapsed;
+            slider_zoom.Visibility = Visibility.Collapsed;
+            text_zoom.Visibility = Visibility.Collapsed;
         }
 
         private void tap1(object sender, System.Windows.Input.GestureEventArgs e)
@@ -63,7 +74,10 @@ namespace IPAS_App.Views
                 texto_descripcion.Text = "Causas Consideradas en el Codigo Penal del Estado:";
             }
             popup.Visibility = Visibility.Visible;
-            mapa_completo.Visibility = Visibility.Collapsed;
+            //mapa_completo.Visibility = Visibility.Collapsed;
+            mapita.Visibility = Visibility.Collapsed;
+            slider_zoom.Visibility = Visibility.Collapsed;
+            text_zoom.Visibility = Visibility.Collapsed;
             n_estado.Text = p.name;
             text_content.Text = p.content;
         }
@@ -71,8 +85,52 @@ namespace IPAS_App.Views
         private void close_popup(object sender, System.Windows.Input.GestureEventArgs e)
         {
             popup.Visibility = Visibility.Collapsed;
-            mapa_completo.Visibility = Visibility.Visible;
-            
+            //mapa_completo.Visibility = Visibility.Visible;
+            slider_zoom.Visibility = Visibility.Visible;
+            text_zoom.Visibility = Visibility.Visible;
+            mapita.Visibility = Visibility.Visible;
+        }
+
+        private void slider_zoom_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            var slider = sender as Slider;
+           
+            if (slider != null && mapita != null)
+            {
+                var transform1 = mapita.RenderTransform as CompositeTransform;
+                transform1.ScaleX = (double)slider.Value;
+                transform1.ScaleY = (double)slider.Value;
+                var t = Math.Round(slider.Value, 1);
+                text_zoom.Text = "Zoom: " + t.ToString() + "x";
+            }
+        }
+
+        private void mapita_ManipulationDelta(object sender, ManipulationDeltaEventArgs e)
+        {
+            if (mapita != null)
+            {
+                var transform1 = mapita.RenderTransform as CompositeTransform;
+                transform1.TranslateX += e.DeltaManipulation.Translation.X;
+                transform1.TranslateY += e.DeltaManipulation.Translation.Y;
+            }
+        }
+
+        private void consideraciones_1_Tap(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            popup2.Visibility = Visibility.Visible;
+            popup.Visibility = Visibility.Collapsed;
+            mapita.Visibility = Visibility.Collapsed;
+            slider_zoom.Visibility = Visibility.Collapsed;
+            text_zoom.Visibility = Visibility.Collapsed;
+        }
+
+        private void close_popup2(object sender, System.Windows.Input.GestureEventArgs e)
+        {
+            popup2.Visibility = Visibility.Collapsed;
+            popup.Visibility = Visibility.Collapsed;
+            slider_zoom.Visibility = Visibility.Visible;
+            text_zoom.Visibility = Visibility.Visible;
+            mapita.Visibility = Visibility.Visible;
         }
 
     }
